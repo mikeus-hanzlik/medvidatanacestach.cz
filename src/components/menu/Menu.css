@@ -1,0 +1,11 @@
+.Menu {
+    vertical-align: top;
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+
+.Menu-Articles > li {
+    background-size: 200px 100px;
+    background: rgba(0, 0, 0, 0.5) url("../../images/wood-background.jpg") repeat;
+}

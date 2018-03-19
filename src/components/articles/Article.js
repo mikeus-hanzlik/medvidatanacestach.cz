@@ -1,13 +1,15 @@
 import React from "react";
-import {Switch} from "react-router-dom";
-import {getArticleList} from "../../api/ArticleApi";
-import ArticleRoutes from "./ArticleRoutes";
+import {Switch, Route} from "react-router-dom";
+import Overview from "./Overview";
+import Detail from "./Detail";
 
-export default () => {
+export default ({link}) => {
     return <Switch>
-        {getArticleList().map(article => (
-            <ArticleRoutes key={article.id} {...article}/>
-            )
-        )}
+        <Route exact path={`/${link}`} render={(props) => (
+            <Overview articleId={link} {...props} />
+        )}/>
+        <Route path={`/${link}/:detailId`} render={(props) => (
+            <Detail articleId={link} {...props} />
+        )}/>
     </Switch>
 }
