@@ -1,11 +1,24 @@
 .Menu {
-    vertical-align: top;
-    width: 300px;
-    display: inline-block;
-    text-align: left;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 .Menu-Articles > li {
-    background-size: 200px 100px;
-    background: rgba(0, 0, 0, 0.5) url("../../images/wood-background.jpg") repeat;
+    opacity: 0.7;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    opacity: 1;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #e8e8e8;
+    border-color: #e8e8e8;
 }

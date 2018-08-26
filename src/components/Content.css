@@ -1,6 +1,3 @@
 .Content {
-    width: calc(100% - 300px);
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
+padding: 30px;
 }

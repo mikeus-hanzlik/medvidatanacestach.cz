@@ -1,4 +1,8 @@
 import React, {Component} from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'jquery/dist/jquery'
+// import 'popper.js/dist/esm/popper'
+// import 'bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
 import Menu from "./components/menu/Menu";
 import Content from "./components/Content";
@@ -6,12 +10,17 @@ import Content from "./components/Content";
 class App extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="App-container">
                 <header className="App-header">
                     <h1>Medvíďata na cestách</h1>
+                    <Menu/>
                 </header>
-                <Menu/>
-                <Content/>
+                <div className="App-main">
+                    <Content/>
+                </div>
+                {/*<div className="App-footer">*/}
+                {/*<p>Footer</p>*/}
+                {/*</div>*/}
             </div>
         );
     }

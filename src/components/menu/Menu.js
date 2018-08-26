@@ -8,11 +8,13 @@ class Menu extends Component {
     render() {
         return (
             <nav className="Menu">
-                <ul className="Menu-Articles">
-                    <li><NavLink to='/'>O nás</NavLink></li>
+                <ul className="Menu-Articles nav nav-tabs">
+                    <li className="nav-item">
+                        <NavLink to='/' exact className="nav-link">O nás</NavLink>
+                    </li>
                     {getArticleList().map(a => (
-                            <li key={a.link}>
-                                <NavLink to={`/${a.link}`}>{a.title}</NavLink>
+                            <li className="nav-item dropdown" key={a.link}>
+                                <NavLink to={`/${a.link}`} className="nav-link dropdown-toggle" data-toggle="dropdown">{a.title}</NavLink>
                                 <Route path={`/${a.link}`} render={(props) => (
                                     <SubItems {...a} {...props} />)
                                 }/>
