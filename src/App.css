@@ -1,17 +1,13 @@
-body {
-    font-family: 'Ubuntu', sans-serif;
+html {
+    background: url(images/background.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-body:before {
-    background: url("images/background.jpeg") no-repeat center 0;
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    filter: grayscale(10%);
-    z-index: -1;
+body {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .App-header {
