@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'jquery/dist/jquery'
-// import 'popper.js/dist/esm/popper'
-// import 'bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
 import Menu from "./components/menu/Menu";
 import Content from "./components/Content";

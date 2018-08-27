@@ -1,12 +1,15 @@
 import React from "react";
-import {getArticleOverview} from "../../api/ArticleApi";
+import Chapters from "../menu/Chapters";
+import ContentManager from "./ContentManager";
 
-export default ({articleId}) => {
-    const overview = getArticleOverview(articleId);
+export default ({articleId, title, match}) => {
     return (
-        <section>
-            <h2>{overview.title}</h2>
-            <p>{overview.text}</p>
-        </section>
+        <div>
+            <Chapters id={articleId}/>
+            <section className="articleText">
+                <h2>{title}</h2>
+                <ContentManager articleId={articleId} match={match} />
+            </section>
+        </div>
     )
 }

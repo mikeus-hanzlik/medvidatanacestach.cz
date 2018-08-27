@@ -1,4 +1,4 @@
-const getArticleList = () => {
+export const getArticleList = () => {
     return [
         {
             link: "nepal", title: "Nepál", details: [
@@ -7,7 +7,7 @@ const getArticleList = () => {
             ]
         },
         {
-            link: "chorvatsko", title: "Chorvatsko", details: [
+            link: "slovinsko", title: "Slovinsko", details: [
                 {link: "prehled", title: "Přehled"},
                 {link: "prijezd", title: "Příjezd"},
             ]
@@ -15,17 +15,6 @@ const getArticleList = () => {
     ]
 };
 
-const getArticleOverview = (id) => {
-    const overviews = {
-        nepal: {title: "Nepál", link: "nepal", text: "Some text"},
-        chorvatsko: {title: "Chorvatsko", link: "chorvatsko", text: "Some text chorvatsko"},
-    };
-
-    return overviews[id];
+export const getArticleDetailLinks = (id) => {
+    return getArticleList().filter(({link}) => link === id)[0].details;
 };
-
-const getArticleDetail = (id, detailId) => {
-    return {id: id, detailId: detailId, title: "Nepál", link: "nepal", text: "Some text"};
-};
-
-export {getArticleList, getArticleOverview, getArticleDetail};

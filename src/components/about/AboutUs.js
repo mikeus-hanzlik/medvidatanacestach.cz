@@ -1,5 +1,7 @@
 import React from "react";
 
 export default () => {
-    return <p>About us</p>
+    return (<div className="aboutUsContent">
+        <p>About us</p>
+    </div>)
 }

@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {NavLink, Route} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import {getArticleList} from "../../api/ArticleApi";
 import "./Menu.css";
-import SubItems from "./SubItems";
 
 class Menu extends Component {
     render() {
@@ -14,10 +13,7 @@ class Menu extends Component {
                     </li>
                     {getArticleList().map(a => (
                             <li className="nav-item dropdown" key={a.link}>
-                                <NavLink to={`/${a.link}`} className="nav-link dropdown-toggle" data-toggle="dropdown">{a.title}</NavLink>
-                                <Route path={`/${a.link}`} render={(props) => (
-                                    <SubItems {...a} {...props} />)
-                                }/>
+                                <NavLink to={`/${a.link}`} className="nav-link">{a.title}</NavLink>
                             </li>
                         )
                     )}

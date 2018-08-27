@@ -18,7 +18,7 @@ body {
     max-width: 767px;
     background-color: #e8e8e8;
     margin: 0 auto;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 165px);
     opacity: 0.7;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -34,7 +34,7 @@ body {
 .App-header {
     display: flex;
     align-items: flex-end;
-    height: 180px;
+    height: 165px;
     color: white;
     background-size: 300px 220px;
 }
@@ -43,7 +43,7 @@ body {
     position: absolute;
     top: 25px;
     text-align: center;
-    width: calc(100% - 40px);
+    width: 100%;
 }
 
 nav.Menu {
