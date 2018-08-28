@@ -16,10 +16,9 @@ body {
 
 .App-main {
     max-width: 767px;
-    background-color: #e8e8e8;
+    background-color: rgba(232, 232, 232, 0.7);
     margin: 0 auto;
     height: calc(100vh - 165px);
-    opacity: 0.7;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
