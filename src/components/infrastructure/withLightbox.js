@@ -1,5 +1,6 @@
 import React from "react";
 import Lightbox from 'react-images';
+import {getWindowWidth} from "../helpers/windowHelper";
 
 export default (Component, images) => {
     return class extends React.Component {
@@ -41,12 +42,14 @@ export default (Component, images) => {
             return (<div>
                 <Component openLightbox={openLightbox(this)} />
                 <Lightbox
-                    images={images.map(i => ({src: i}))}
+                    images={images}
                     isOpen={this.state.lightboxIsOpen}
                     onClickPrev={this.gotoPrevious.bind(this)}
                     onClickNext={this.gotoNext.bind(this)}
                     onClose={this.closeLightbox.bind(this)}
                     currentImage={this.state.currentImage}
+                    backdropClosesModal={true}
+                    width={getWindowWidth() * 0.75}
                 />
             </div>)
         }
