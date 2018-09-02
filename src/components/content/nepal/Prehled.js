@@ -1,6 +1,5 @@
 import React from "react";
 import withLightbox from "../../infrastructure/withLightbox";
-import Figure from '../../helpers/Figure';
 import img1src from '../../../images/3d-landscape-1920x1080-wallpaper-1795.jpg';
 import img2src from '../../../images/amazing-church-view-1920x1080-wallpaper-1683.jpg';
 import {buildLightboxImage} from "../../helpers/imageHelper";
@@ -13,9 +12,7 @@ const Prehled = ({openLightbox}) => {
         <div>
             <p>Prehled o Nepalu</p>
             <div>
-                <Figure caption={img01.caption}>
-                    <img width="500" src={img01.src} alt="bla" onClick={openLightbox(0)}/>
-                </Figure>
+                <img width="500" src={img01.src} alt="bla" onClick={openLightbox(0)}/>
             </div>
             <div>
                 <img width="100" src={img02.src} alt="bla2" onClick={openLightbox(1)}/>

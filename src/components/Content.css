@@ -6,6 +6,18 @@ h2 {
     margin-top: 0;
 }
 
+p {
+    text-align: justify;
+    line-height: 22px;
+}
+
+img,
+figcaption {
+    display: block;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+
 .articleText {
     margin-top: 20px;
 }

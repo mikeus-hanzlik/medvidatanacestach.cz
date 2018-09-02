@@ -19,12 +19,36 @@ export const getArticleList = () => {
             title: "Slovinsko",
             details: [
                 {
-                    link: "prehled",
-                    title: "Přehled"
+                    link: "den1",
+                    title: "Den 1."
                 },
                 {
-                    link: "prijezd",
-                    title: "Příjezd"
+                    link: "den2",
+                    title: "Den 2."
+                },
+                {
+                    link: "den3",
+                    title: "Den 3."
+                },
+                {
+                    link: "den4",
+                    title: "Den 4."
+                },
+                {
+                    link: "den5",
+                    title: "Den 5."
+                },
+                {
+                    link: "den6",
+                    title: "Den 6."
+                },
+                {
+                    link: "den7",
+                    title: "Den 7."
+                },
+                {
+                    link: "den8",
+                    title: "Den 8."
                 },
             ]
         },

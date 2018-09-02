@@ -18,7 +18,7 @@ body {
     max-width: 767px;
     background-color: rgba(232, 232, 232, 0.7);
     margin: 0 auto;
-    height: calc(100vh - 165px);
+    min-height: calc(100vh - 165px);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
