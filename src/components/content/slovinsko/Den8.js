@@ -10,7 +10,7 @@ export default withLightbox(({openLightbox}) => {
         <h1>Sobota 7. 7. – Prisojnik</h1>
         <p>Vstáváme už po sedmé, snídáme vaječnou omeletu a čeká nás náročný výstup na Prisojnik / Prisank, který má přes 2500 mnm. Děsně fučí, že to Šárinku málem odnáší, ale během dne se to naštěstí uklidňuje. Čekají nás nádherné výhledy od rána až do večera. Není to žádná pohodová procházka, zdoláváme dost železných úseků, potkáváme Čechy, kteří to raději otáčejí, ale nakonec se na vrchol vyškrábeme. A rozhodně to stojí za to! Vidíme na Krajnskou Goru, Triglav, i na Jalovec. Nahoře jsou ochočení ptáci, Míšovi doslova zobou z ruky. Pecka!</p>
         <figure>
-            <img height={350} src={img1.src} alt={img1.caption} onClick={openLightbox(0)} />
+            <img src={img1.src} alt={img1.caption} onClick={openLightbox(0)} />
             <figcaption>{img1.caption}</figcaption>
         </figure>
         <p>Dolů jdeme jinou cestou, takovou, která je podle slovinského průvodce dávačka. No, i tak se dost zapotíme, chvilkama opět lezeme a scházíme přes prudké sněhové pole, kde se málem rozsekáme. Když se kolem třetí vrátíme zpět k chatě, docela se nám uleví. Dáme si oběd a jdeme k Obludě. Dnes už máme v plánu jen koupel v jezeře Jasna u Krajsne Gory, nákup alkoholu a cestu zpět do Prahy. Chceme se vyhnout nedělním zácpám, proto vyrážíme už dnes.</p>

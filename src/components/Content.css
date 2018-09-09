@@ -17,6 +17,9 @@ figcaption {
     display: block;
     margin: 10px auto 0 auto;
     text-align: center;
+    max-width: 80%;
+    height: auto;
+    max-height: 350px;
 }
 
 .articleText {
