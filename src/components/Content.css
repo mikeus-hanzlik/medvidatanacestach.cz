@@ -12,6 +12,7 @@ p {
 }
 
 img,
+video,
 figcaption {
     display: block;
     margin: 10px auto 0 auto;
@@ -24,4 +25,8 @@ figcaption {
 
 .aboutUsContent {
     padding-top: 30px;
+}
+
+.readMore {
+    text-align: right;
 }
