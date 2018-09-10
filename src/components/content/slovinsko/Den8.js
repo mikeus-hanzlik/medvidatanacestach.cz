@@ -7,7 +7,7 @@ const img1 = buildLightboxImage(img1Src, "Prisank" );
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <h1>Sobota 7. 7. – Prisojnik</h1>
+        <h1>Sobota 7. 7. – Prisank</h1>
         <p>Vstáváme už po sedmé, snídáme vaječnou omeletu a čeká nás náročný výstup na Prisojnik / Prisank, který má přes 2500 mnm. Děsně fučí, že to Šárinku málem odnáší, ale během dne se to naštěstí uklidňuje. Čekají nás nádherné výhledy od rána až do večera. Není to žádná pohodová procházka, zdoláváme dost železných úseků, potkáváme Čechy, kteří to raději otáčejí, ale nakonec se na vrchol vyškrábeme. A rozhodně to stojí za to! Vidíme na Krajnskou Goru, Triglav, i na Jalovec. Nahoře jsou ochočení ptáci, Míšovi doslova zobou z ruky. Pecka!</p>
         <figure>
             <img src={img1.src} alt={img1.caption} onClick={openLightbox(0)} />
