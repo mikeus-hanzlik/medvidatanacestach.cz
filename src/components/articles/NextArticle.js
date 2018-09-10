@@ -8,7 +8,7 @@ export default ({articleId, detailId}) => {
 
     if (nextArticleDetail) {
         nextDetail = (<p className="readMore">
-            <NavLink to={`/${articleId}/${nextArticleDetail.link}`} className="nav-link">Číst dál ></NavLink>
+            <NavLink to={`/${articleId}/${nextArticleDetail.link}`} className="nav-link">Číst dál</NavLink>
         </p>)
     }
 
