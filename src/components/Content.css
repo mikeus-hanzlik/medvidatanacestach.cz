@@ -36,9 +36,9 @@ figcaption {
 
 .readMore a {
     text-decoration: none;
-    border: solid 1px #112957;
+    border: solid 1px var(--active-color);
     border-radius: 10px;
-    background-color: #112957;
+    background-color: var(--active-color);
     color: white;
     padding: 8px 20px;
     font-size: 15px;
@@ -64,13 +64,13 @@ figcaption {
 
 .readMore a:after {
     border-color: rgba(17, 41, 87, 0);
-    border-left-color: #112957;
+    border-left-color: var(--active-color);
     border-width: 7px;
     margin-top: -7px;
 }
 .readMore a:before {
     border-color: rgba(17, 41, 87, 0);
-    border-left-color: #112957;
+    border-left-color: var(--active-color);
     border-width: 8px;
     margin-top: -8px;
 }

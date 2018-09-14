@@ -31,12 +31,12 @@
 }
 
 .nav-tabs .nav-link:hover {
-    border-color: rgb(174, 183, 198);
+    border-color: var(--main-background-color-nonopacue);
 }
 
 .nav-tabs .nav-link.active {
-    background-color: rgba(232, 232, 232, 0.7);
-    border-color: rgb(174, 183, 198);
+    background-color: var(--main-background-color);
+    border-color: var(--main-background-color-nonopacue);
     color: black;
 }
 
@@ -52,7 +52,7 @@
 .chapter-item {
     padding: 10px;
     border-radius: 10px;
-    border: solid 1px rgb(174, 183, 198);
+    border: solid 1px var(--main-background-color-nonopacue);
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -63,12 +63,12 @@
 }
 
 .chapter-item:hover {
-    border-color: #112957;
+    border-color: var(--active-color);
 }
 
 .chapter-item.active {
-    background-color: #112957;
-    border-color: #112957;
+    background-color: var(--active-color);
+    border-color: var(--active-color);
     color: white;
 }
 
@@ -86,13 +86,13 @@
 
 .chapter-item.active:not(:last-child):after {
     border-color: rgba(17, 41, 87, 0);
-    border-left-color: #112957;
+    border-left-color: var(--active-color);
     border-width: 7px;
     margin-top: -7px;
 }
 .chapter-item.active:not(:last-child):before {
     border-color: rgba(17, 41, 87, 0);
-    border-left-color: #112957;
+    border-left-color: var(--active-color);
     border-width: 8px;
     margin-top: -8px;
 }
