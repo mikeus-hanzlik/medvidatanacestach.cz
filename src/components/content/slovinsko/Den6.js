@@ -4,6 +4,7 @@ import withLightbox from "../../infrastructure/withLightbox";
 import video1Src from "../../../images/slovinsko/KozyNaPrsivci.mp4";
 import img1Src from "../../../images/slovinsko/PlaninaPriJezeru.jpg";
 import img2Src from "../../../images/slovinsko/Bohinj2.jpg";
+import Image from "../../articles/Image";
 
 const img1 = buildLightboxImage(img1Src, "Planina pri Jezeru" );
 const img2 = buildLightboxImage(img2Src, "Po koupeli v Bohinjském jezeře" );
@@ -21,15 +22,9 @@ export default withLightbox(({openLightbox}) => {
             <figcaption>Kozy na Pršivci</figcaption>
         </figure>
         <p>Další část trasy je víceméně lesem, až dorazíme k pěkné chajdě na louce. Odtud je to už jen kousek ke Koče na Planini pri Jezeru, kde jsme původně chtěli přespat. Bohužel jdeme fest z kopce, což znamená, že se cestou zpátky pěkně zapotíme. Přicházíme ke krásné louce s jezerem a chatou. V jezeře jsou bohužel sinice, tak se nevykoupeme, ale zato si dáme parádní oběd i s dezertem. Chvíli váháme, jestli tu zůstat do dalšího dne, ale protože jsou teprve asi 2 odpoledne a počasí vypadá dobře, rozhodneme se vyrazit zpět do údolí k Obludě.</p>
-        <figure>
-            <img src={img1.src} alt={img1.caption} onClick={openLightbox(0)} />
-            <figcaption>{img1.caption}</figcaption>
-        </figure>
+        <Image lightboxImage={img1} openLightbox={openLightbox} />
         <p>Další zastávkou je Črno jezero, které už známe z loňska. Tenkrát se nám tu děsně líbilo, byl tu sníh, ledové kry se třpytily ve slunci a cinkaly o sebe navzájem, až z toho byla krásná přírodní zvonkohra. Byl to jeden z těch magických momentů, kdy chce člověk zastavit čas a užít si tu chvíli co nejdéle. Tentokrát tu žádný led není, zato je tu dost lidí, stahují se černá mračna a zlověstně hřmí, tak radši pospícháme dolů. Čeká nás totiž prudký sestup k vodopádu Savica, který by byl v dešti trochu o držku. Hřmí ale stále častěji a buřině se nakonec nevyhneme. Oblékáme nepromokavé oblečení a sestup naštěstí zvládáme bez úhony i v lijáku.</p>
         <p>Dole u vodopádů si dáváme v restauraci jídlo a zvažujeme, kde budeme spát. V úvahu přichází kemp v Ukanci u jezera, někde v lese na tajňačku ve stanu, nebo najít ubytko přes booking. Šárinka je pro stan, Míša pro ubytko. Přicházíme k Bohinjskému jezeru, už naštěstí moc neprší a nejsou tu lidi, tak shazujeme oblečení a jdeme si zaplavat. Voda je krásně teplá, o dost víc než v sobotu, když jsme přijeli. Kemp o kus dál je ale totálně narvaný Čechy, děsně nás to znechutí a nakonec volíme ubytko. Na bookingu najdeme apartmán v Bohinsjké Češnjici a vypravujeme se tam. Paní domácí nás srdečně vítá, večer vypijeme láhev vína a spořádáme sýr od Triglavských krav a Šárinku konečně přestává bolet v krku.</p>
-        <figure>
-            <img src={img2.src} alt={img2.caption} onClick={openLightbox(1)} />
-            <figcaption>{img2.caption}</figcaption>
-        </figure>
+        <Image lightboxImage={img2} openLightbox={openLightbox} />
     </div>)
 }, [img1, img2])

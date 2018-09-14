@@ -29,12 +29,15 @@ export default (Component, images) => {
         }
 
         render() {
-            const openLightbox = (_this) => (imgIndex) => {
+            const openLightbox = (_this) => () => {
+                let imgIndex = 0;
                 return () => {
                     _this.setState({
                         currentImage: imgIndex,
                         lightboxIsOpen: true,
-                    })
+                    });
+
+                    imgIndex =+ 1;
                 };
             };
 
