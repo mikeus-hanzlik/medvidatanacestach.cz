@@ -11,7 +11,7 @@ const img2 = buildLightboxImage(img2Src, "Koně za vesničkou Tal" );
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <ArticleTitle title="Chamche - Danagyu" date="Čtvrtek 3. 5. " />
+        <ArticleTitle title="Chamche - Danagyu" date="Čtvrtek 3. 5." />
         <p>Snídáme venku a během snídaně nás míjejí hikeři, kteří evidentně vstali dřív než my – Britové, Kanadský pár, co s námi jel autobusem, a další. Nenecháme se znervóznit a vypravujeme se s klidem o dost později. Tím zahajujeme náš nepálský standard.</p>
         <p>Nejdřív scházíme dolů k řece, přes houpací most přecházíme na druhý břeh a tam znovu stoupáme klikatou cestičkou, až se nám otevírají výhledy na hory. Tedy, pozor, podle Nepálčanů to jsou zatím jen hills (i když mají třeba kolem 5000 mnm), protože nejsou zasněžené. Zasněžené mountains nás čekají až o něco později.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox} />

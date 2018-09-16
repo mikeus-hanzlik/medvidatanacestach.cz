@@ -1,19 +1,50 @@
 import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
-import img1Src from "../../../images/slovinsko/Prisank.jpg";
+import video1Src from "../../../images/nepal/taxiDoPokhary.mp4";
+import img1Src from "../../../images/nepal/pokhara.jpg";
+import img2Src from "../../../images/nepal/zLetadla.jpg";
+import Image from "../../articles/Image";
+import ArticleTitle from "../../articles/ArticleTitle";
 
-const img1 = buildLightboxImage(img1Src, "Prisank" );
+const img1 = buildLightboxImage(img1Src, "Pokhara");
+const img2 = buildLightboxImage(img2Src, "Himaláje z letadla");
 
 export default withLightbox(({openLightbox}) => {
-    return (<div>
-        <h1>Sobota 7. 7. – Prisank</h1>
-        <p>Vstáváme už po sedmé, snídáme vaječnou omeletu a čeká nás náročný výstup na Prisojnik / Prisank, který má přes 2500 mnm. Děsně fučí, že to Šárinku málem odnáší, ale během dne se to naštěstí uklidňuje. Čekají nás nádherné výhledy od rána až do večera. Není to žádná pohodová procházka, zdoláváme dost železných úseků, potkáváme Čechy, kteří to raději otáčejí, ale nakonec se na vrchol vyškrábeme. A rozhodně to stojí za to! Vidíme na Krajnskou Goru, Triglav, i na Jalovec. Nahoře jsou ochočení ptáci, Míšovi doslova zobou z ruky. Pecka!</p>
-        <figure>
-            <img src={img1.src} alt={img1.caption} onClick={openLightbox(0)} />
-            <figcaption>{img1.caption}</figcaption>
-        </figure>
-        <p>Dolů jdeme jinou cestou, takovou, která je podle slovinského průvodce dávačka. No, i tak se dost zapotíme, chvilkama opět lezeme a scházíme přes prudké sněhové pole, kde se málem rozsekáme. Když se kolem třetí vrátíme zpět k chatě, docela se nám uleví. Dáme si oběd a jdeme k Obludě. Dnes už máme v plánu jen koupel v jezeře Jasna u Krajsne Gory, nákup alkoholu a cestu zpět do Prahy. Chceme se vyhnout nedělním zácpám, proto vyrážíme už dnes.</p>
-        <p>Jasna je tedy pěkná ledárna, což se dalo trochu tušit, když se nekoupal ani živáček a všichni jen posedávali okolo. My ale nejsme žádná béčka, dáváme i pár temp a s příjemným pocitem smytého potu a špíny se vracíme k Obludě. Do Prahy se vracíme po sedmi hodinách cesty, vyřízení, s bohatými zásobami slovinského vína a našeho oblíbeného Borovničevce. A taky s jedním krásným prstýnkem navíc. ☺</p>
-    </div>)
-}, [img1])
+    return (
+        <div>
+            <ArticleTitle title="Tatopani – Pokhara" date="Pondělí 14. 5."/>
+            <p>Ráno nás oba bohužel bolí v krku. To snad není možný, my se toho nezbavíme. Zase prší a vymýšlíme, co
+                dál. Máme několik možností. Buď pokračovat ve treku, s mokrýma pohorkama, bolavým krkem a deštěm, anebo
+                to vzdát, zkusit si sehnat odvoz do Pokhary a strávit posledních pár dní před odletem tam. Od kamarádky
+                (Bětko, děkujeme!) na dálku zjišťujeme, co se dá v Pokhaře dělat, a je toho prý víc než dost. Je tedy
+                jasno. Nakoupíme si v pekárně dobrůtky, pobalíme se, seženeme taxíka a ten nás asi za 7 hodin doveze
+                cestou necestou až do Pokhary, druhého největšího města Nepálu.</p>
+            <figure>
+                <video controls>
+                    <source src={video1Src} type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption>Cesta taxíkem do Pokhary</figcaption>
+            </figure>
+            <p>Je nám trochu líto, že to končí dřív, než mohlo. Ale na druhou stranu jsme rádi, že už budeme jen
+                odpočívat. Později zjistíme, že Pokhara je k tomu jako stvořená. Je to úplně jiný svět než Káthmandú.
+                Jsou tu asfaltové silnice, celkem čisto, hodně obchůdků se suvenýry a oblečením, spoustu kaváren a
+                restaurací. Město navíc leží na břehu velkého jezera Phewa Lake a je tu i několik kopců, kam se dá
+                vyrazit na výšlap. Za hezkého počasí je dokonce vidět Annapurna I., to se nám ale bohužel
+                nepoštěstí.</p>
+            <p>Potom, co nás tu taxikář vyhodí, najdeme kavárnu s wifinou a hledáme na internetu nějaký pěkný hotel.
+                Vyhlídneme si Hotel Middle Path & Spa, který je krásný, docela luxusní, s parádní zahradou i střešní
+                terasou a ještě lepšími snídaněmi. A zotavení může začít. Několik posledních dnů před odletem si tu
+                pořádně užijeme. Jdeme na lodičku na jezero, na několik výletů, masáže, nákupy, večeře, dezertíky,
+                drinky, no pecka. To, co jsme na treku zhubli, zase rychle nabereme. ☺</p>
+            <Image lightboxImage={img1} openLightbox={openLightbox}/>
+            <p>Náš výlet je téměř u konce. Z Pokhary se v pátek brzy ráno přesouváme autobusem do Káthmandú. Přes
+                tourist agency si objednáváme nějaký dražší, který má dokonce kufr na zavazadla a naše batůžky tak
+                nemusí být na střeše. Cesta je ale i tak dost hrozná. Před víkendem jsou silnice ucpané a do hlavního
+                města, které je vzdálené cca 200 km, nám to trvá asi 11 hodin. Olalá, máme toho dost. V sobotu letíme
+                domů a slibujeme si, že si začneme naší civilizace pořádně vážit.</p>
+            <p>Namasté!</p>
+            <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        </div>)
+}, [img1, img2])

@@ -9,7 +9,7 @@ const img1 = buildLightboxImage(img1Src, "Turbany na hlavě" );
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <ArticleTitle title="Bhulbhule - Chamche" date="Středa 2. 5. " />
+        <ArticleTitle title="Bhulbhule - Chamche" date="Středa 2. 5." />
         <p>Ráno nás budí ruch v uličce pod okny už asi v 6 hodin. Místní vstávají s východem slunce a hned otvírají krámky, aby jim neutekl žádný kšeft. Vstáváme taky brzy a k snídani si objednáváme masala tea a oat porridge obohacenou o námi přivezené sušené ovoce a oříšky z Mixitu.</p>
         <p>Vyrážíme rekordně brzy, asi v 8:30. To, že jsme za okenicí zapomněli pověšenou čelovku, zjišťujeme až o 2 dny později a Šárinka to obrečí. ☹ Zpočátku jdeme podél řeky přes vesničky plné guest housů, o které tu opravdu nouze není. Kupujeme si výborné místní mini banánky, chutnají trochu jako kiwi. Čekají nás první houpací mosty přes krásnou modrozelenou řeku a spíš než v horách si připadáme jako v džungli. Postupně se začne cesta zvedat, přece jen tu kopce jsou. ☺ Stoupáme do Bahundandy, je vedro, jsme zpocení a rádi, když nahoře ve vsi nacházíme pumpu. Smočíme si ručníky a obtočíme si je kolem hlavy – rázem jsme neodolatelní.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox} />
