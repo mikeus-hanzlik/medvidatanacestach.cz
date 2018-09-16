@@ -7,7 +7,7 @@ import Image from "../../articles/Image";
 import ArticleTitle from "../../articles/ArticleTitle";
 
 const img1 = buildLightboxImage(img1Src, "Annapurna II");
-const img2 = buildLightboxImage(img2Src, "Annapurna II v mracích");
+const img2 = buildLightboxImage(img2Src, "Annapurna III v mracích");
 
 export default withLightbox(({openLightbox}) => {
     return (
@@ -42,7 +42,7 @@ export default withLightbox(({openLightbox}) => {
                 najdeme jen mírně vyhloubený prostor ve skále, kde za vrátky trůní socha Buddhy. Kromě něj je tu spoustu
                 modlitebních praporků, rýže a dalších předmětů. Trochu drze vlezeme až k Buddhovi, protože je tu
                 závětří, usedneme na modlitební lavičky a dáme si sváču. Už jen pár tisíc a pár stovek metrů do výšky
-                nad námi je Annapurna II (7555 mnm). Ledovec pod ní se plazí skoro až k nám.</p>
+                nad námi je Annapurna III (7555 mnm). Ledovec pod ní se plazí skoro až k nám.</p>
             <Image lightboxImage={img2} openLightbox={openLightbox}/>
             <p>Cestou zpět se skoro nezastavujeme, stahují se temná mračna a my bychom neradi zmokli. Stíháme to tak
                 tak, později opravdu prší. Hostel je už plný a v jídelně si není skoro kam sednout, tak sdílíme stůl s

@@ -19,7 +19,7 @@ export default withLightbox(({openLightbox}) => {
             sranda, jede se děsně pomalu, dva náběrčí, co s námi kromě řidiče jedou, se za jízdy vyklání ze dveří a
             pokřikují na všechny kolem, každou chvíli někam odběhnou dealovat s potenciálními cestujícími a řidič čeká.
             Mezitím do autobusu chodí děti, co prodávají slané křupky nebo sušené ovoce obalované v čili.</p>
-        <p>Počáteční legrace nás ale brzy přestává bavit. Je příšerné vedro, naše průměrná rychlost asi 40 km/hod, oknem
+        <p>Počáteční legrace nás ale brzy přestává bavit. Je příšerné vedro, naše průměrná rychlost asi 25 km/hod, oknem
             a dveřmi se dovnitř neustále práší, každou chvíli někde zastavujeme a na jedné zastávce dokonce autobus i se
             všemi zavazadly odjede neznámo kam a asi hodinu se nevrací. Po neskutečných 11 hodinách cesty a necelých 190
             km jízdy se konečně dostáváme téměř k cíli. Vesnička Khudi už je jen pár kilometrů od Bhulbhule, kde máme v
