@@ -5,6 +5,7 @@ import img1Src from "../../../images/slovinsko/CestaDoUdoli.jpeg";
 import img2Src from "../../../images/slovinsko/KosijevDom.jpg";
 import img3Src from "../../../images/slovinsko/LavickaNadBohinj.jpg";
 import Image from "../../articles/Image";
+import ArticleTitle from "../../articles/ArticleTitle";
 
 const img1 = buildLightboxImage(img1Src, "Cesta do údolí" );
 const img2 = buildLightboxImage(img2Src, "Výhled od Kosijev Dom" );
@@ -12,7 +13,7 @@ const img3 = buildLightboxImage(img3Src, "Lavička nad Bohinjským jezerem" );
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <h1>Středa 4. 7. – Koča na Doliču – Kosijev Dom</h1>
+        <ArticleTitle title="Koča na Doliču – Kosijev Dom" date="Středa 4. 7."/>
         <p>Protože nás Němci a Skoti, se kterými sdílíme pokoj, budí brzy, vstáváme už kolem sedmé a po osmé vyrážíme dolů do údolí. Protože jsme jako na většině našich výletů rychlejší, než si naplánujeme, máme najednou víc času. Rušíme rezervaci v Triglavskim domu na Kredarici a ověřujeme si, že můžeme do Kosijeva Domu dorazit již dnes. Je azuro, ale počasí se brzy kazí a nakonec začíná pršet. Jsme rádi, že jsme Triglav zvládli už včera, s mokrými kameny by to bylo dost riskantní.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox} />
         <p>Jsme bez pití, ale podle mapy.cz by měl být dole u Velo Polje kohout s vodou. Každým krokem klesáme, necháváme sníh a holé skály za sebou a znovu vcházíme do vegetace, mezi borovice, kytičky a stáda krav. Cesta na Velo Polje je nádherná, ani nám nevadí, že leje. Je to veliká louka s pár pasteveckými chýšemi a opravdu tu najdeme i kohout s vodou. Rychle oblékáme nepromokavé oblečení a filtrujeme vodu do vaků.</p>

@@ -5,13 +5,14 @@ import video1Src from "../../../images/slovinsko/KozyNaPrsivci.mp4";
 import img1Src from "../../../images/slovinsko/PlaninaPriJezeru.jpg";
 import img2Src from "../../../images/slovinsko/Bohinj2.jpg";
 import Image from "../../articles/Image";
+import ArticleTitle from "../../articles/ArticleTitle";
 
 const img1 = buildLightboxImage(img1Src, "Planina pri Jezeru" );
 const img2 = buildLightboxImage(img2Src, "Po koupeli v Bohinjském jezeře" );
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <h1>Čtvrtek 5. 7. – Kosijev Dom - Ukanc</h1>
+        <ArticleTitle title="Kosijev Dom - Ukanc" date="Čtvrtek 5. 7."/>
         <p>Spíme jako miminka asi 11 hodin. Vzbudí nás až budík kolem deváté a rychle pospícháme dolů na snídani, aby nám ještě něco dali. I když podle předpovědi má být hnusně, je zase krásně a sedáme si na zahrádku. Poprvé ve Slovinsku si můžeme dát k snídani i něco jiného než chleba, volíme musli s mlékem. Luxus!</p>
         <p>Vyrážíme až v půl 11 a pořád váháme, jestli dnes přespat ještě někde v horách, nebo sejít až dolů do údolí. Uvidíme asi podle situace. Čeká nás výživné stoupání na vrchol Pršivec, který má cca 1700 mnm a odkud jsou prý nejkrásnější výhledy na Bohinjské jezero a hory kolem něj. Asi jsme už namakaní, protože se nahoru vyškrabeme dokonce rychleji, než říkají ukazatele. Cestou máme krásné výhledy na Triglav i na jezero a už poněkolikáté si chválíme parádní počasí. I když cestou nebyli žádní lidé, na Pršivci je celkem plno. Turistů, ale hlavně – koz! Je jich tu tak 30. Jsou všude. Malé, větší, dokonce i jeden pěkně starý fousatý kozel. A jsou celkem dotěrné – hned se vrhají na Šárinku a olizují jí nohy ostošest. Dělají to prý kvůli soli, aby se jim lépe trávilo. Nejdřív to celkem příjemně masíruje svaly, ale když Šárinku jedna trochu kousne a další začne olizovat i zadek, radši prcháme. Ufff, doufáme, že se dneska vykoupeme.</p>
         <figure>

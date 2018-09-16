@@ -6,6 +6,7 @@ import img2Src from "../../../images/slovinsko/VyhledNaTriglav.jpg";
 import img3Src from "../../../images/slovinsko/CestaNaTriglav.jpg";
 import img4Src from "../../../images/slovinsko/Prstynek.jpg";
 import Image from "../../articles/Image";
+import ArticleTitle from "../../articles/ArticleTitle";
 
 const img1 = buildLightboxImage(img1Src, "Jezero V Ledvicah" );
 const img2 = buildLightboxImage(img2Src, "Výhled na Triglav" );
@@ -14,7 +15,7 @@ const img4 = buildLightboxImage(img4Src, "Prstýnek na Triglavu" );
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <h1>Úterý 3. 7. – Koča při Triglavskih jezerih – Triglav – Koča na Doliču</h1>
+        <ArticleTitle title="Koča při Triglavskih jezerih – Triglav – Koča na Doliču" date="Úterý 3. 7."/>
         <p>Ráno musíme vyklidit pokoje do 8:00, což znamená celkem brzké vstávání, snídaně, obligátní kloktání a po osmé už vyrážíme směrem dál údolím Triglavských jezer. Je pod mrakem, ale chvilkama i malinko prosvítá sluníčko. Opět se neustále předbíháme s Američany, nakonec jim ale utečeme.</p>
         <p>Necháváme chatu a první jezírka za námi, načež vystoupáme až nad jezero V Ledvicah, které nám pomalu vyrazí dech. Rozprostírá se pod námi, je krásné, velké, průzračné a zrcadlí se v něm obloha. I když není úplné vedro, neodoláme, slezeme srázem dolů ke břehu a skočíme se vykoupat. Sprchu tu na chatách asi jen tak nepotkáme a nějaká hygiena se hodí. Brzy nás následují i ostatní, kteří nás ze shora pozorují. Koupají se i starší Kanaďanky a naši Američani.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox} />

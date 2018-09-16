@@ -2,13 +2,14 @@ import React from "react";
 import withLightbox from "../../infrastructure/withLightbox";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import vogelSrc from "../../../images/slovinsko/VogelLanovka.jpg";
+import ArticleTitle from "../../articles/ArticleTitle";
 
 const vogel = buildLightboxImage(vogelSrc, "Výhled od Vogelu" );
 
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <h1>Sobota 30. 6. – Vogel ski centrum</h1>
+        <ArticleTitle title="Vogel ski centrum" date="Sobota 30. 6."/>
         <p>Náš druhý výlet do slovinských hor začíná už v půl páté ráno zazvoněním budíku. Chceme se vyhnout zácpám, protože je nám jasné, že půlka republiky bude na první červencový týden mířit na jih stejně jako my. </p>
         <p>Vychází nám to a kolem páté vyrážíme směr Budějice a dál. Cesta probíhá hladce až na půlhodinové čekání před tunelem do Slovinska. Ve dvě odpoledne už jsme na místě, a to pod lanovkou Vogel u městečka Ukanc na břehu Bohinjského jezera. </p>
         <figure>

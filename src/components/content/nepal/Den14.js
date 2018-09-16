@@ -5,7 +5,7 @@ import ArticleTitle from "../../articles/ArticleTitle";
 export default withLightbox(({openLightbox}) => {
     return (
         <div>
-            <ArticleTitle title="Jomsom – Kalopani" date="Sobota 12. 5."/>
+            <ArticleTitle title="Kalopani – Tatopani" date="Neděle 13. 5."/>
             <p>Ráno si dáme k snídani dokonce i kafe. Těšíme se, že si ve vesnici koupíme nějakou mňaminku na cestu, už
                 nemáme žádné svačinky. Ale bohužel tu nic není. Budeme doufat, že potkáme nějaký oběd. Dnešní trasa do
                 Tatopani je dlouhá asi 25 km, zpočátku trochu hnusná, protože jdeme po skále nad řekou, kde staví
