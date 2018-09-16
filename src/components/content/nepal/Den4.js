@@ -1,44 +1,22 @@
 import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
-import img1Src from "../../../images/slovinsko/JezeroVLedvicah.jpg";
-import img2Src from "../../../images/slovinsko/VyhledNaTriglav.jpg";
-import img3Src from "../../../images/slovinsko/CestaNaTriglav.jpg";
-import img4Src from "../../../images/slovinsko/Prstynek.jpg";
+import img1Src from "../../../images/nepal/hanibal.jpg";
+import img2Src from "../../../images/nepal/tal.jpg";
+import Image from "../../articles/Image";
+import ArticleTitle from "../../articles/ArticleTitle";
 
-const img1 = buildLightboxImage(img1Src, "Jezero V Ledvicah" );
-const img2 = buildLightboxImage(img2Src, "Výhled na Triglav" );
-const img3 = buildLightboxImage(img3Src, "Kamzík pod Triglavem" );
-const img4 = buildLightboxImage(img4Src, "Prstýnek na Triglavu" );
+const img1 = buildLightboxImage(img1Src, "Cestou do vesničky Tal" );
+const img2 = buildLightboxImage(img2Src, "Koně za vesničkou Tal" );
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <h1>Úterý 3. 7. – Koča při Triglavskih jezerih – Triglav – Koča na Doliču</h1>
-        <p>Ráno musíme vyklidit pokoje do 8:00, což znamená celkem brzké vstávání, snídaně, obligátní kloktání a po osmé už vyrážíme směrem dál údolím Triglavských jezer. Je pod mrakem, ale chvilkama i malinko prosvítá sluníčko. Opět se neustále předbíháme s Američany, nakonec jim ale utečeme.</p>
-        <p>Necháváme chatu a první jezírka za námi, načež vystoupáme až nad jezero V Ledvicah, které nám pomalu vyrazí dech. Rozprostírá se pod námi, je krásné, velké, průzračné a zrcadlí se v něm obloha. I když není úplné vedro, neodoláme, slezeme srázem dolů ke břehu a skočíme se vykoupat. Sprchu tu na chatách asi jen tak nepotkáme a nějaká hygiena se hodí. Brzy nás následují i ostatní, kteří nás ze shora pozorují. Koupají se i starší Kanaďanky a naši Američani.</p>
-        <figure>
-            <img src={img1.src} alt={img1.caption} onClick={openLightbox(0)} />
-            <figcaption>{img1.caption}</figcaption>
-        </figure>
-        <p>Po parádním osvěžení stoupáme k dalším jezírkům, která už nejsou zdaleka tak hezká. Obcházíme koču na Prehodavcih, necháváme vegetaci za sebou a čeká nás pořádně prudké stoupání kolem vrcholu Poprovec až do 2350 mnm. Vcházíme opět do mraků, musíme se přiobléct, ale brzy k našemu nadšení z mraků vystupujeme a užíváme si konečně pořádné azuro. Jsme nadšení a přidáváme do kroku, abychom mrakům utekli a spatřili Triglav. To se nám po chvíli opravdu poštěstí a fešák se nám ukáže v celé své kráse. Svačíme u rozcestníku za sněhovým polem a potkáváme skupinku Čechů, od kterých zjišťujeme informace potřebné k výstupu. Poprvé nás napadá, že bychom nahoru mohli „vyběhnout“ už dnes.</p>
-        <figure>
-            <img src={img2.src} alt={img2.caption} onClick={openLightbox(1)} />
-            <figcaption>{img2.caption}</figcaption>
-        </figure>
-        <p>Než dorazíme do Koči na Doliču, čeká nás ještě pořádné klesání, a to bohužel přes sněhové pole. Je to celkem o držku a nakonec to řešíme tak, že po sněhu sjedeme po zadku. Šárince se přitom ale nešikovně vyhrnou kraťasy, že si pěkně odře zadek, při sjezdu ztratí hůlku a dole se málem nezastaví. Naštěstí to ale dobře dopadne a v chatě jsme kolem jedné odpolední.</p>
-        <p> Ochotné slečny nám radí jít na Triglav opravdu už dnes, protože další den se má kazit počasí. Prý se to dá zvládnout i bez vybavení na ferraty. Dáváme si výborný stew, třídíme věci z batohů, ať toho nahoru netáhneme zbytečně moc, půjčujeme helmu a vyrážíme. Podle ukazatelů je to nahoru asi 2 hodiny, ale neděláme si iluze, že bychom byli tak rychlí. Se slovinskými odhady času už máme jisté zkušenosti.</p>
-        <p>Zezačátku nás čeká cik cak stoupání, potom pohodová široká kamenná cesta pomalu pro důchodce, až asi ho hodině a něco přicházíme k úpatí Triglavu. Žasneme, jak je obrovský. Tam že máme za necelou hodinku vylézt?</p>
-        <p>Pospícháme dál, protože mraků přibývá a jsou stále výš a výš. A my chceme z vrcholu něco vidět! Předcházíme Němce, se kterým se později dáme do řeči a nakonec s ním jdeme i dolů a strávíme půlku večera v chatě. Hned na začátku stoupání na Triglav potkáváme první ferrata úsek. Po kolmé stěně musíme překonat několik metrů přes železné stupínky a lano. Není to vůbec příjemné, ale zvládáme to. Ve štěrbině mezi skalami, kudy musíme prolézt, potkáváme kamzíka, který nás nepřátelsky pozoruje a odmítá se hnout z místa. Asi jsme mu pronikli do teritoria.</p>
-        <figure>
-            <img src={img3.src} alt={img3.caption} onClick={openLightbox(2)} />
-            <figcaption>{img3.caption}</figcaption>
-        </figure>
-        <p>Míšovi dochází energie, tak se posilňujeme hroznovým cukrem. Čeká nás ještě několik náročnějších železných pasáží, ale nakonec bez větších obtíží dosahujeme vrcholu. A k našemu překvapení jsme nahoře úplně sami! Je to paráda. Všechny mraky jsou stále pod námi, ale není jich tolik, aby nám znemožnily výhledy na okolní hory. Je krásně a vedro a my jsme šťastní, že jsme to zvládli!</p>
-        <figure>
-            <img src={img4.src} alt={img4.caption} onClick={openLightbox(3)} />
-            <figcaption>{img4.caption}</figcaption>
-        </figure>
-        <p>Při sestupu jdeme spolu s Němcem, který má strach jít sám. Povídáme si a cesta nám utíká. Do chaty se vracíme akorát včas, začíná pořádně hřmít a trochu kape. Všechny private roomy jsou bohužel plné a i když jsme si pokoj rezervovali předem, s chatou byla složitá domluva a rezervaci nám neudělala. Takže nakonec končíme v sharovaném pokoji pro 6 osob. K večeři si dáváme opět stew a k tomu palačinky. Mňam! Máme radost, když v chatě znovu potkáváme Američany a večer se konečně dozvídáme, jak se jmenují – Kate a Mike.</p>
-        <p>Bohužel u chaty jsou jen venkovní turecké WC a dokonce téměř neteče voda, jdeme tedy spát dost ulepení. Není ale nic, co by nám zkazilo radost!</p>
+        <ArticleTitle title="Chamche - Danagyu" date="Čtvrtek 3. 5. " />
+        <p>Snídáme venku a během snídaně nás míjejí hikeři, kteří evidentně vstali dřív než my – Britové, Kanadský pár, co s námi jel autobusem, a další. Nenecháme se znervóznit a vypravujeme se s klidem o dost později. Tím zahajujeme náš nepálský standard.</p>
+        <p>Nejdřív scházíme dolů k řece, přes houpací most přecházíme na druhý břeh a tam znovu stoupáme klikatou cestičkou, až se nám otevírají výhledy na hory. Tedy, pozor, podle Nepálčanů to jsou zatím jen hills (i když mají třeba kolem 5000 mnm), protože nejsou zasněžené. Zasněžené mountains nás čekají až o něco později.</p>
+        <Image lightboxImage={img1} openLightbox={openLightbox} />
+        <p>Je pod mrakem, celkem dusno, a když se vyšplháme až do vesničky Tal v krásném údolí s modrozelenou řekou mezi horami, jsme ve výšce 2500 mnm. Na kraji vesnice si dáváme sváču, hodně fouká a trochu prší, oblékáme se a následně si v Safe drinking water station, kterých je na treku kolem Annapuren několik a mají za cíl podpořit místní a eliminovat odpad z petek, za 40 NRP / 1 l doplňujeme vaky na vodu. Sice jsme si mohli přefiltrovat vodu z řeky, ale tohle je jednodušší a aspoň uděláme tak dobrý skutek.</p>
+        <Image lightboxImage={img2} openLightbox={openLightbox} />
+        <p>Pokračujeme krásnou stezkou podél řeky mírně nahoru. Potkáváme orly, krávy a kozy a osamocenou Alžířanku, se kterou se dáme do řeči. Zapisujeme se v prvním ACAP (Annapurna Conservation Area Project) check pointu v Dharapani, a to kvůli evidenci hikerů a bezpečnosti. Procházíme vesničkou Bagarchap, kde jsme původně chtěli spát, a nakonec končíme až v Danagyu. Alžířanka se ubytuje hned na začátku vesnice, my chceme podpořit i vzdálenější guest housy, tak si vybíráme ten zvaný Motherland a jsme tu zas až do rána úplně sami. Je tu i hot shower a wifi, přes kterou voláme domů. Večer zevlíme v dining roomu oblečení do péřovek, jsme už docela vysoko a pěkně přituhuje.</p>
     </div>)
-}, [img1, img2, img3, img4])
+}, [img1, img2])

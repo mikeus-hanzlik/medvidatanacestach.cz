@@ -1,26 +1,19 @@
 import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
-import img1Src from "../../../images/slovinsko/SedmTriglavskychJezer.jpg";
-import img2Src from "../../../images/slovinsko/PrstynekUJezera.jpeg";
+import img1Src from "../../../images/nepal/turbany.jpg";
+import ArticleTitle from "../../articles/ArticleTitle";
+import Image from "../../articles/Image";
 
-const img1 = buildLightboxImage(img1Src, "Údolí Triglavských jezer" );
-const img2 = buildLightboxImage(img2Src, "Prstýnek" );
+const img1 = buildLightboxImage(img1Src, "Turbany na hlavě" );
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
-        <h1>Pondělí 2. 7. – Koča na planini Razor – Koča při Triglavskih jezerih</h1>
-        <p>Hluční sousedé nás budí už před sedmou. Dáváme si snídani a vyrážíme na hory a dál (pro neznalé to je heslo Hanibalu, které se nám skví na merino tričkách). V patách nám jsou Američani, se kterými se odteď budeme neustále potkávat. Volíme značenou cestu na Dom na Komni přes průsmyk Škrbina namísto původně plánované hřebenovky, která je schovaná v mlze. Chvíli stoupáme, chvíli jdeme po pěkné cestičce v údolí, načež znovu stoupáme a tentokrát až do mlhy. Rázem je zima, mrholí a vidíme prdlajs. Naštěstí zas brzy sejdeme níž. Potkáváme i první sněhové pole a první stádo krav se zvonci. Bohužel k Míšovu velkému znepokojení potkáváme i spoustu Bolševníků.</p>
-        <p>Scházíme až do 1450 mnm a máme znovu výhledy na Bohinsjké jezero. Je tu už celkem teplo, tak nasazujeme kraťasy. Míjíme asi nejkrásnější část trasy, palouček Krošnja a po 5 hodinách chůze konečně přicházíme celí vyhladovělí do Domu na Komni. Stejně jako před rokem si tu dáváme zelňačku a po hodině odpočívání se znovu vydáváme na cestu. Ještě nás čekají 3 hodiny krásnou přírodou až k údolí Triglavských jezer. Tam se moc těšíme, protože jsme tam loni strávili noc v nouzové noclehárně. Cestu už známe, i když oproti loňskému dešti, mlze a brodění v půl metru sněhu se to nedá srovnávat.</p>
-        <figure>
-            <img src={img1.src} alt={img1.caption} onClick={openLightbox(0)} />
-            <figcaption>{img1.caption}</figcaption>
-        </figure>
-        <p>Kolem půl sedmé konečně dorážíme do koči. K našemu překvapení je tu spoustu lidí! Rovnou dostáváme i večeři, a protože sprcha opět není, plánujeme na tajňačku skočit do jednoho z jezer kus od chaty, i když koupat se tu nesmí. Vyčkáváme správného momentu, a když jsme konečně sami, Šárinka se začne bleskově svlékat. Plavky s sebou samozřejmě nemáme. Míša má ale trochu jiné starosti…</p>
-        <figure>
-            <img src={img2.src} alt={img2.caption} onClick={openLightbox(1)} />
-            <figcaption>{img2.caption}</figcaption>
-        </figure>
-        <p>Vykoupeme se ale stejně. A později slavíme s Borovničevcem, Jagodou a Malincou a usínáme jako dřeva.</p>
+        <ArticleTitle title="Bhulbhule - Chamche" date="Středa 2. 5. " />
+        <p>Ráno nás budí ruch v uličce pod okny už asi v 6 hodin. Místní vstávají s východem slunce a hned otvírají krámky, aby jim neutekl žádný kšeft. Vstáváme taky brzy a k snídani si objednáváme masala tea a oat porridge obohacenou o námi přivezené sušené ovoce a oříšky z Mixitu.</p>
+        <p>Vyrážíme rekordně brzy, asi v 8:30. To, že jsme za okenicí zapomněli pověšenou čelovku, zjišťujeme až o 2 dny později a Šárinka to obrečí. ☹ Zpočátku jdeme podél řeky přes vesničky plné guest housů, o které tu opravdu nouze není. Kupujeme si výborné místní mini banánky, chutnají trochu jako kiwi. Čekají nás první houpací mosty přes krásnou modrozelenou řeku a spíš než v horách si připadáme jako v džungli. Postupně se začne cesta zvedat, přece jen tu kopce jsou. ☺ Stoupáme do Bahundandy, je vedro, jsme zpocení a rádi, když nahoře ve vsi nacházíme pumpu. Smočíme si ručníky a obtočíme si je kolem hlavy – rázem jsme neodolatelní.</p>
+        <Image lightboxImage={img1} openLightbox={openLightbox} />
+        <p>Kus od vsi najdeme krásnou vyhlídku na okolní hory, políčka a údolí s řekou a dáváme si tu sváču. Po příjemné pauze opět scházíme dolů k řece, přecházíme ji a pokračujeme po šíleně prašné cestě prudce nahoru až do Jagatu. Pohorky máme dávno šedivé od toho prachu, a to ještě netušíme, že to tak bude téměř po většinu treku. Za Jagatem potkáváme malého nepálského klučinu s kamarádkou, jsou oblečení ve školní uniformě a zřejmě jdou ze školy domů do vedlejší vesnice. Kluk se s námi k našemu překvapení začne celkem bez problémů vybavovat anglicky. Jeho rodiče prý mají prý na konci Chamche krásný nový hotel, kde se musíme ubytovat. Jsme trochu skeptiční, ale zkusíme to, projdeme s klukem celou vesnicí a až na konci, nahoře na kopci, kam nejspíš žádní hikeři nedojdou, protože se ubytují v některém z bližších guest houstů, opravdu dojdeme ke krásnému novému barevnému International hotelu, kde se ubytujeme.</p>
+        <p>Jsme tu tu noc jediní hosté a celkem si nás považují, tak je to fajn. Pokojík je pěkný rohový s okny na dvě strany, sprcha i turecké WC jakž takž. Večeři si dáváme na zahrádce nad řekou, večer už je trochu chladněji a v noci dokonce přichází pěkná buřina.</p>
     </div>)
-}, [img1, img2])
+}, [img1])

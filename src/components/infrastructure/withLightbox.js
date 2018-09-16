@@ -29,21 +29,22 @@ export default (Component, images) => {
         }
 
         render() {
-            const openLightbox = (_this) => () => {
+            const openLightbox = (_this) => {
                 let imgIndex = 0;
                 return () => {
-                    _this.setState({
-                        currentImage: imgIndex,
-                        lightboxIsOpen: true,
-                    });
-
-                    imgIndex =+ 1;
+                    const currentIndex = imgIndex++;
+                    return () => {
+                        _this.setState({
+                            currentImage: currentIndex,
+                            lightboxIsOpen: true,
+                        });
+                    };
                 };
             };
 
 
             return (<div>
-                <Component openLightbox={openLightbox(this)} />
+                <Component openLightbox={openLightbox(this)}/>
                 <Lightbox
                     images={images}
                     isOpen={this.state.lightboxIsOpen}

@@ -74,3 +74,11 @@ figcaption {
     border-width: 8px;
     margin-top: -8px;
 }
+
+.articleTitle h1 {
+    margin-bottom: 5px;
+}
+
+.articleTitle h2 {
+    font-size: 16px;
+}
