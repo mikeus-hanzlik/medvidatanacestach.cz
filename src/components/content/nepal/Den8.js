@@ -3,13 +3,11 @@ import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
 import img1Src from "../../../images/nepal/chulu.jpg";
 import img2Src from "../../../images/nepal/jeskyne.jpg";
-import img3Src from "../../../images/nepal/manaslu.jpg";
 import Image from "../../articles/Image";
 import ArticleTitle from "../../articles/ArticleTitle";
 
 const img1 = buildLightboxImage(img1Src, "Annapurna II");
 const img2 = buildLightboxImage(img2Src, "Annapurna II v mracích");
-const img3 = buildLightboxImage(img3Src, "Manaslu přes dalekohled");
 
 export default withLightbox(({openLightbox}) => {
     return (

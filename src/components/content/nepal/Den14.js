@@ -33,7 +33,11 @@ export default withLightbox(({openLightbox}) => {
                 zajímá spíš, kde budeme spát my. Další guest house je odtud pěkně daleko, a navíc hodně do kopce,
                 protože kousek odtud se Annapurna Circuit opět odpojuje ze silnice nahoru do hor, až na vyhlídku Poon
                 Hill, kam máme v plánu za pár dní dojít.</p>
-            <p>Procházíme vesničkou sem tam, chvíli chceme stopovat, pak sháníme taxíka, ale bez úspěchu. Naštěstí se po nějaké době situace trochu uklidní a přestane lejt. Najdeme guest house co nejdál od postiženého místa, kde sice není voda ani elektřina, ale aspoň nás tu ubytují a i nám uvaří.</p>
-            <p>Tatopani znamená „horké vody“ a je to vesnička proslavená lázněmi s horkými prameny. Většina hikerů, kteří dojdou až sem, tady končí a mají to jako takovou pěknou třešničku – umyjí se a vyrelaxují, dokonce si můžou zaplatit v lázních masáž. My se nakonec nekoupeme, celý večer kecáme s Němcem.</p>
+            <p>Procházíme vesničkou sem tam, chvíli chceme stopovat, pak sháníme taxíka, ale bez úspěchu. Naštěstí se po
+                nějaké době situace trochu uklidní a přestane lejt. Najdeme guest house co nejdál od postiženého místa,
+                kde sice není voda ani elektřina, ale aspoň nás tu ubytují a i nám uvaří.</p>
+            <p>Tatopani znamená „horké vody“ a je to vesnička proslavená lázněmi s horkými prameny. Většina hikerů,
+                kteří dojdou až sem, tady končí a mají to jako takovou pěknou třešničku – umyjí se a vyrelaxují, dokonce
+                si můžou zaplatit v lázních masáž. My se nakonec nekoupeme, celý večer kecáme s Němcem.</p>
         </div>)
 }, [])

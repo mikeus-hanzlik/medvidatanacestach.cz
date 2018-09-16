@@ -44,7 +44,7 @@ export default withLightbox(({openLightbox}) => {
                 lavinových úseků a ve sněhu se tam nedoporučuje chodit. Vzdát se Tilicha se nám ale nechce, tím spíš,
                 když se od někoho dalšího dozvídáme, že Thorong La Pass má být údajně 11. a 12. 5. zavřený. Pokud bychom
                 na Tilicho nešli, vychází nám, že půjdeme přes průsmyk právě 12. 5.</p>
-                <p>Zvažujeme různé varianty, ale nakonec odsouváme rozhodnutí na ráno.</p>
+            <p>Zvažujeme různé varianty, ale nakonec odsouváme rozhodnutí na ráno.</p>
         </div>
-)
+    )
 }, [])

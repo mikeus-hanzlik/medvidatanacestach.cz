@@ -38,7 +38,21 @@ export default withLightbox(({openLightbox}) => {
                 stromy ani keře, jen holé kopce a skály. Je to zas úplně jiný pohled, pomalu jako bychom byli někde na
                 Islandu, nebo na Marsu. ☺ Kolem nic než špičaté holé skály, částečně pokryté sněhem, a my.</p>
             <Image lightboxImage={img3} openLightbox={openLightbox}/>
-            <p>Procházíme bránou a jsme v Thorong Phedi, jednom ze dvou výchozích míst pro přechod průsmyku Thorong La Pass, přes 4400 mnm. To už je něco! Jsme utahaní, ale nadšení. Je tu jen jeden guest house a spoustu lidí. Vyfasujeme místečko v malém plesnivém pokoji, kde bude v noci asi dost zima, ale je nám to jedno, celý večer totiž trávíme ve společenské místnosti, kde je od kamen krásně teplo. Je tu hodně lidí a šrumec a pracuje tu Evropanka, od které se snažíme zjistit informace o přechodu průsmyku. Už jsme si zvykli, že od Nepálčanů se člověk nic moc užitečného nedozví. Slečna nám říká, že o žádném uzavření průsmyku neví, tak je to nejspíš nějaká fáma, jak jsme si mysleli. Jediné co, tak do Muktinathu na druhé straně hor má další den přijet na návštěvu Indian Prime Minister, takže se nejspíš nebude moct do některého z kláštěrů nebo chrámů.</p>
-            <p>Večer hrajeme karty, popíjíme čajík, dáváme si Dal Bhat a filtrujeme vodu na další, vrcholový den. Několika lidem je tu hodně špatně, pro jednoho kluka dokonce musí přiletět vrtulník. Jsme rádi, že se nás výšková nemoc netýká. Trochu nás znepokojují ostatní výpravy, nenápadně je totiž posloucháme a všichni plánují vyrážet na Thorong La Pass hrozně brzy ráno, vlastně ještě v noci. Nechápeme, je to sice 1000 výškových metrů, ale podle mapky bychom tam měli být z Thorong Phedi za 3 hoďky. Nenecháme se znervóznit, objednáváme snídani na 6:00 a budík nastavujeme na 5:30. V noci mrzne a je krásně jasno, nebe se třpytí stejně jako sníh kolem. Je to nádhera.</p>
+            <p>Procházíme bránou a jsme v Thorong Phedi, jednom ze dvou výchozích míst pro přechod průsmyku Thorong La
+                Pass, přes 4400 mnm. To už je něco! Jsme utahaní, ale nadšení. Je tu jen jeden guest house a spoustu
+                lidí. Vyfasujeme místečko v malém plesnivém pokoji, kde bude v noci asi dost zima, ale je nám to jedno,
+                celý večer totiž trávíme ve společenské místnosti, kde je od kamen krásně teplo. Je tu hodně lidí a
+                šrumec a pracuje tu Evropanka, od které se snažíme zjistit informace o přechodu průsmyku. Už jsme si
+                zvykli, že od Nepálčanů se člověk nic moc užitečného nedozví. Slečna nám říká, že o žádném uzavření
+                průsmyku neví, tak je to nejspíš nějaká fáma, jak jsme si mysleli. Jediné co, tak do Muktinathu na druhé
+                straně hor má další den přijet na návštěvu Indian Prime Minister, takže se nejspíš nebude moct do
+                některého z kláštěrů nebo chrámů.</p>
+            <p>Večer hrajeme karty, popíjíme čajík, dáváme si Dal Bhat a filtrujeme vodu na další, vrcholový den.
+                Několika lidem je tu hodně špatně, pro jednoho kluka dokonce musí přiletět vrtulník. Jsme rádi, že se
+                nás výšková nemoc netýká. Trochu nás znepokojují ostatní výpravy, nenápadně je totiž posloucháme a
+                všichni plánují vyrážet na Thorong La Pass hrozně brzy ráno, vlastně ještě v noci. Nechápeme, je to sice
+                1000 výškových metrů, ale podle mapky bychom tam měli být z Thorong Phedi za 3 hoďky. Nenecháme se
+                znervóznit, objednáváme snídani na 6:00 a budík nastavujeme na 5:30. V noci mrzne a je krásně jasno,
+                nebe se třpytí stejně jako sníh kolem. Je to nádhera.</p>
         </div>)
 }, [img1, img2, img3])

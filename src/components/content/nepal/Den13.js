@@ -27,6 +27,10 @@ export default withLightbox(({openLightbox}) => {
                 spatříme Dhaulagiri, sedmou nejvyšší horu světa. O ní si prý dlouho mysleli, že je úplně nejvyšší,
                 protože je vidět už tak nízko, jako jsme my teď (cca 2500 mnm) a tím pádem vypadá fakt velká.</p>
             <Image lightboxImage={img2} openLightbox={openLightbox}/>
-            <p>Plánujeme se ubytovat v Larjungu nebo Kokhethanti, ale narazíme na nečekaný problém. Protože jsme na nové straně Annapurna treku, nejsou tu ještě skoro žádné ubytovací kapacity, všechno je na té původní straně, kde je i silnice. Ale tam my nejsme, řeka je daleko a mosty skoro žádné. Nakonec musíme vydržet až do Kalopani, kde se obě strany treku na chvíli spojují. Musíme tedy uťapkat skoro 25 km, no máme toho večer docela dost a za odměnu se ubytováváme v luxusně vypadajícím hotelu s krásnou restaurací.</p>
+            <p>Plánujeme se ubytovat v Larjungu nebo Kokhethanti, ale narazíme na nečekaný problém. Protože jsme na nové
+                straně Annapurna treku, nejsou tu ještě skoro žádné ubytovací kapacity, všechno je na té původní straně,
+                kde je i silnice. Ale tam my nejsme, řeka je daleko a mosty skoro žádné. Nakonec musíme vydržet až do
+                Kalopani, kde se obě strany treku na chvíli spojují. Musíme tedy uťapkat skoro 25 km, no máme toho večer
+                docela dost a za odměnu se ubytováváme v luxusně vypadajícím hotelu s krásnou restaurací.</p>
         </div>)
 }, [img1, img2])

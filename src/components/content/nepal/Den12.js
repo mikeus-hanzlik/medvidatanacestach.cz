@@ -59,9 +59,22 @@ export default withLightbox(({openLightbox}) => {
                 a za chvíli jsme na blátě. Jak se nám boty ve sněhu krásně vyčistily, tak tady si je zase pěkně
                 zaprasíme.</p>
             <Image lightboxImage={img3} openLightbox={openLightbox}/>
-            <p>Postupně nám rozmrzá voda ve vacích a průběžně sundáváme jednu vrstvu za druhou. Po několika hodinách jsme u prvního jídelního zařízení na druhé straně, ve 4100 mnm. Dáváme si tu oběd, šťouchané brambory. Míšu pěkně bolí hlava, asi jak jsme rychle vystoupali tak vysoko a ještě rychleji sestoupali zpět dolů. Tady použijeme první a naštěstí i poslední Ibalgin naší výpravy.</p>
-            <p>Jsme hotoví, ale ještě musíme sestoupat dalších 400 výškových metrů do Muktinathu, kde se plánujeme ubytovat. Hmm smůla, opravdu je tu Indian Prime Minister a i když Thorong La Pass nikdo nezavřel, tak na celém území kolem Muktinathu je zákaz ubytovávat turisty. Musíme prý až do Jomsomu, který je ještě o dost níž, něco přes 2700 mnm. Pěšky by to bylo 19 km a na to nemáme síly, ani čas. Na(ne)štěstí se dá jet autobusem. Na pochybném autobusovém nádraží kupujeme lístky. Bus prý pojede asi ve 4 odpoledne. Batohy nám chtějí zas hodit na střechu, ale tentokrát se nedáme, radši si je bereme na klín, i když tím se připravujeme o prostor, pohodlí i dech. Cesta do Jomsomu vede chvíli po krásné opravené asfaltce, kterou tu beztak postavili kvůli tomu Prime Ministerovi, aby se mu sem pohodlně dojelo od heliportu pod městem, potom korytem řeky a nakonec městem Jomsom, kde se silnice tomu korytu řeky dost podobají.</p>
-            <p>Jomsom je jinak celkem civilizace, jsou tu hotely, obchody a dokonce letiště. Těšíme se, že konečně budeme mít elektřinu a třeba i wifinu, ale ouha, ani jedno většinu večera nefunguje. Nevadí, dáme si aspoň parádní teplou sprchu a máme tu i evropský záchod.</p>
+            <p>Postupně nám rozmrzá voda ve vacích a průběžně sundáváme jednu vrstvu za druhou. Po několika hodinách
+                jsme u prvního jídelního zařízení na druhé straně, ve 4100 mnm. Dáváme si tu oběd, šťouchané brambory.
+                Míšu pěkně bolí hlava, asi jak jsme rychle vystoupali tak vysoko a ještě rychleji sestoupali zpět dolů.
+                Tady použijeme první a naštěstí i poslední Ibalgin naší výpravy.</p>
+            <p>Jsme hotoví, ale ještě musíme sestoupat dalších 400 výškových metrů do Muktinathu, kde se plánujeme
+                ubytovat. Hmm smůla, opravdu je tu Indian Prime Minister a i když Thorong La Pass nikdo nezavřel, tak na
+                celém území kolem Muktinathu je zákaz ubytovávat turisty. Musíme prý až do Jomsomu, který je ještě o
+                dost níž, něco přes 2700 mnm. Pěšky by to bylo 19 km a na to nemáme síly, ani čas. Na(ne)štěstí se dá
+                jet autobusem. Na pochybném autobusovém nádraží kupujeme lístky. Bus prý pojede asi ve 4 odpoledne.
+                Batohy nám chtějí zas hodit na střechu, ale tentokrát se nedáme, radši si je bereme na klín, i když tím
+                se připravujeme o prostor, pohodlí i dech. Cesta do Jomsomu vede chvíli po krásné opravené asfaltce,
+                kterou tu beztak postavili kvůli tomu Prime Ministerovi, aby se mu sem pohodlně dojelo od heliportu pod
+                městem, potom korytem řeky a nakonec městem Jomsom, kde se silnice tomu korytu řeky dost podobají.</p>
+            <p>Jomsom je jinak celkem civilizace, jsou tu hotely, obchody a dokonce letiště. Těšíme se, že konečně
+                budeme mít elektřinu a třeba i wifinu, ale ouha, ani jedno většinu večera nefunguje. Nevadí, dáme si
+                aspoň parádní teplou sprchu a máme tu i evropský záchod.</p>
         </div>
     )
 }, [img1, img2, img3])
