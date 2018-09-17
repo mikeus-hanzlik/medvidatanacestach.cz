@@ -25,7 +25,7 @@ export default withLightbox(({openLightbox}) => {
             Jagatu. Pohorky máme dávno šedivé od toho prachu, a to ještě netušíme, že to tak bude téměř po většinu
             treku. Za Jagatem potkáváme malého nepálského klučinu s kamarádkou, jsou oblečení ve školní uniformě a
             zřejmě jdou ze školy domů do vedlejší vesnice. Kluk se s námi k našemu překvapení začne celkem bez problémů
-            vybavovat anglicky. Jeho rodiče prý mají prý na konci Chamche krásný nový hotel, kde se musíme ubytovat.
+            vybavovat anglicky. Jeho rodiče prý mají na konci Chamche krásný nový hotel, kde se musíme ubytovat.
             Jsme trochu skeptiční, ale zkusíme to, projdeme s klukem celou vesnicí a až na konci, nahoře na kopci, kam
             nejspíš žádní hikeři nedojdou, protože se ubytují v některém z bližších guest houstů, opravdu dojdeme ke
             krásnému novému barevnému International hotelu, kde se ubytujeme.</p>

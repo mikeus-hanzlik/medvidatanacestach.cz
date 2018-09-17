@@ -29,15 +29,18 @@ export default withLightbox(({openLightbox}) => {
             trochu nesmyslně limit na výběr ve výši 35 000 NPR. Dvojí poplatek za výběr nás samozřejmě nemine. Na
             ulicích místní pálí odpadky, všude je prach, špína, smog a smrad. Kupujeme roušky na obličej, jsme holt
             rozmazlení turisté. Stavujeme se v Garden of Dreams na kafe a první nepálskou Masalu. Naštěstí info office
-            je otevřená a celkem bez potíží si stihneme vyřídit povolení vstupu do Annapurna Conservation Area.
+            je otevřená a celkem bez potíží si stihneme vyřídit permity - povolení vstupu do Annapurna Conservation
+            Area.
             Zaplatíme 40 USD, vyfasujeme kartičky s našimi fotkami a taky zjišťujeme informace ohledně odjezdu autobusů
             do podhůří Himalájí, vesničky Bhulbhule.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox}/>
         <p>Cestou zpět do hotelu si ještě projdeme Durbar’s square s chrámy, bohužel kvůli zemětřesení před 3 lety dost
             rozpadlými. Taky narazíme na průvod na oslavu Buddhy, což je na začátku celkem zajímavé, ale když se kvůli
             tomu nemůžeme dostat zpět do hotelu, protože lidi jsou všude a nejde ani přejít přes ulici, už jen nadáváme.
-            K večeři si dáme Dal Bhát a pár koktejlů v restauraci vedle hotelu. Před spaním si na recepci objednáváme
-            snídaňové balíčky a taxíka, který nás ráno odveze na autobusové nádraží. Jsme trochu skeptičtí, jak to
+            K večeři si dáme nepálské národní jídlo Dal Bhát a pár koktejlů v restauraci vedle hotelu. Před spaním si na
+            recepci objednáváme
+            snídaňové balíčky a taxíka, který nás ráno odveze na autobusové nádraží. Recepční je trochu zmatená, tak
+            jsme zvědaví, jak to
             dopadne.</p>
     </div>)
 }, [img1])

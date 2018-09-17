@@ -15,7 +15,7 @@ export default withLightbox(({openLightbox}) => {
             <ArticleTitle title="Chame – Upper Pisang" date="Sobota 5. 5."/>
             <p>Dnes přichází trochu krize. Šárinka nemůže spát, protože ji děsně bolí v krku a celý další den se jí
                 špatně ťape. Ještě před odchodem z Chame nakupujeme další Strepsils a sprej do nosu a vydáváme se na
-                cestu šněčím tempem. Z Chame směrem dál do Manangu staví kameny dlážděnou silnici, ale naštěstí tu dnes
+                cestu šnečím tempem. Z Chame směrem dál do Manangu staví kameny dlážděnou silnici, ale naštěstí tu dnes
                 není žádný provoz, protože je sobota. Další zastávkou je Bratang, kde mají jablečné sady a taky
                 ciderovnu. Cider ale bohužel nemají, tak si dáme aspoň čaj. Po chvíli odbočujeme ze „silnice“ na stezku
                 vedoucí jehličnatým lesem, která nás zavede až do vesnice Dhukur Pokhari. Je krásně, kolem nás se tyčí

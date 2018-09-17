@@ -47,7 +47,7 @@ export default withLightbox(({openLightbox}) => {
                 průsmyku neví, tak je to nejspíš nějaká fáma, jak jsme si mysleli. Jediné co, tak do Muktinathu na druhé
                 straně hor má další den přijet na návštěvu Indian Prime Minister, takže se nejspíš nebude moct do
                 některého z kláštěrů nebo chrámů.</p>
-            <p>Večer hrajeme karty, popíjíme čajík, dáváme si Dal Bhat a filtrujeme vodu na další, vrcholový den.
+            <p>Večer hrajeme karty, popíjíme čajík, dáváme si Dal Bhát a filtrujeme vodu na další, vrcholový den.
                 Několika lidem je tu hodně špatně, pro jednoho kluka dokonce musí přiletět vrtulník. Jsme rádi, že se
                 nás výšková nemoc netýká. Trochu nás znepokojují ostatní výpravy, nenápadně je totiž posloucháme a
                 všichni plánují vyrážet na Thorong La Pass hrozně brzy ráno, vlastně ještě v noci. Nechápeme, je to sice

@@ -19,10 +19,11 @@ export default withLightbox(({openLightbox}) => {
                 s Šárky nachlazením. Nakonec koupíme sirup na kašel a celkem spokojení odcházíme.</p>
             <p>V hotelu balíme a vyrážíme směrem na Tilicho Lake, kam bychom měli za pár dnů dojít. Cesta je moc hezká,
                 hned kousek za Manangem přes most přecházíme soutok dvou řek a drápeme se víc do kopce. První další
-                vesnička se jmenuje Khangsar, není tu ale absolutně, ani k jídlu, ani k ubytování. Svačíme tedy sušené
+                vesnička se jmenuje Khangsar, není tu ale absolutně nic, ani k jídlu, ani k ubytování. Svačíme tedy
+                sušené
                 maso a pokračujeme nad údolím říčky převážně do kopce až do Srí Kharka. Míjíme rozestavěný guest house,
                 potom odbočku na Yak Kharka, kudy se budeme za pár dní vracet na hlavní Annapurna circuit. Výlet na
-                Tilicho Lake je totiž je jen aklimatizační side trip k jezeru ve výšce 4900 mnm, který trvá zhruba 3
+                Tilicho Lake je totiž jen aklimatizační side trip k jezeru ve výšce 4900 mnm, který trvá zhruba 3
                 dny.</p>
             <figure>
                 <video controls>
@@ -40,7 +41,7 @@ export default withLightbox(({openLightbox}) => {
                 sprchovat společně a navzájem si svítíme čelovkou.</p>
             <p>Během zevlení v dining hallu, kde nám nakonec zatopí, ale jen jednou a později zas mrzneme, popíjíme
                 čajík, hrajeme šachy a bavíme se s ostatníma. Téměř všichni, co tu jsou, se chystají na Tilicho Lake,
-                ale sníh trochu komplikuje situaci. Je tu i pár nepálských guidů, podle kterých je cestou i několik
+                ale sníh trochu komplikuje situaci. Je tu i pár nepálských guidů, podle kterých je cestou několik
                 lavinových úseků a ve sněhu se tam nedoporučuje chodit. Vzdát se Tilicha se nám ale nechce, tím spíš,
                 když se od někoho dalšího dozvídáme, že Thorong La Pass má být údajně 11. a 12. 5. zavřený. Pokud bychom
                 na Tilicho nešli, vychází nám, že půjdeme přes průsmyk právě 12. 5.</p>

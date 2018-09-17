@@ -21,7 +21,7 @@ export default withLightbox(({openLightbox}) => {
                 vyrážíme vzhůru. A to doslova. Z Thorong Phedi do Thorong High Campu, kde je další a poslední guest
                 house, je to brutálně do kopce a během asi 45 min nastoupáme 400 výškových metrů. Cesta je tu cik cak a
                 místy dost zmrzlá, tak je to trochu o držku. Nikoho nepotkáváme, asi už jsou všichni dávno na cestě. U
-                high campu ale první lidi předbíháme. To jsou asi ti machři, co vstávali ve 4 ráno…</p>
+                High Campu ale první lidi předbíháme. To jsou asi ti machři, co vstávali ve 4 ráno…</p>
             <Image lightboxImage={img1} openLightbox={openLightbox}/>
             <p>Jak stoupáme, sněhu přibývá. Stejně tak víc fouká a je větší zima. Už jsme téměř v 5000 mnm. Kyslíku je
                 tu o polovinu míň, než u moře. Když se chceme napít nebo Šárinka vysmrkat, trochu se přidusíme. Taky
@@ -34,7 +34,7 @@ export default withLightbox(({openLightbox}) => {
                 „many false peaks“. A je to přesně tak, za Thorong High Campem je to cesta dlouhá, pozvolná, sem tam
                 potkáváme modlitební praporky a několikrát si myslíme, že už tam přece musíme být. Ale pořád tam nejsme.
                 ☺ Fičí jako blázen, neslyšíme se a nejen kvůli nadmořské výšce, ale i poryvům vichru nemůžeme dýchat.
-                Načež, když už to snad ani nečekáme, se přehoupneme přes horizont a konečně to vidíme – přes námi je
+                Načež, když už to snad ani nečekáme, se přehoupneme přes horizont a konečně to vidíme – před námi je
                 malá budka, cedule Thorong La Pass a spoustu barevných praporků. Jsme tady, v 5416 mnm! Zvládli jsme to!
                 Najednou v té výšce zvládneme i křičet, skákat a pobíhat, jakou máme radost. Fotíme se a točíme video,
                 kde kromě vichru není asi nic slyšet.</p>
@@ -43,23 +43,23 @@ export default withLightbox(({openLightbox}) => {
                     <source src={video1Src} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
-                <figcaption>Thorong La Pass, 5416 mnm</figcaption>
+                <figcaption>Thorong La Pass, 5416&nbsp;mnm</figcaption>
             </figure>
             <p>Je trochu paradoxní, že člověk dosáhl nejvyššího místa, ale přitom je jen v sedle a všude okolo se tyčí
                 ještě mnohem vyšší hory. Jen kousek od nás je Thorong Peak (6100 mnm) s ledovcem, který se ve sluníčku
                 krásně modře třpytí. Je tu dokonce i malinká čajovna, kde je stůl a pár lavic. Týpek sem musí každý den
                 vylézt, aby tu turistům prodával čaj a kafe uvařené na plynové bombě. Strávíme na vrchu sotva čtvrt
-                hodiny a už se vydáváme na cestu dolů. Je nám kosa, ruce, nos, ani nohy necítíme.</p>
+                hodiny a už se vydáváme na cestu dolů. Je nám kosa, ruce, nos ani nohy necítíme.</p>
             <p>Když nad tím zpětně tak přemýšlíme, všechno se to odehrálo děsně rychle. Člověk se přepne do nějakého
                 šlapacího módu, a aby nezmrzl, musí to udělat všechno dost rychle. Přitom je škoda, že na tak nádherném
                 místě nejde zůstat déle. Buď na chvilku, nebo napořád. ☺</p>
             <p>I cesta dolů je ale zábava. Druhá strana je mnohem prudší, proto tudy nahoru skoro nikdo nechodí, ani
                 není, kde se aklimatizovat. Ve sněhu se jde dost špatně, tak to řešíme tak, že spíš běžíme, kloužeme se,
-                skáčeme závějemi dolů. Sem tam spadneme, ale je to zábava a je to mnohem rychlejší. Sněhu pomalu ubývá,
+                skáčeme závějemi dolů. Sem tam spadneme, ale je to legrace a je to mnohem rychlejší. Sněhu pomalu ubývá,
                 a za chvíli jsme na blátě. Jak se nám boty ve sněhu krásně vyčistily, tak tady si je zase pěkně
                 zaprasíme.</p>
             <Image lightboxImage={img3} openLightbox={openLightbox}/>
-            <p>Postupně nám rozmrzá voda ve vacích a průběžně sundáváme jednu vrstvu za druhou. Po několika hodinách
+            <p>Postupně nám rozmrzá voda ve vacích a průběžně sundaváme jednu vrstvu za druhou. Po několika hodinách
                 jsme u prvního jídelního zařízení na druhé straně, ve 4100 mnm. Dáváme si tu oběd, šťouchané brambory.
                 Míšu pěkně bolí hlava, asi jak jsme rychle vystoupali tak vysoko a ještě rychleji sestoupali zpět dolů.
                 Tady použijeme první a naštěstí i poslední Ibalgin naší výpravy.</p>

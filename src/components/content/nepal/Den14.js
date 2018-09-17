@@ -19,7 +19,7 @@ export default withLightbox(({openLightbox}) => {
                 odrhovaček. Je tu i ten černý turista – Němec, jak později zjistíme. My se vejdeme jen do uličky, držíme
                 se zuby nehty a doufáme, že se to s námi nepřevrátí. Bohužel to není úplně nadsázka, cesty jsou tu úzké,
                 rozbité, klikatí se nad propastí, žádná svodidla. Vlivem lijáku je půda mokrá a dost často tu dochází k
-                sesuvům půdy, několik jich i potkáváme. Dokud jedeme sami, je to ještě v pohodě, ale když se vyhýbáme
+                sesuvům, několik jich i potkáváme. Dokud jedeme sami, je to ještě v pohodě, ale když se vyhýbáme
                 protijedoucím, několikrát máme mezi sešupem a koly jen pár centimetrů. Nepálčanům to evidentně nevadí,
                 smějí se a ještě se naklánějí k okýnkům na tu stranu, kde je strmá propast. My se v duchu uklidňujeme
                 myšlenkou, že aspoň umřeme společně, to je přece krásné.</p>

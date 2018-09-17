@@ -15,7 +15,7 @@ export default withLightbox(({openLightbox}) => {
         <div>
             <ArticleTitle title="Tatopani – Pokhara" date="Pondělí 14. 5."/>
             <p>Ráno nás oba bohužel bolí v krku. To snad není možný, my se toho nezbavíme. Zase prší a vymýšlíme, co
-                dál. Máme několik možností. Buď pokračovat ve treku, s mokrýma pohorkama, bolavým krkem a deštěm, anebo
+                dál. Máme několik možností. Buď pokračovat v treku, s mokrýma pohorkama, bolavým krkem a deštěm, anebo
                 to vzdát, zkusit si sehnat odvoz do Pokhary a strávit posledních pár dní před odletem tam. Od kamarádky
                 (Bětko, děkujeme!) na dálku zjišťujeme, co se dá v Pokhaře dělat, a je toho prý víc než dost. Je tedy
                 jasno. Nakoupíme si v pekárně dobrůtky, pobalíme se, seženeme taxíka a ten nás asi za 7 hodin doveze
@@ -31,7 +31,7 @@ export default withLightbox(({openLightbox}) => {
                 odpočívat. Později zjistíme, že Pokhara je k tomu jako stvořená. Je to úplně jiný svět než Káthmandú.
                 Jsou tu asfaltové silnice, celkem čisto, hodně obchůdků se suvenýry a oblečením, spoustu kaváren a
                 restaurací. Město navíc leží na břehu velkého jezera Phewa Lake a je tu i několik kopců, kam se dá
-                vyrazit na výšlap. Za hezkého počasí je dokonce vidět Annapurna I., to se nám ale bohužel
+                vyrazit na výšlap. Za hezkého počasí je dokonce vidět Annapurna I, to se nám ale bohužel
                 nepoštěstí.</p>
             <p>Potom, co nás tu taxikář vyhodí, najdeme kavárnu s wifinou a hledáme na internetu nějaký pěkný hotel.
                 Vyhlídneme si Hotel Middle Path & Spa, který je krásný, docela luxusní, s parádní zahradou i střešní
