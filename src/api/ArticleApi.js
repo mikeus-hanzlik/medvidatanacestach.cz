@@ -5,13 +5,18 @@ function range(size, startAt = 0) {
 export const getArticleList = () => {
     return [
         {
+            link: "slovinsko17",
+            title: "Slovinsko '17",
+            details: range(5, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`}))
+        },
+        {
             link: "nepal",
-            title: "Nepál",
+            title: "Nepál '18",
             details: range(15, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`}))
         },
         {
             link: "slovinsko",
-            title: "Slovinsko",
+            title: "Slovinsko '18",
             details: range(8, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`}))
         },
     ]
