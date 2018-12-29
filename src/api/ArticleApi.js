@@ -7,7 +7,8 @@ export const getArticleList = () => {
         {
             link: "slovinsko17",
             title: "Slovinsko '17",
-            details: range(5, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`}))
+            details: range(5, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`})),
+            newArticle: true
         },
         {
             link: "nepal",

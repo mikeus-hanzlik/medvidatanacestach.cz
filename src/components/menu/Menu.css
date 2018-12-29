@@ -12,6 +12,17 @@
 
 .nav-item {
     list-style-type: none;
+    position: relative;
+}
+
+.nav-item .newArticleTag {
+    position: absolute;
+    top: -18px;
+    left: -12px;
+    transform: rotate(-35deg);
+    border-radius: 5px;
+    background: #c53227;
+    padding: 2px;
 }
 
 .nav-tabs .nav-link {

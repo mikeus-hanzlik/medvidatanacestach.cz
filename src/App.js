@@ -2,13 +2,14 @@ import React, {Component} from 'react';
 import './App.css';
 import Menu from "./components/menu/Menu";
 import Content from "./components/Content";
+import NavLink from "react-router-dom/es/NavLink";
 
 class App extends Component {
     render() {
         return (
             <div className="App-container">
                 <header className="App-header">
-                    <h1>Medvíďata na cestách</h1>
+                    <h1><NavLink to="/">Medvíďata na cestách</NavLink></h1>
                     <Menu/>
                 </header>
                 <div className="App-main">

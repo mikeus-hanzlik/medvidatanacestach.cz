@@ -49,6 +49,11 @@ body {
     width: 100%;
 }
 
+.App-header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
 nav.Menu {
     max-width: var(--page-max-width);
     margin: 0 auto;

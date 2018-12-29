@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 import {getArticleList} from "../../api/ArticleApi";
 import "./Menu.css";
+import NewArticleTag from "./NewArticleTag";
 
 class Menu extends Component {
     render() {
@@ -14,6 +15,7 @@ class Menu extends Component {
                     {getArticleList().map(a => (
                             <li className="nav-item dropdown" key={a.link}>
                                 <NavLink to={`/${a.link}`} className="nav-link">{a.title}</NavLink>
+                                <NewArticleTag isNewArticle={a.newArticle}/>
                             </li>
                         )
                     )}
