@@ -8,11 +8,16 @@
     display: flex;
     min-height: 28px;
     margin: 0;
+    flex-wrap: nowrap;
+
+    padding: 0 20px;
+    max-width: calc(100vw - 40px);
 }
 
 .nav-item {
     list-style-type: none;
     position: relative;
+    flex: 0 1 auto;
 }
 
 .nav-item .newArticleTag {
@@ -34,6 +39,8 @@
     border-top-right-radius: 10px;
     border: solid 1px transparent;
     border-bottom: none;
+
+    white-space: nowrap;
 }
 
 .nav-tabs .nav-link,
