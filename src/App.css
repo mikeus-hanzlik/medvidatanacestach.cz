@@ -1,6 +1,6 @@
 :root {
     --page-max-width: 767px;
-    --header-height: 165px;
+    --header-height: 130px;
     --main-background-color: rgba(232, 232, 232, 0.7);
     --main-background-color-nonopacue: rgb(174, 183, 198);
     --active-color: #112957;
@@ -18,10 +18,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.App-header {
-
-}
-
 .App-main {
     max-width: var(--page-max-width);
     background-color: var(--main-background-color);
@@ -35,16 +31,20 @@ body {
 }
 
 .App-header {
+    position: relative;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-items: center;
     height: var(--header-height);
     color: white;
     background-size: 300px 220px;
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    padding: 0 75px;
+    box-sizing: border-box;
 }
 
 .App-header h1 {
-    position: absolute;
-    top: 25px;
     text-align: center;
     width: 100%;
 }

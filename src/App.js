@@ -9,8 +9,8 @@ class App extends Component {
         return (
             <div className="App-container">
                 <header className="App-header">
-                    <h1><NavLink to="/">Medvíďata na cestách</NavLink></h1>
                     <Menu/>
+                    <h1><NavLink to="/">Medvíďata na cestách</NavLink></h1>
                 </header>
                 <div className="App-main">
                     <Content/>
