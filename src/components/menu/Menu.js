@@ -45,11 +45,11 @@ class Menu extends Component {
 
                     <ul className="Menu-Articles">
                         <li className="nav-item">
-                            <NavLink to='/' exact className="nav-link">O nás</NavLink>
+                            <NavLink to='/' exact className="nav-link" onClick={this.toggleMenu}>O nás</NavLink>
                         </li>
                         {getArticleList().map(a => (
                                 <li className="nav-item" key={a.link}>
-                                    <NavLink to={`/${a.link}`} className="nav-link">{a.title}</NavLink>
+                                    <NavLink to={`/${a.link}`} className="nav-link" onClick={this.toggleMenu}>{a.title}</NavLink>
                                     <NewArticleTag isNewArticle={a.newArticle}/>
                                 </li>
                             )
