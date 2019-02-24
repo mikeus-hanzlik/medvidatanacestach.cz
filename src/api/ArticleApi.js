@@ -6,19 +6,25 @@ export const getArticleList = () => {
     return [
         {
             link: "slovinsko17",
-            title: "Slovinsko '17",
+            title: "Slovinsko 2017",
             details: range(5, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`})),
             newArticle: true
         },
         {
             link: "nepal",
-            title: "Nepál '18",
+            title: "Nepál 2018",
             details: range(15, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`}))
         },
         {
             link: "slovinsko",
-            title: "Slovinsko '18",
+            title: "Slovinsko 2018",
             details: range(8, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`}))
+        },
+        {
+            link: "rakousko18",
+            title: "Hohe Tauern 2018",
+            details: range(4, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`})),
+            newArticle: true
         },
     ]
 };

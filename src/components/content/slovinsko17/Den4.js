@@ -10,7 +10,7 @@ import ArticleTitle from "../../articles/ArticleTitle";
 
 const img1 = buildLightboxImage(img1Src, "Ribčev Laz");
 const img2 = buildLightboxImage(img2Src, "Výhled na Bled");
-const img3 = buildLightboxImage(img3Src, "Řeka v Lublaňi");
+const img3 = buildLightboxImage(img3Src, "Řeka v Lublani");
 const img4 = buildLightboxImage(img4Src, "Lublaňský hrad");
 
 export default withLightbox(({openLightbox}) => {

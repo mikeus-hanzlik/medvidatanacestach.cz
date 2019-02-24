@@ -12,12 +12,16 @@
     list-style-type: none;
     position: relative;
     margin: 15px 0;
+    border: solid 1px var(--active-color);
+    border-radius: 10px;
+    padding: 8px;
+    background-color: var(--active-color);
 }
 
 .nav-item .newArticleTag {
     position: absolute;
-    top: 0;
-    left: -38px;
+    top: -6px;
+    left: -21px;
     transform: rotate(-45deg);
     border-radius: 5px;
     background: #c53227;
@@ -28,15 +32,7 @@
 .nav-item .nav-link:hover {
     text-decoration: none;
     font-size: 1.5em;
-    color: black;
-}
-
-.nav-item .nav-link:hover {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.nav-item .nav-link.active {
-    color: var(--active-color);
+    color: white;
 }
 
 .chapters {
@@ -114,16 +110,10 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: white;
+    background: #dcdee2;
     padding: 50px 0;
     z-index: 100;
     overflow: hidden;
-}
-
-@media only screen and (max-width: 767px) {
-    #menuContent {
-        width: 100%;
-    }
 }
 
 #menuContent.expanded {
@@ -131,6 +121,16 @@
     max-width: 767px;
     padding: 50px 70px;
     transition: all .5s;
+}
+
+@media only screen and (max-width: 767px) {
+    #menuContent {
+        width: calc(100% - 80px);
+    }
+
+    #menuContent.expanded {
+        padding: 50px 40px;
+    }
 }
 
 button.close {
