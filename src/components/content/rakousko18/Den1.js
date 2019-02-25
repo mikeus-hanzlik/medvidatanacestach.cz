@@ -26,12 +26,12 @@ export default withLightbox(({openLightbox}) => {
             nechce lézt po horách po svých.</p>
         <p>Kolem jedné odpolední parkujeme Obludu na kraji Winklu, odkud začíná turistická stezka Alpe Adria Trail. Máme
             toho po dlouhé cestě docela dost, ale převlíkáme se, nasazujeme krosny a vyrážíme. Jsme zhruba 1400 mnm
-            vysoko a hned od začátku nás čeká nás pěknej stoupák. Míjíme vyhlídku na Heiligenblut, opuštěné chajdy na
+            vysoko a hned od začátku nás čeká pěknej stoupák. Míjíme vyhlídku na Heiligenblut, opuštěné chajdy na
             louce a básníme o tom, jak bychom tu taky chtěli mít chatu. Podle mapy by kousek od začátku měly být
             vodopády Leiterfall, nakonec se tam ale šouráme docela dlouho. Skoro jsme zapomněli, o kolik pomaleji se s
             těžkýma krosnama jde!</p>
         <Image lightboxImage={img1} openLightbox={openLightbox}/>
-        <p>Asi po 6 km a cca 3 hodinách konečně přicházíme k přehradě Margaritzenstausee, bod s nejdelším názvem na celé
+        <p>Asi po 6 km a cca 3 hodinách konečně přicházíme k přehradě Margaritzenstausee, bodu s nejdelším názvem na celé
             naší trase. <Smile/> Původně tu někde kolem chceme spát, ale pořád sem doléhá dost hluk a z High Alpine
             Road, tak pokračujeme dále do kopce. </p>
         <Image lightboxImage={img2} openLightbox={openLightbox}/>

@@ -30,13 +30,6 @@ export default withLightbox(({openLightbox}) => {
             máme i péřovky. Na hřebeni, kde se vrstevnice lámou, potkáváme dokonce pár lidí. Odtud budeme znovu klesat.
             Z 2700 mnm sestoupáme až do 2300, kde je spoustu oveček a krásné jezírko, kde si na vařiči uděláme oběd. K
             naší radosti se dokonce i docela trhají mraky. To je pohoda!</p>
-        <p>Z noclehárny nakonec vyrážíme až kolem 12:00. Hned na začátku cesty potkáme pár, který jde od Dom na Komni.
-            Ptáme se, jaká je cesta a podle týpka je moc pěkná. Trochu sněhu prý, ale jinak dobrý. Super! Vyrážíme s
-            klidem, že nejdeme úplně naslepo a můžeme se držet stop. Bohužel postupně zjišťujeme, že týpek měl trochu
-            zkreslený pohled. Sněhu je všude kotel, mlha přetrvává. Příroda je moc hezká a v létě to musí být parádní
-            procházka. Když ale později začne lejt, je Šárka už trochu vzteklá. Nezbývá nám než se několik hodit brodit
-            ve sněhu a moknout, než konečně dorazíme k Domu na Komni. Když vevnitř najdeme teplou jídelnu s milým panem
-            domácím, jsme nadšení.</p>
         <figure>
             <video controls>
                 <source src={video1Src} type="video/mp4"/>
@@ -48,10 +41,10 @@ export default withLightbox(({openLightbox}) => {
         <p>Vymýšlíme, jak si naši trasu upravíme a vymyslíme, že vynecháme několik náročnějších přechodů hřebenů a místo
             toho půjdeme k Adolf-Nossberger-Hütte, kam jsme původně vůbec jít neměli. Někde přespíme a potom už jen
             sejdeme k vesnici Putschall asi 12 km od auta. Potom bychom měli mít dost času i na návrat zpátky do ČR.</p>
-        <p>Sestoupáme do 2300 mnm, krásnou úzkou stezkou v trávě, kolem dokonce znovu rostou kytičky. U potůčku s
+        <p>Sestoupáme do 2300 mnm, tak nízko, že tam znovu rostou kytičky. U potůčku s
             výhledem na Lienzer Hütte pod námi, kam jsme původně chtěli jít, si umyjeme nohy a znovu si dáchneme, načež
-            nás čeká poslední výšlap tohoto výletu. Musíme se znovu vyškrabat do výšky 2800 mnm, odtud už to bude
-            pohoda. Nad námi svítí sluníčko, ale nad okolními hřebeny se stahují pěkně tmavá mračna. Bojíme se, aby nás
+            nás čeká poslední výšlap tohoto výletu. Musíme se znovu vyškrábat do výšky 2800 mnm, odtud už to bude
+            pohoda. Svítí sluníčko, ale nad okolními hřebeny se stahují pěkně tmavá mračna. Bojíme se, aby nás
             nechytla bouřka, tak se hecneme a nasadíme pořádné tempo.</p>
         <Image lightboxImage={img2} openLightbox={openLightbox}/>
         <p>Nejdřív stoupáme po trávě, pak po štěrku a nakonec už jen po šutrech. Společnost nám dělají ovečky kolem nás
@@ -72,10 +65,10 @@ export default withLightbox(({openLightbox}) => {
             z Míši dělá srandu, že je to slečinka. Kolem chajdy je plácků na spaní několik, ale nejde se nikam úplně
             schovat.</p>
         <Image lightboxImage={img5} openLightbox={openLightbox}/>
-        <p>V chajdě mají kupodivu volno a dokonce i přijmou náš slovinský horozelecký průkaz a dostaneme slevu! Máme
-            dokonce i svůj pokoj, i když je v něm více postelí. Ty aspoň využijeme k rozložení a usušení stanu a dalších
-            věcí. Dáme si v jídelně moc dobrou večeři včetně dezertíku a po večeři se jdeme ven vykoupat. Šárka si to s
-            koupáním záhy rozmyslí, se západem slunce totiž slušně přituhlo. Míša se neohroženě vlhá do spárů
+        <p>V chajdě mají kupodivu volno a dokonce i přijmou náš slovinský horozelecký průkaz a dostaneme slevu!
+            Vyfasujeme samostatný pokoj, i když je v něm více postelí. Ty aspoň využijeme k rozložení a usušení stanu a
+            dalších věcí. Dáme si v jídelně moc dobrou večeři včetně dezertíku a po večeři se jdeme ven vykoupat. Šárka
+            si to s koupáním záhy rozmyslí, se západem slunce totiž slušně přituhlo. Míša se neohroženě vlhá do spárů
             ledovcového jezera a podle výrazu na fotce si to vyloženě užívá.</p>
         <Image lightboxImage={img6} openLightbox={openLightbox}/>
         <p>V noci opět leje, takže nakonec můžeme být vážně rádi, že jsme hezky v teple a suchu. Vyspíme se jako

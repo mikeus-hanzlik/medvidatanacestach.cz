@@ -15,7 +15,7 @@ export default withLightbox(({openLightbox}) => {
         </p>
         <p>Máme jen prodloužený víkend a los nakonec padá na Rakousko – tentokrát národní park Vysoké Taury, Hohe
             Tauern. Naplánujeme si 66 km dlouhou trasu, která se nakonec ukáže být na 3 dny a kousek moc
-            ambiciózní. </p>
+            ambiciózní, takže nakonec přistoupíme na alternativní trasu, která má cca 40 km.</p>
         <Image lightboxImage={trasa} openLightbox={openLightbox}>
             <span>(<a href="https://mapy.cz/s/3pfPq" rel="noopener noreferrer" target="_blank">mapa zde</a>)</span>
         </Image>

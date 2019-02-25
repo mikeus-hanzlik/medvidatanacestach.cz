@@ -3,7 +3,7 @@ import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
 import Image from '../../articles/Image';
 import Smile from '../../icons/Smile';
-import img1src from "../../../images/rakousko18/SpaciMístoPrvniNoc.jpg";
+import img1src from "../../../images/rakousko18/SpaciMistoPrvniNoc.jpg";
 import img2src from "../../../images/rakousko18/Vyrazime.jpg";
 import img3src from "../../../images/rakousko18/Grossglockner.jpg";
 import img4src from "../../../images/rakousko18/LouceniSGrossglocknerem.jpg";
@@ -29,9 +29,9 @@ export default withLightbox(({openLightbox}) => {
         <Image lightboxImage={img1} openLightbox={openLightbox}/>
         <Image lightboxImage={img2} openLightbox={openLightbox}/>
         <p>Vyrazíme na cestu, a i když jsme původně nebyli z trailu nadšení, jakmile začneme na úzké stezce závodníky
-            potkávat, nezbyde nám nic než obrovský obdiv. Později si o závodu přečteme, že nejdelší trasa má 110 km,
+            míjet, nezbyde nám nic než obrovský obdiv. Později si o závodu přečteme, že nejdelší trasa má 110 km,
             převýšení 6500 m, startuje se v pátek večer a nyní mají borci poklusávající kolem nás v nohách kolem 40 km.
-            Těm nejlepším mužům vše zmáknou za 14 a půl hodiny, ženám o dvě a půl hoďky více. Mimochodem, traťové
+            Ti nejlepší muži vše zvládnou za neuvěřitelných 14 a půl hodiny, ženy za 17 hodin. Mimochodem, traťové
             rekordy mužů i žen padnou tento rok, určitě k tomu přispěje i nádherné počasí a naše přítomnost! Kromě trasy
             dlouhé 110 km je možné se vydat i na trasu dlouhou 75, 50 nebo 30 km. Přidá se k nám příště někdo? <Smile/>
         </p>
@@ -71,7 +71,7 @@ export default withLightbox(({openLightbox}) => {
             se, že to střihneme někde mimo cestu srázem a třeba někde najdeme místo na spaní. Je to trochu risk, ale
             nakonec nám to vychází. Jdeme pomalu a brutálně do kopce, ale po nějaké době opravdu vyšplháme na
             rovinatější část a nakonec najdeme moc pěkný plácek, o hodně výš nad cestou, takže se nemusíme bát, že by
-            nás někdo viděl, zato s krásným výhledem na hory. Je nejvyšší čas, pomalu osmá hodina, počasí se kazí,
+            nás někdo viděl. Je nejvyšší čas, pomalu osmá hodina, počasí se kazí,
             padají mraky a nakonec i prší, jsme rádi, když stihneme postavit stan a udělat si večeři jakž takž v
             suchu.</p>
         <Image lightboxImage={img6} openLightbox={openLightbox}/>
