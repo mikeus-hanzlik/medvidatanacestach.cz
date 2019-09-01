@@ -22,6 +22,14 @@ figcaption {
     max-height: 350px;
 }
 
+@media only screen and (max-width: 767px) {
+    img,
+    video,
+    figcaption {
+        max-width: 100%;
+    }
+}
+
 .articleText {
     margin-top: 20px;
 }
