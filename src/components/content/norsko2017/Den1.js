@@ -5,7 +5,7 @@ import Image from "../../articles/Image";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import img1src from "../../../images/norsko2017/D1_Stavanger.jpg";
 
-const img1 = buildLightboxImage(img1src, "D1_Stavanger");
+const img1 = buildLightboxImage(img1src, "Stavanger");
 
 export default withLightbox(({openLightbox}) => {
     return (<div>
