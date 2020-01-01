@@ -2,7 +2,7 @@ import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
 import img1Src from "../../../images/norsko2017/D5_rano.jpg";
-import img2Src from "../../../images/norsko2017/D5_vyrazime.jpeg";
+import img2Src from "../../../images/norsko2017/D5_vyrazime.jpg";
 import img3Src from "../../../images/norsko2017/D5_stoupame.jpg";
 import img4Src from "../../../images/norsko2017/D5_chaty.jpg";
 import img5Src from "../../../images/norsko2017/D5_alternativni_cesta.jpg";

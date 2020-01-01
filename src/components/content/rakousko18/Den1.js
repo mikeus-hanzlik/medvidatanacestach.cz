@@ -5,7 +5,7 @@ import Image from "../../articles/Image";
 import Smile from "../../icons/Smile";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import img1src from "../../../images/rakousko18/VyhlidkaNaHeiligenblut.jpg";
-import img2src from "../../../images/rakousko18/JezeroMargaritzenstausee.png";
+import img2src from "../../../images/rakousko18/JezeroMargaritzenstausee.jpg";
 import img3src from "../../../images/rakousko18/SarkaAGrossglockner.jpg";
 
 const img1 = buildLightboxImage(img1src, "Vyhlídka na Heiligenblut");

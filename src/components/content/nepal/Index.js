@@ -2,7 +2,7 @@ import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
 import img1Src from "../../../images/nepal/batuzky.jpg";
-import trasaSrt from "../../../images/nepal/trasaNepal.png";
+import trasaSrt from "../../../images/nepal/trasaNepal.jpg";
 import Image from "../../articles/Image";
 
 const img1 = buildLightboxImage(img1Src, "Sbaleno na cestu");

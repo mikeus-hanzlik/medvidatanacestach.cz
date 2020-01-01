@@ -2,7 +2,7 @@ import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
 import img1Src from "../../../images/slovinsko/SedmTriglavskychJezer.jpg";
-import img2Src from "../../../images/slovinsko/PrstynekUJezera.jpeg";
+import img2Src from "../../../images/slovinsko/PrstynekUJezera.jpg";
 import Image from "../../articles/Image";
 import ArticleTitle from "../../articles/ArticleTitle";
 

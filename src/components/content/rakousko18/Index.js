@@ -1,7 +1,7 @@
 import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
-import trasaSrt from "../../../images/rakousko18/HoheTauernTrasa.png";
+import trasaSrt from "../../../images/rakousko18/HoheTauernTrasa.jpg";
 import Image from "../../articles/Image";
 import Smile from "../../icons/Smile";
 

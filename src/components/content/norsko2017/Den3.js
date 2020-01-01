@@ -2,7 +2,7 @@ import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
 import img1Src from "../../../images/norsko2017/D3_plommer.jpg";
-import img2Src from "../../../images/norsko2017/D3_Hardangerfjord.jpeg";
+import img2Src from "../../../images/norsko2017/D3_Hardangerfjord.jpg";
 import Smile from "../../icons/Smile";
 import Image from "../../articles/Image";
 import ArticleTitle from "../../articles/ArticleTitle";
