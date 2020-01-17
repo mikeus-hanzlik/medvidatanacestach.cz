@@ -1,6 +1,7 @@
 {
   "name": "medvidatanacestach",
   "version": "1.0.0",
+  "homepage": "https://medvidatacdn.azureedge.net/",
   "engines": {
     "node": "10.15"
   },
