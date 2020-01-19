@@ -54,6 +54,13 @@ class Menu extends Component {
                                 </li>
                             )
                         )}
+                        <li className="nav-item wedding">
+                            <a href="https://chicvintagebrides.com/fairytale-winter-wedding-slavkov-forest/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               className="nav-link">Naše svatba</a>
+                            <NewArticleTag isNewArticle={true}/>
+                        </li>
                     </ul>
                 </div>
             </nav>

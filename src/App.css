@@ -4,6 +4,7 @@
     --main-background-color: rgba(232, 232, 232, 0.7);
     --main-background-color-nonopacue: rgb(174, 183, 198);
     --active-color: #112957;
+    --external-link-color: #dc4d20;
 }
 
 html {
