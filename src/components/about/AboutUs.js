@@ -23,8 +23,9 @@ export default withLightbox(({openLightbox}) => {
         <p>Za {getRelationshipDuration()} {getRelationshipDuration() < 5 ? "roky" : "let"}, co jsme spolu, jsme toho stihli už celkem dost. Na našich
             cestách se snažíme psát si (nebo i nahrávat) cestovatelský deník, jednak kvůli vzpomínkám, a také je to fajn zábava při dlouhých večerech
             pod stanem nebo někde v divočině. To, co čtete, jsem ve většině sepsala já, a to, že to číst můžete, je ve většině zásluha Michala, i když
-            díky jeho výuce jsem i já svou troškou přispěla do programátorského mlýna. <Smile /></p>
-        <p>Začátkem prosince roku 2019 se nám převrátil život vzhůru nohama. Narodila se nám Nikolka a své výlety jsme chtě nechtě museli trochu
+            díky jeho výuce jsem i já svou troškou přispěla do programátorského mlýna. <Smile />
+        </p>
+        <p>Začátkem prosince roku 2019 se nám převrátil život vzhůru nohama. Narodila se nám Nikolka a své plány jsme chtě nechtě museli trochu
             přizpůsobit. I tak se snažíme podnikat výlety s kočárem, vozíkem nebo nosítkem a už teď se těšíme, až bude to naše malé medvídě běhat po
             horách s námi.</p>
         <p>Snad se vám bude naše vyprávění líbit!</p>
