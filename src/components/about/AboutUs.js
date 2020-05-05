@@ -1,7 +1,8 @@
 import React from "react";
 import withLightbox from "../infrastructure/withLightbox";
 import {buildLightboxImage} from "../helpers/imageHelper";
-import imgSrc from "../../images/My.jpg";
+import imgSrc from "../../images/My3.jpg";
+import Smile from "../icons/Smile";
 
 const img = buildLightboxImage(imgSrc, "My");
 
@@ -14,13 +15,19 @@ const getRelationshipDuration = () => {
 export default withLightbox(({openLightbox}) => {
     return (<div className="aboutUsContent">
         <h1>O nás</h1>
-        <p>Jsme Šárka a Michal. Původně ze západních Čech, i když teď už spíš z Prahy. Dvě kancelářské krysy, co pracují v korporaci a díky jedné se
-            poznaly a zamilovaly se do sebe. Jedna outdoorová princezna a drsný, ale užitečný týpek (slovy Michala). Nadšenci, co rádi jezdí na vandry
-            a chodí po horách. A každou volnou chvíli se rádi vydají někam do přírody.</p>
-        <p>Za {getRelationshipDuration()} {getRelationshipDuration() < 5 ? "roky" : "let"}, co jsme spolu, jsme toho stihli už celkem dost. Od začátku se snažíme psát si (později kvůli úspoře času i nahrávat)
-            cestovatelský deník, a tak vznikl nápad tohohle blogu.</p>
-        <p><b>Šárka</b>: Obsah, návrh designu</p>
-        <p><b>Michal</b>: Tvorba webu</p>
+        <p>Ahoj! Ať už omylem, nebo cíleně, zavítali jste na náš skromný cestovatelský blog. Pokud nás neznáte, jmenujeme se Šárka a Michal, jsme
+            obyčejný manželský pár ze západních Čech, který žije v Praze a pracuje v korporacích. Sezení v kanceláři se snažíme kompenzovat výlety do
+            přírody. Nejradši jezdíme na vandry a na hory, nebo aspoň kamkoliv do lesa. Čím míň lidí potkáme, tím líp. <Smile/> A proč Medvíďata? Kdo zná
+            Michala, ten ví, no a já jsem to tak nějak podědila.</p>
+        <p>Za {getRelationshipDuration()} {getRelationshipDuration() < 5 ? "roky" : "let"}, co jsme spolu, jsme toho stihli už celkem dost. Ahoj! Ať
+            už omylem, nebo cíleně, zavítali jste na náš skromný cestovatelský blog. Pokud nás neznáte, jmenujeme se Šárka a Michal, jsme obyčejný
+            manželský pár ze západních Čech, který žije v Praze a pracuje v korporacích. Sezení v kanceláři se snažíme kompenzovat výlety do přírody.
+            Nejradši jezdíme na vandry a na hory, nebo aspoň kamkoliv do lesa. Čím míň lidí potkáme, tím líp. <Smile/> A proč Medvíďata? Kdo zná Michala,
+            ten ví, no a já jsem to tak nějak podědila.</p>
+        <p>Začátkem prosince roku 2019 se nám převrátil život vzhůru nohama. Narodila se nám Nikolka a své výlety jsme chtě nechtě museli trochu
+            přizpůsobit. I tak se snažíme podnikat výlety s kočárem, vozíkem nebo nosítkem a už teď se těšíme, až bude to naše malé medvídě běhat po
+            horách s námi.</p>
+        <p>Snad se vám bude naše vyprávění líbit!</p>
         <figure>
             <img src={img.src} alt={img.caption} onClick={openLightbox(0)} />
             <figcaption>{img.caption}</figcaption>
