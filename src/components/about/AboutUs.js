@@ -4,7 +4,7 @@ import {buildLightboxImage} from "../helpers/imageHelper";
 import imgSrc from "../../images/My3.jpg";
 import Smile from "../icons/Smile";
 
-const img = buildLightboxImage(imgSrc, "My");
+const img = buildLightboxImage(imgSrc, "My 3");
 
 const relationshipBeginning = new Date("2016-10-01");
 const getRelationshipDuration = () => {
