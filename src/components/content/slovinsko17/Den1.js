@@ -20,8 +20,7 @@ export default withLightbox(() => {
             louže. Necháme Fabínkovi zapnutá světla, abychom mohli postavit stan. Ale ouha, kolíky nikde! Měla je za
             úkol zabalit Šárka, ale sklerotik na ně úplně zapomněla. Naštěstí neprší ani nefouká, tak si vystačíme s pár
             provizorníma klackama, které Míša oseká, aby šly zabodnout do země. Ještě, že je tak šikovnej, drsnej a
-            užitečnej a vyřeší všechny problémy, které jeho drahá způsobí. <Smile/>
-        </p>
+            užitečnej a vyřeší všechny problémy, které jeho drahá způsobí. <Smile/></p>
         <p>Umývárny jsou zavřené, tak si vyčistíme zuby do auta a s vypětím sil zalezeme do stanu. Dobrou noc!</p>
     </div>)
 }, [])

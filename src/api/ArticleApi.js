@@ -30,6 +30,12 @@ export const getArticleList = () => {
             details: range(16, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`})),
             newArticle: true
         },
+        {
+            link: "svedsko2019",
+            title: "Svatební cesta Švédsko 2019",
+            details: range(10, 1).map(i => ({link: `den${i}`, title: `Den ${i}.`})),
+            newArticle: true
+        },
     ]
 };
 
