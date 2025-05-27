@@ -15,11 +15,11 @@ export default defineConfig({
         '.js': 'jsx'
       }
     }
-  },
-  server: {
+  },  server: {
     port: 3000,
     open: true
-  },  build: {
+  },
+  build: {
     outDir: 'build',
     sourcemap: true
   },

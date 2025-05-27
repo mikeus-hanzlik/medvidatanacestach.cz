@@ -7,18 +7,21 @@ import { NavLink } from "react-router-dom";
 const App = () => {
     return (
         <div className="App-container">
-            <header className="App-header">
-                <Menu/>
-                <h1><NavLink to="/">Medvíďata na cestách</NavLink></h1>
+            <header className="App-header" role="banner">
+                <Menu />
+                <h1>
+                    <NavLink to="/" aria-label="Domovská stránka - Medvíďata na cestách">
+                        Medvíďata na cestách
+                    </NavLink>
+                </h1>
             </header>
-            <main className="App-main">
-                <Content/>
+            <main className="App-main" role="main">
+                <Content />
             </main>
-            {/*<div className="App-footer">*/}
-            {/*<p>Footer</p>*/}
-            {/*</div>*/}
-        </div>
-    );
+            <footer className="App-footer" role="contentinfo" style={{ display: 'none' }}>
+                {/* Future footer content */}
+            </footer>
+        </div>    );
 };
 
 export default App;
