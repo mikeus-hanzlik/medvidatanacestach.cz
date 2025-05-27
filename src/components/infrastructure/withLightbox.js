@@ -1,61 +1,48 @@
-import React from "react";
-import Lightbox from 'react-images';
-import {getWindowWidth} from "../helpers/windowHelper";
+import React, { useState } from "react";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
-export default (Component, images) => {
-    return class extends React.Component {
-        state = {
-            currentImage: 0,
-            lightboxIsOpen: false
-        };
+const withLightbox = (Component, images = []) => {
+    const WithLightboxComponent = (props) => {
+        const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
+        const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-        closeLightbox() {
-            this.setState({
-                currentImage: 0,
-                lightboxIsOpen: false,
-            });
-        }
-
-        gotoPrevious() {
-            this.setState({
-                currentImage: this.state.currentImage - 1,
-            });
-        }
-
-        gotoNext() {
-            this.setState({
-                currentImage: this.state.currentImage + 1,
-            });
-        }
-
-        render() {
-            const openLightbox = (_this) => {
-                let imgIndex = 0;
+        const openLightbox = () => {
+            let imgIndex = 0;
+            return () => {
+                const currentIndex = imgIndex++;
                 return () => {
-                    const currentIndex = imgIndex++;
-                    return () => {
-                        _this.setState({
-                            currentImage: currentIndex,
-                            lightboxIsOpen: true,
-                        });
-                    };
+                    setCurrentImageIndex(currentIndex);
+                    setLightboxIsOpen(true);
                 };
             };
+        };
 
+        const closeLightbox = () => {
+            setLightboxIsOpen(false);
+            setCurrentImageIndex(0);
+        };
 
-            return (<div>
-                <Component openLightbox={openLightbox(this)}/>
+        // Convert images to the format expected by yet-another-react-lightbox
+        const lightboxImages = images.map(img => ({
+            src: img.src,
+            alt: img.caption || img.alt || ""
+        }));
+
+        return (
+            <div>
+                <Component openLightbox={openLightbox()} {...props} />
                 <Lightbox
-                    images={images}
-                    isOpen={this.state.lightboxIsOpen}
-                    onClickPrev={this.gotoPrevious.bind(this)}
-                    onClickNext={this.gotoNext.bind(this)}
-                    onClose={this.closeLightbox.bind(this)}
-                    currentImage={this.state.currentImage}
-                    backdropClosesModal={true}
-                    width={getWindowWidth() * 0.75}
+                    open={lightboxIsOpen}
+                    close={closeLightbox}
+                    slides={lightboxImages}
+                    index={currentImageIndex}
                 />
-            </div>)
-        }
-    }
-}
+            </div>
+        );
+    };
+
+    return WithLightboxComponent;
+};
+
+export default withLightbox;

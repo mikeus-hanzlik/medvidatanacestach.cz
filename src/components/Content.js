@@ -1,22 +1,21 @@
 import AboutUs from "./about/AboutUs";
 import Article from "./articles/Article";
-import {Route, Switch} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import React from "react";
-import {getArticleList} from "../api/ArticleApi";
+import { getArticleList } from "../api/ArticleApi";
 import "./Content.css"
 
-export default () => {
+const Content = () => {
     return (
         <div className="Content">
-            <Switch>
-                <Route exact path='/' component={AboutUs}/>
+            <Routes>
+                <Route path='/' element={<AboutUs />} />
                 {getArticleList().map(a => (
-                        <Route key={a.link} path={`/${a.link}`} render={(props) => (
-                            <Article {...a} {...props} />)
-                        }/>
-                    )
-                )}
-            </Switch>
+                    <Route key={a.link} path={`/${a.link}/*`} element={<Article {...a} />} />
+                ))}
+            </Routes>
         </div>
     )
 }
+
+export default Content;

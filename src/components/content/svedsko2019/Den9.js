@@ -9,7 +9,6 @@ import img4src from "../../../images/svedsko2019/Ulicka.jpg";
 
 
 import ArticleTitle from "../../articles/ArticleTitle";
-import Smile from "../../icons/Smile";
 
 const img1 = buildLightboxImage(img1src, "Pláž poblíž kolejí Lappis");
 const img2 = buildLightboxImage(img2src, "Stockholmská knihovna");

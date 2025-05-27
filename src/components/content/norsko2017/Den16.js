@@ -2,7 +2,7 @@ import React from "react";
 import Smile from "../../icons/Smile";
 import ArticleTitle from "../../articles/ArticleTitle";
 
-export default ({openLightbox}) => {
+const Den16 = ({openLightbox}) => {
     return (<div>
         <ArticleTitle title="Domů..." date="Středa 20. 9. 2017"/>
         <p>Cestu na letiště jsme měli nastudovanou a šli jsme s dostatečným předstihem, jenomže autobus měl zpoždění a v
@@ -17,3 +17,5 @@ export default ({openLightbox}) => {
             sklonem k pesimismu myslím, že jsme to nakonec ještě docela vychytali. <Smile/></p>
     </div>)
 }
+
+export default Den16;

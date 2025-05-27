@@ -1,9 +1,12 @@
 import React from "react";
-import {Route} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import SubItems from "./SubItems";
 
-export default ({id}) => {
-    return (<Route path={`/${id}`} render={() => (
-            <SubItems link={id}/>)
-        }/>)
-}
+const Chapters = ({ id }) => {
+    const location = useLocation();
+    const shouldShow = location.pathname.startsWith(`/${id}`);
+    
+    return shouldShow ? <SubItems link={id} /> : null;
+};
+
+export default Chapters;

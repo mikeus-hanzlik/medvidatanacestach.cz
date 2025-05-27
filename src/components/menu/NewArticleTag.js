@@ -1,9 +1,11 @@
 import React from "react";
 
-export default ({isNewArticle}) => {
+const NewArticleTag = ({isNewArticle}) => {
     if (isNewArticle) {
         return <div className="newArticleTag">New</div>
     }
 
     return null;
 }
+
+export default NewArticleTag;
