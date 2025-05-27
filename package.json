@@ -1,6 +1,7 @@
 {
   "name": "medvidatanacestach",
   "version": "1.0.0",
+  "type": "module",
   "homepage": "https://medvidatacdn.azureedge.net/",
   "engines": {
     "node": ">=20.0.0"
@@ -10,9 +11,9 @@
     "env-cmd": "^10.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.1",
-    "yet-another-react-lightbox": "^3.23.2"
-  },  "scripts": {
+    "react-router-dom": "^7.6.1",    "yet-another-react-lightbox": "^3.23.2"
+  },
+  "scripts": {
     "dev": "vite",
     "start": "vite",
     "build": "vite build",

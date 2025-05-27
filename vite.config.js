@@ -19,15 +19,14 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true
-  },
-  build: {
+  },  build: {
     outDir: 'build',
     sourcemap: true
   },
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: ['./src/setupTests.js'],
+    setupFiles: ['./test/setupTests.js'],
     include: ['src/**/*.{test,spec}.{js,jsx,ts,tsx}', 'test/**/*.{test,spec}.{js,jsx,ts,tsx}'],
     css: true
   }
