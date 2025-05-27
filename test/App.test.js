@@ -1,10 +1,16 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import { render } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
+import { describe, it, expect } from 'vitest';
 import App from '../src/App';
 
-it('renders without crashing', () => {
-    const div = document.createElement('div');
-    const root = createRoot(div);
-    root.render(<App/>);
-    root.unmount();
+describe('App', () => {
+  it('renders without crashing', () => {
+    render(
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    );
+    expect(document.body).toBeTruthy();
+  });
 });

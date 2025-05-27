@@ -11,14 +11,14 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.1",
-    "react-scripts": "^5.0.1",
     "yet-another-react-lightbox": "^3.23.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  },  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "browserslist": [
     "> 1%",
@@ -27,21 +27,12 @@
     "last 2 versions"
   ],
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^14.5.2"
-  },  "jest": {
-    "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
-      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}",
-      "<rootDir>/test/**/__tests__/**/*.{js,jsx,ts,tsx}",
-      "<rootDir>/test/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
-    ],
-    "moduleNameMapper": {
-      "^yet-another-react-lightbox$": "<rootDir>/test/__mocks__/yet-another-react-lightbox.js",
-      "^yet-another-react-lightbox/styles.css$": "<rootDir>/test/__mocks__/yet-another-react-lightbox/styles.css",
-      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
-    }
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^4.5.0",
+    "jsdom": "^26.1.0",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
   }
 }

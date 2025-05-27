@@ -7,7 +7,7 @@ const ContentManager = ({ articleId, params }) => {
     const overviewPageName = "index";
     const detailId = params.detailId || overviewPageName;
 
-    const AsyncArticle = asyncComponent(() => import(`../content/${articleId}/${capitalizeFirstLetter(detailId)}`));
+    const AsyncArticle = asyncComponent(() => import(`../content/${articleId}/${capitalizeFirstLetter(detailId)}.js`));
 
     return <AsyncArticle />
 };
