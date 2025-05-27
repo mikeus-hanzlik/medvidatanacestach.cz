@@ -25,11 +25,12 @@ class ErrorBoundary extends React.Component {
             return (
                 <div className="error-boundary" role="alert">
                     <h2>Něco se pokazilo</h2>
-                    <p>Omlouváme se, ale došlo k neočekávané chybě.</p>
-                    <details>
+                    <p>Omlouváme se, ale došlo k neočekávané chybě.</p>                    <details>
                         <summary>Technické detaily</summary>
                         <pre>{this.state.error && this.state.error.toString()}</pre>
-                        <pre>{this.state.errorInfo.componentStack}</pre>
+                        {this.state.errorInfo && this.state.errorInfo.componentStack && (
+                            <pre>{this.state.errorInfo.componentStack}</pre>
+                        )}
                     </details>
                     <button 
                         onClick={() => window.location.reload()}

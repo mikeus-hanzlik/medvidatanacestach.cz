@@ -22,10 +22,13 @@ export const getWindowHeight = () => {
 
 /**
  * Check if the current device is mobile based on window width
- * @returns {boolean} True if mobile device
+ * @returns {boolean} True if mobile device (window available and width <= 768)
  */
 export const isMobileDevice = () => {
-    return getWindowWidth() <= 768;
+    if (typeof window === 'undefined') {
+        return false;
+    }
+    return window.innerWidth <= 768;
 };
 
 /**
