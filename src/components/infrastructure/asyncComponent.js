@@ -1,20 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
+/**
+ * Modern async component using React.lazy
+ * @param {Function} importComponent - Function that returns a dynamic import
+ * @returns {React.Component} Lazy component
+ */
 const asyncComponent = (importComponent) => {
-    const AsyncComponent = (props) => {
-        const [component, setComponent] = useState(null);
-
-        useEffect(() => {
-            importComponent()
-                .then(cmp => {
-                    setComponent(() => cmp.default);
-                });
-        }, []);
-
-        return component ? React.createElement(component, props) : null;
-    };
-
-    return AsyncComponent;
+    return React.lazy(importComponent);
 };
 
 export default asyncComponent;
