@@ -3,31 +3,45 @@
   "version": "1.0.0",
   "homepage": "https://medvidatacdn.azureedge.net/",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "private": true,
   "dependencies": {
     "env-cmd": "^10.1.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.1",
     "react-scripts": "^5.0.1",
     "yet-another-react-lightbox": "^3.23.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "browserslist": [
-    "> 4%",
+    "> 1%",
     "not dead",
-    "not ie < 11",
-    "not op_mini all",
+    "not ie <= 11",
     "last 2 versions"
   ],
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.5.2"
+  },  "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}",
+      "<rootDir>/test/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/test/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
+    ],
+    "moduleNameMapper": {
+      "^yet-another-react-lightbox$": "<rootDir>/test/__mocks__/yet-another-react-lightbox.js",
+      "^yet-another-react-lightbox/styles.css$": "<rootDir>/test/__mocks__/yet-another-react-lightbox/styles.css",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
   }
 }

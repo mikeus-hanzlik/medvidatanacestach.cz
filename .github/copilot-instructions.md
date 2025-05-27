@@ -1,5 +1,7 @@
 # Repository Custom Instructions for Copilot
 
+Develompent happens on Windows using Powershell.
+
 Always generate React code that uses functional components and React Hooks.
 
 Ensure all components are written in JavaScript (ES6+) and use named exports.
@@ -11,8 +13,6 @@ Use semantic HTML elements (`<header>`, `<main>`, `<section>`, `<footer>`) in JS
 Apply BEM-style CSS class names and import styles via CSS Modules (`.module.css`).
 
 Preserve accessibility best practices: include `aria-*` attributes and `alt` text.
-
-Use React Router v6 for any client-side routing and lazy-load routes with `React.lazy()` and `Suspense`.
 
 Write unit tests with Jest and React Testing Library; place tests alongside components in `__tests__` files.
 
