@@ -8,7 +8,7 @@ const ContentManager = ({ articleId, params }) => {
     };
 
     const overviewPageName = "index";
-    const detailId = params.detailId || overviewPageName;
+    const detailId = params?.detailId || overviewPageName;
 
     // Create a new component instance for each detailId to force re-rendering
     const AsyncArticle = useMemo(() => {

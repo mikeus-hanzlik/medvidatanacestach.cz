@@ -27,9 +27,13 @@ describe('ContentManager', () => {
         params: {}
     };    beforeEach(() => {
         vi.clearAllMocks();
-        // Setup default mock implementation
+        // Setup default mock implementation that properly simulates suspense
         mockAsyncComponent.mockImplementation((importFn) => {
-            const MockComponent = () => <div data-testid="mock-component">Mocked Content</div>;
+            const MockComponent = React.lazy(() => 
+                Promise.resolve({ 
+                    default: () => <div data-testid="mock-component">Mocked Content</div> 
+                })
+            );
             return MockComponent;
         });
     });

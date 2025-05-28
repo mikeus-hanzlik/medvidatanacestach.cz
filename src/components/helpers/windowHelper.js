@@ -36,5 +36,5 @@ export const isMobileDevice = () => {
  * @returns {boolean} True if window object is available
  */
 export const isWindowAvailable = () => {
-    return typeof window !== 'undefined';
+    return typeof window !== 'undefined' && window !== null;
 };

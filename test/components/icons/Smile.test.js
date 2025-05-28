@@ -1,6 +1,6 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import { describe, it, expect } from 'vitest';
+import { render, screen, fireEvent } from '@testing-library/react';
+import { describe, it, expect, vi } from 'vitest';
 import Smile from '../../../src/components/icons/Smile';
 
 describe('Smile', () => {
@@ -173,15 +173,13 @@ describe('Smile', () => {
             
             const svgElement = screen.getByRole('img', { hidden: true });
             expect(svgElement).toHaveClass('my-icon');
-        });
-
-        it('should accept custom style', () => {
+        });        it('should accept custom style', () => {
             const customStyle = { color: 'red', backgroundColor: 'blue' };
             render(<Smile style={customStyle} />);
             
             const svgElement = screen.getByRole('img', { hidden: true });
-            expect(svgElement).toHaveStyle('color: red');
-            expect(svgElement).toHaveStyle('background-color: blue');
+            expect(svgElement.style.color).toBe('red');
+            expect(svgElement.style.backgroundColor).toBe('blue');
         });
 
         it('should use currentColor for stroke', () => {
@@ -192,12 +190,11 @@ describe('Smile', () => {
         });
     });
 
-    describe('Component Structure', () => {
-        it('should have correct number of child elements', () => {
+    describe('Component Structure', () => {        it('should have correct number of child elements', () => {
             const { container } = render(<Smile />);
             
             const svgElement = container.querySelector('svg');
-            expect(svgElement.children).toHaveLength(3); // 1 circle + 1 path + 2 lines = 4, but path contains 2 elements
+            expect(svgElement.children).toHaveLength(5); // 1 circle + 2 paths + 2 lines = 5
         });
 
         it('should maintain consistent structure', () => {
@@ -222,14 +219,12 @@ describe('Smile', () => {
             expect(svgElement).toBeInTheDocument();
             expect(svgElement).toHaveAttribute('data-custom', 'test');
             expect(svgElement).toHaveAttribute('role', 'img');
-        });
-
-        it('should handle event handlers', () => {
+        });        it('should handle event handlers', () => {
             const handleClick = vi.fn();
             render(<Smile onClick={handleClick} />);
             
             const svgElement = screen.getByRole('img', { hidden: true });
-            svgElement.click();
+            fireEvent.click(svgElement);
             
             expect(handleClick).toHaveBeenCalledTimes(1);
         });

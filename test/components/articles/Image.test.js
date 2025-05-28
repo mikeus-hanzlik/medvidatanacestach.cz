@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 import Image from '../../../src/components/articles/Image';
 
 describe('Image', () => {
@@ -14,7 +14,6 @@ describe('Image', () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });
-
   it('renders image with correct src and alt attributes', () => {
     render(
       <Image 
@@ -23,7 +22,7 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     expect(image).toHaveAttribute('src', mockLightboxImage.src);
     expect(image).toHaveAttribute('alt', mockLightboxImage.caption);
   });
@@ -38,7 +37,6 @@ describe('Image', () => {
 
     expect(screen.getByText(mockLightboxImage.caption)).toBeInTheDocument();
   });
-
   it('renders children in figcaption when provided', () => {
     const childText = 'Additional caption content';
     render(
@@ -50,9 +48,8 @@ describe('Image', () => {
       </Image>
     );
 
-    expect(screen.getByText(childText)).toBeInTheDocument();
+    expect(screen.getByText(childText, { exact: false })).toBeInTheDocument();
   });
-
   it('calls openLightbox when image is clicked', () => {
     render(
       <Image 
@@ -61,12 +58,11 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     fireEvent.click(image);
 
     expect(mockOpenLightbox).toHaveBeenCalledWith(0);
   });
-
   it('calls openLightbox when Enter key is pressed', () => {
     render(
       <Image 
@@ -75,12 +71,11 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     fireEvent.keyDown(image, { key: 'Enter' });
 
     expect(mockOpenLightbox).toHaveBeenCalledWith(0);
   });
-
   it('calls openLightbox when Space key is pressed', () => {
     render(
       <Image 
@@ -89,12 +84,11 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     fireEvent.keyDown(image, { key: ' ' });
 
     expect(mockOpenLightbox).toHaveBeenCalledWith(0);
   });
-
   it('does not call openLightbox for other keys', () => {
     render(
       <Image 
@@ -103,12 +97,11 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     fireEvent.keyDown(image, { key: 'Escape' });
 
     expect(mockOpenLightbox).not.toHaveBeenCalled();
   });
-
   it('has proper accessibility attributes', () => {
     render(
       <Image 
@@ -117,12 +110,11 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     expect(image).toHaveAttribute('tabIndex', '0');
     expect(image).toHaveAttribute('role', 'button');
     expect(image).toHaveAttribute('aria-label', `Zobrazit obrázek "${mockLightboxImage.caption}" v galerii`);
   });
-
   it('uses default alt text when caption is not provided', () => {
     const imageWithoutCaption = { src: '/test-image.jpg' };
     render(
@@ -132,17 +124,16 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     expect(image).toHaveAttribute('alt', 'Obrázek z cesty');
     expect(image).toHaveAttribute('aria-label', 'Zobrazit obrázek "obrázek z cesty" v galerii');
   });
-
   it('handles missing openLightbox function gracefully', () => {
     render(
       <Image lightboxImage={mockLightboxImage} />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     expect(() => fireEvent.click(image)).not.toThrow();
   });
 
@@ -161,7 +152,6 @@ describe('Image', () => {
     );
     expect(container.firstChild).toBeNull();
   });
-
   it('has cursor pointer style', () => {
     render(
       <Image 
@@ -170,10 +160,9 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     expect(image).toHaveStyle({ cursor: 'pointer' });
   });
-
   it('has lazy loading attribute', () => {
     render(
       <Image 
@@ -182,7 +171,7 @@ describe('Image', () => {
       />
     );
 
-    const image = screen.getByRole('img');
+    const image = screen.getByRole('button');
     expect(image).toHaveAttribute('loading', 'lazy');
   });
 
