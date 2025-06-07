@@ -31,7 +31,7 @@ export default withLightbox(({openLightbox}) => {
             schovat, dát si něco k jídlu a i přespat. Zjistili jsme tam, že musíme zaplatit poplatek i za stan, pokud
             chceme stanovat v okolí jezera, ale na oplátku můžeme využívat sušárnu a umývárky. Ubytovali jsme se na dvě
             noci a nejdřív jsme si dali na zahřátí špenátovou polévku s chlebem, která byla úplně luxusní.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Postavili jsme stan nad jezerem, přebalili věci a s malým batůžkem jsme se ještě vydali na kratší výlet. Bylo
             ale dost hnusně, lilo a děsně fučelo, takže jsme se asi po hodině vrátili a už jen tak zevlili. Večer
             jsme se mohli vysprchovat v umývárkách, kde byly parádní horké sprchy a já se musela vyloženě přemáhat,

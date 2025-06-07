@@ -23,7 +23,7 @@ export default withLightbox(({openLightbox}) => {
                 potom ale dorazíme pod kopec a čeká nás asi 600 m převýšení na cca dvoukilometrovém úseku. Funíme a jsme
                 docela hotoví, takže jsme rádi, když nahoře na kopci najdeme krásnou malou vesničku Ghyaru. Odpočíváme,
                 točíme video a rovnou tu i dáváme na luxusní oběd – česnečku, omeletu a domácí jablečný koláč.</p>
-            <Image lightboxImage={img2} openLightbox={openLightbox}/>
+            <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
             <p>Dál nás čeká zas krásná cesta po vrstevnici a také poprvé vidíme i Annapurnu III. Ubytujeme se už v
                 Ngawalu, protože se nám tu moc líbí a potřebujeme čas na léčení. Vybereme si Hotel Peaceful, kde nám
                 dají krásný prosluněný rohový pokoj s okny na 3 strany. Nejdřív si chceme chvilku odpočinout, ale netrvá

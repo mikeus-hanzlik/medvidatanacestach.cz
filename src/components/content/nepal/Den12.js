@@ -29,7 +29,7 @@ export default withLightbox(({openLightbox}) => {
                 jo, dýchá ještě o pár desítek centimetrů výš. ☺ Omrzají nám obličeje a zamrzá voda ve vacích. Už tu není
                 nic než sníh a modrá obloha a hory kolem. Taky tedy pár dalších hikerů, ti nás rozčilují, protože jdou
                 ještě mnohem pomaleji než my, ale brzy většinu z nich necháváme za sebou.</p>
-            <Image lightboxImage={img2} openLightbox={openLightbox}/>
+            <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
             <p>Když jsme si o výstupu na Thorong La Pass četli, dozvěděli jsme se, že nás cestou čeká mírné stoupání a
                 „many false peaks“. A je to přesně tak, za Thorong High Campem je to cesta dlouhá, pozvolná, sem tam
                 potkáváme modlitební praporky a několikrát si myslíme, že už tam přece musíme být. Ale pořád tam nejsme.
@@ -58,7 +58,7 @@ export default withLightbox(({openLightbox}) => {
                 skáčeme závějemi dolů. Sem tam spadneme, ale je to legrace a je to mnohem rychlejší. Sněhu pomalu ubývá,
                 a za chvíli jsme na blátě. Jak se nám boty ve sněhu krásně vyčistily, tak tady si je zase pěkně
                 zaprasíme.</p>
-            <Image lightboxImage={img3} openLightbox={openLightbox}/>
+            <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
             <p>Postupně nám rozmrzá voda ve vacích a průběžně sundaváme jednu vrstvu za druhou. Po několika hodinách
                 jsme u prvního jídelního zařízení na druhé straně, ve 4100 mnm. Dáváme si tu oběd, šťouchané brambory.
                 Míšu pěkně bolí hlava, asi jak jsme rychle vystoupali tak vysoko a ještě rychleji sestoupali zpět dolů.

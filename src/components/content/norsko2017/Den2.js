@@ -23,7 +23,7 @@ export default withLightbox(({openLightbox}) => {
         <p>Na Preikestolenu se dokonce stály fronty, aby se tam lidi mohli vyfotit. Radši jsme se tam tedy moc
             nezdržovali a našli jsme si místo toho mnohem lepší místečko, kde jsme
             navíc byli úplně sami. Posvačili jsme (Míša suchary) a pomalu se vydali zpátky.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Po Preikestolenu jsme měli v plánu jet ještě na Kjerag, jenomže jsme zjistili, že trajekt, na který nás
             naváděl Google, už ten den vůbec nejede. Autem by nám to ale trvalo děsně dlouho, takže jsme podruhé (a ne
             naposledy) pozměnili plány. Vydali jsme se rovnou autem směrem k Trolltunze. Protože to ale bylo 5 hodin

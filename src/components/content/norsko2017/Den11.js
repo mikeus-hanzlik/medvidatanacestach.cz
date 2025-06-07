@@ -46,7 +46,7 @@ export default withLightbox(({openLightbox}) => {
             když půjdeme i na druhou dvoutisícovku, jak jsme měli původně v plánu, o nic víc neuvidíme. Udělali jsme si
             aspoň selfíčko v mlze a vyrazili dolů. Pro mě to byl trochu horor, pěkně to klouzalo, bála jsem se, že se
             někde rozsekám a byla jsem dost protivná.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Naštěstí jsme to ale zvládli a sešli jsme až zpět do údolí k potoku. No a potom – začalo lejt! Aby toho
             nebylo málo. Nemohli jsme se ani nasvačit v tom dešti, měli jsme sice pěknej hlad, ale pokračovali jsme až k
             chatě, kam jsme se vrátili po asi 5 hodinách a 12 km. Plně jsme využili sušárnu, která byla úplně luxusní,

@@ -49,7 +49,7 @@ export default withLightbox(({openLightbox}) => {
             si to až potom, co jsme přejeli velký zpoplatněný most, kde jedna jízda stála 150 NOKů. Nikdo to po nás
             nechtěl, tak jsme doufali, že to nebudeme muset platit, protože by to bylo úplně zbytečný… No, je asi jasný,
             jak to dopadlo. <Smile/></p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Protože Míšovi pořád nebylo nic moc, ubytovali jsme se opět pod střechou, v chatičce po cestě kousek od
             Hardangerviddy, za městečkem Eidfjord. Byl to areál s jedním barákem, kde byla recepce, restaurace,
             ubytování, koupelny a potom pár samostatných chatiček venku. A na recepci pracovala Slovenka! <Smile/> V chatičce

@@ -43,7 +43,7 @@ export default withLightbox(({openLightbox}) => {
                 modlitebních praporků, rýže a dalších předmětů. Trochu drze vlezeme až k Buddhovi, protože je tu
                 závětří, usedneme na modlitební lavičky a dáme si sváču. Už jen pár tisíc a pár stovek metrů do výšky
                 nad námi je Annapurna III (7555 mnm). Ledovec pod ní se plazí skoro až k nám.</p>
-            <Image lightboxImage={img2} openLightbox={openLightbox}/>
+            <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
             <p>Cestou zpět se skoro nezastavujeme, stahují se temná mračna a my bychom neradi zmokli. Stíháme to tak
                 tak, později opravdu prší. Hostel je už plný a v jídelně si není skoro kam sednout, tak sdílíme stůl s
                 Izraelským párem, který je ve skutečnosti z Uruquaye / Brazílie. Slečně je špatně z výškové nemoci a my

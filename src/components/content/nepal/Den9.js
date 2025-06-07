@@ -30,13 +30,13 @@ export default withLightbox(({openLightbox}) => {
                 skoro sami. Posvačíme, pofotíme a protože se stejně jako o den dřív sbíhají tmavá mračna, dáme se na
                 ústup. Annapurny už jsou schované v mracích a vypadá to, že u Tilicho Peaku snad sněží, na obzoru jsou
                 to samé bílé mraky.</p>
-            <Image lightboxImage={img2} openLightbox={openLightbox}/>
+            <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
             <p>Něco po třetí odpolední jsme zas zpět v hostelu, dáme jídlo (zdravím Verču, jestli to čte), přebalíme
                 věci a s plnou polní vyrážíme do 2 km vzdáleného Manangu, centra oblasti. Docela to tu žije, je tu
                 spoustu obchodů, guest housů a dokonce zpevněný chodník. Ubytujeme se v New Tilicho guest housu, který
                 má být podle referencí od náhodné holky odchytnuté na ulici super, prý má wifi i hot shower. Shower je
                 opravdu super, možná i nejlepší v Nepálu, ale wifi nefunguje, to už je taková nepálská klasika.</p>
-            <Image lightboxImage={img3} openLightbox={openLightbox}/>
+            <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
             <p>Dining hall je plná lidí a krásně vytopená, dneska nám snad zima nebude! Míša si dopřává yak steak a
                 Šárinka obligátní curry, ale není to nic extra. Po celý zbytek večera leje, tak jsme rádi, že jsme
                 schovaní. Promýšlíme, co podnikneme další dny. V Manangu se dá dělat dost věcí, je tu i kino a lékař,

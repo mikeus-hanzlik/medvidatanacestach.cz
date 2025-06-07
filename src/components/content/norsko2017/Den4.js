@@ -35,12 +35,12 @@ export default withLightbox(({openLightbox}) => {
             všehovšudy jen několik lidí, z toho pár rybářů, od kterých Míša zjišťoval, co tu loví a jestli berou. Mimo
             jiné jsme s sebou totiž měli i prut, abychom si mohli na ohni opéct večeři (haha).</p>
         <Image lightboxImage={img1} openLightbox={openLightbox}/>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Jak zpočátku bylo hezky, tak postupně se zatáhlo, honily se mraky a dost fučelo. Když jsme přišli k první
             chatě, která byla i na mapě označená, jakože se tam dá přespat, překvapilo nás, že kolem bylo ještě dalších
             asi 30 baráčků. Docela nás to překvapilo, nečekali jsme, že tu něco bude. Nikdo tu ale nebyl, tak jsme si u
             jedné z chajd na zahrádce sedli a posvačili.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox}/>
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
         <p>Cesta hezky ubíhala, šlo se celkem po rovině, občas do kopce, víceméně podél velké řeky, až jsme dorazili k
             další velké chatě, která byla opět zavřená. Venku bylo spoustu pěkných plácků na spaní a i otevřená kůlna,
             kam by se v případě lijáku dalo schovat, ale bylo ještě docela brzy, tak jsme pokračovali dál. Čekal nás
@@ -57,7 +57,7 @@ export default withLightbox(({openLightbox}) => {
             borůvčím, kde jsme i zakempili. Bohužel k večeři jsme museli sáhnout do zásob (pro změnu rejže s tuňákem),
             protože jsme nic nechytili, zato jsme málem nechali uplavat třpytku i prut, když jsem se pokoušela nahazovat
             já.</p>
-        <Image lightboxImage={img4} openLightbox={openLightbox}/>
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3}/>
         <p>Po večeři jsme chvíli seděli venku, navlečení skoro do všeho oblečení, co jsme měli, jenže to začalo vypadat,
             že se schyluje k dešti, takže jsme zalezli do stanu a nahrávali na voice recorder audio záznam našeho
             deníku. Potom jsme si šli ještě k řece vyčistit zuby a zahlídli jsme přitom na druhé straně dva lidi s

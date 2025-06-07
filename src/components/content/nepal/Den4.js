@@ -24,7 +24,7 @@ export default withLightbox(({openLightbox}) => {
             následně si v Safe drinking water station, kterých je na treku kolem Annapuren několik a mají za cíl
             podpořit místní a eliminovat odpad z petek, za 40 NRP / 1 l doplňujeme vaky na vodu. Sice jsme si mohli
             přefiltrovat vodu z řeky, ale tohle je jednodušší a aspoň uděláme tak dobrý skutek.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Pokračujeme krásnou stezkou podél řeky mírně nahoru. Potkáváme orly, krávy a kozy a osamocenou Alžířanku, se
             kterou se dáme do řeči. Zapisujeme se v prvním ACAP (Annapurna Conservation Area Project) check pointu v
             Dharapani, a to kvůli evidenci hikerů a bezpečnosti. Procházíme vesničkou Bagarchap, kde jsme původně chtěli

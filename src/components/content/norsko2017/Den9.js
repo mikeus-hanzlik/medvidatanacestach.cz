@@ -49,11 +49,11 @@ export default withLightbox(({openLightbox}) => {
             zezdola to totiž vypadalo jako dost strmá skála. Uklidnili jsme je ale, že to vypadá
             hůř, než to je, a pokračovali jsme dál k samotnému úseku mezi dvěma jezery, kde jsme si na krásném místě
             dali další pauzu.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Nebyli tu vážně skoro žádní lidé, čemuž jsme ani nechtěli věřit. Nikdo nám tedy nepřekážel na fotkách ani v
             dalekohledu, kterým jsme se rozhlíželi po okolí. Dolní jezero bylo světlejší, až dozelena, a horní tmavě
             modré, kvůli rozdílné nadmořské výšce a taky podloží jezera.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox}/>
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
         <p>Všichni turisté chodí po zmíněném úseku mezi jezery dál dozadu a pak sejdou právě dolů na trajekt. My jsme
             ale na mapách.cz našli zkratku přímo dolů k jezeru, která nám měla ušetřit asi polovinu cesty a i peníze za
             loďku. No, mělo nás napadnout, že když je čárkovaná, nebude to úplně sranda. Vedla přímo dolů přes nahuštěné
@@ -62,12 +62,12 @@ export default withLightbox(({openLightbox}) => {
             nekonečné. Já jsem z toho samozřejmě měla docela nervy, protože jsem se několikrát viděla rozsekaná dole pod
             skálou. Na jednom místě, kde se fakt muselo sejít skoro kolmo po skále s miniaturními stupínky, jsem se
             dokonce rozbrečela. Nakonec jsme to ale zvládli a dole se mi dost ulevilo.</p>
-        <Image lightboxImage={img4} openLightbox={openLightbox}/>
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3}/>
         <p>Cesta podél jezera nejdřív vypadala, že ani neexistuje, takže jsme si nadávali, že než dojdeme k autu, mohli
             jsme bývali pětkrát dojít k trajektu. Naštěstí se ale cesta brzy objevila, a nakonec se ukázala jako moc
             hezká, lemovaly ji pěkné výhledy na jezero a i pláže, kde by se dalo koupat, kdyby voda měla tak o 15 stupňů
             víc. <Smile/> K autu jsme dorazili asi za další hodinu a půl, a nakonec ne o tolik později než trajekt.</p>
-        <Image lightboxImage={img5} openLightbox={openLightbox}/>
+        <Image lightboxImage={img5} openLightbox={openLightbox} index={4}/>
         <p>Zpátky u parkoviště jsme se ještě stavili v místní turistické chatě, kde jsme chtěli vyzjistit informace o
             výstupu na Galdhøpiggen, nejvyšší horu Norska, která má skoro 2500 mnm a je taky v NP Jotunheimen. Cestou
             jsme na ni koukali dalekohledem, bylo tam docela dost sněhu a nahoře to vypadalo, že je i nějaká
@@ -84,7 +84,7 @@ export default withLightbox(({openLightbox}) => {
             Bylo to pěkně ledový, ani jsme se nezvládli potopit. Já jsem musela jít na etapy, protože než jsem se stihla
             trochu umýt, začly mi šíleně mrznout nohy. Takže jsem šla asi natřikrát. <Smile/> Ale nakonec to bylo fajn, okolní
             vzduch byl teplejší, takže nás docela zahřál.</p>
-        <Image lightboxImage={img6} openLightbox={openLightbox}/>
+        <Image lightboxImage={img6} openLightbox={openLightbox} index={5}/>
         <p>V noci jsme ještě vstávali na polární září, ale bohužel jsme byli opět neúspěšní.</p>
     </div>)
 }, [img1, img2, img3, img4, img5, img6])

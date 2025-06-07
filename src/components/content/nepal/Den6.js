@@ -28,7 +28,7 @@ export default withLightbox(({openLightbox}) => {
             <p>Do Upper Pisangu, kde je cíl naší dnešní cesty, nás čeká ještě pořádný stoupák. Vlivem nadmořské výšky už
                 docela funíme. I celá vesnička je v prudkém kopci a my se ubytujeme až nahoře, abychom další den
                 nemuseli krpálem hned začínat.</p>
-            <Image lightboxImage={img2} openLightbox={openLightbox}/>
+            <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
             <p>Před večeří si vyšlápneme ke krásnému Buddhistickému chrámu (tzv. stupa), dovnitř se smí jen bez bot.
                 Později zjišťujeme, že v oblasti Manangu mají už asi týden výpadek elektřiny, tím pádem nemáme světlo,
                 ani wifinu. Není tu ani sprcha, tak si objednáváme aspoň kýbl horké vody, kterou nám na ohni ohřívají

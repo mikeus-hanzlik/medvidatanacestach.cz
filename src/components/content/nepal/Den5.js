@@ -27,7 +27,7 @@ export default withLightbox(({openLightbox}) => {
                 s několika zarostlými, opuštěnými a rozpadlými baráčky a parádním výhledem na hory kolem. Svačíme u
                 krásné modré řeky s obrovskými balvany, kde si v písečné zátoce koupeme nohy. Víc nám ta jen
                 několikastupňová teplota vody nedovolí.</p>
-            <Image lightboxImage={img2} openLightbox={openLightbox}/>
+            <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
             <p>Procházíme vesničkou Koto, kde je další checkpoint a u něj dokonce i fronta. Už jen kousek odtud je
                 Chame, větší vesnice se spoustou guest housů, stánků se vším možným a dokonce i horkými prameny na
                 koupání. V med pointu kupujeme Strepsils na bolavý krk a ubytujeme se v honosně pojmenovaném Royal
@@ -38,6 +38,6 @@ export default withLightbox(({openLightbox}) => {
                 i dalekohledem a dochází nám, že to byla ona, kterou jsme zahlédli už v Danagyu. Kromě Manaslu
                 obdivujeme i Lamjung Himal (necelých 7000 mnm), která je nám podstatně blíž. To jsou konečně ty pravé
                 mountains!</p>
-            <Image lightboxImage={img3} openLightbox={openLightbox}/>
+            <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
         </div>)
 }, [img1, img2, img3])

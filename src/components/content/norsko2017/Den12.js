@@ -22,7 +22,7 @@ export default withLightbox(({openLightbox}) => {
             rádi, že už jdeme pryč. Tentokrát jsme měli na cestu krásné počasí a dali jsme si u dřevěného sezení u auta
             i sváču.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox}/>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Čekala nás cesta na sever asi 400 km dlouhá, až na Atlantic Ocean Road, což je taková klikatá silnička
             vedoucí přes ostrůvky a mosty mezi nimi, může být i nebezpečná, protože při bouřivém počasí vlny dosáhnou až
             na mosty a mohou auto pěkně ošplouchnout. Cestou jsme jeli mezi NP Rondane a Dovrefjell a neustále jsme měli
@@ -33,7 +33,7 @@ export default withLightbox(({openLightbox}) => {
             celá natěšená, jak to bude vypadat. Cesta byla zpoplatněná, ale naštěstí to nebylo moc a nebylo tu ani moc
             aut. Zastavovali jsme hodně na vyhlídkách a sem tam jsme vyběhli na kopečky kolem, abychom se
             rozhlédli.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox}/>
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
         <p>Jen co jsme celou Road projeli, začalo se pomalu stmívat a my jsme nevěděli, kde budeme spát. Začali jsme
             tedy koukat kolem cesty, kam by se dalo zajet. Na jednom místě jsme zahlédli směrovky na nějakou jeskyni a
             po polňačce jsme kus popojeli, až jsme našli celkem pěkné místo u cesty i s ohništěm. Nebylo to ale zas tak
@@ -42,7 +42,7 @@ export default withLightbox(({openLightbox}) => {
             jakýsi altán či co. Míša to našel na mapě a nanavigoval nás až na jakési parkoviště / staveniště nad
             vesnicí. Nechali jsme tu Hybrida a šli to omrknout. Nahoře byl parádní altánek se sezením, a dokonce tu byl
             i gril!</p>
-        <Image lightboxImage={img4} openLightbox={openLightbox}/>
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3}/>
         <p>Vrátili jsme se tedy pro krosny, postavili stany a uvařili si kuskus s olivami, rajčátky a pestem. Dost
             fučelo, takže jsme museli vařit s karimatkou kolem vařiče, ale večeře byla luxusní. Večer jsme na sebe
             nabalili všechno možné a kochali se výhledy na údolí, moře a ostrůvky na něm. V noci nás budili nějaký

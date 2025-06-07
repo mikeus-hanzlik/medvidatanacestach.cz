@@ -29,7 +29,7 @@ export default withLightbox(({openLightbox}) => {
                 yaky?), až dojdeme ke skále tyčící se nad údolím, ve kterém leží Manang. Je to skoro magické místo,
                 jedno z nejhezčích na celém treku. Máme pod sebou obrovské údolí a po obou stranách nad ním pozorujeme
                 obrovské hory. Je zřetelně vidět, kde končí hranice lesa a kde začíná sníh.</p>
-            <Image lightboxImage={img2} openLightbox={openLightbox}/>
+            <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
             <p>Dále začneme klesat zpět dolů k řece, kterou musíme přejít, abychom se znovu napojili na Annapurna
                 circuit. Sníh pomalu mizí a zpět na treku najednou potkáváme davy lidí. Slyšíme i partičku Čechů, ke
                 kterým se rozhodně nehlásíme. Abychom všem utekli, jdeme dost rychle a brzy jsme zas sami. Místo spaní v
@@ -37,7 +37,7 @@ export default withLightbox(({openLightbox}) => {
                 vesničku, Letdar, a jsme už ve výšce 4200 mnm. Příroda se se stoupáním proměňuje, už tu nejsou žádné
                 stromy ani keře, jen holé kopce a skály. Je to zas úplně jiný pohled, pomalu jako bychom byli někde na
                 Islandu, nebo na Marsu. ☺ Kolem nic než špičaté holé skály, částečně pokryté sněhem, a my.</p>
-            <Image lightboxImage={img3} openLightbox={openLightbox}/>
+            <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
             <p>Procházíme bránou a jsme v Thorong Phedi, jednom ze dvou výchozích míst pro přechod průsmyku Thorong La
                 Pass, přes 4400 mnm. To už je něco! Jsme utahaní, ale nadšení. Je tu jen jeden guest house a spoustu
                 lidí. Vyfasujeme místečko v malém plesnivém pokoji, kde bude v noci asi dost zima, ale je nám to jedno,
