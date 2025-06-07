@@ -30,13 +30,13 @@ export default withLightbox(({openLightbox}) => {
             Chvíli jezdíme společně a chvíli každý sám. Je znát, že se tu jezdí svěťáky - kopce jsou dost prudké a stejně tak i zatáčky. Zato to ale z
             kopce pěkně sviští. <Smile /> Celkem objedu asi 17 km. Sejdeme se zpět na stadionu a vracíme se domů na oběd.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox} />
-        <Image lightboxImage={img2} openLightbox={openLightbox} />
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1} />
         <p>Po obědě vyrážíme do centra Falunu - zaparkujeme u nákupního centra, kde později také nakupujeme. Centrum je celkem malé a vylidněné, i
             když je neděle. Svítí sluníčko a jsou tu staré hezké barevné dřevěné domky kolem potoka - to je něco pro mě. Nakonec zapadneme do kavárny
             na mňaminky a řádně posilněni dortíky vyrážíme zpět na stadion. Musíme to pořádně využít! Tentokrát si dáme jen asi 11 km. Končíme se
             západem slunce.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox} />
-        <Image lightboxImage={img4} openLightbox={openLightbox} />
-        <Image lightboxImage={img5} openLightbox={openLightbox} />
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2} />
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3} />
+        <Image lightboxImage={img5} openLightbox={openLightbox} index={4} />
     </div>)
 }, [img1, img2, img3, img4, img5])

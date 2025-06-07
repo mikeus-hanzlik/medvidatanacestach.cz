@@ -26,7 +26,7 @@ export default withLightbox(({openLightbox}) => {
             „parkoviště“ na kraji pole pod lesem. Pak už musíme do pěkného krpálu po svých. Pěkně ženeme, protože se
             stahují mračna, a my chceme nahoře stihnout sluníčko. Takže nejspíš trhneme rekord a všechny ostatní turisty
             necháváme za zády. Výhled je krásný, fotíme se a po návratu k autu jedeme podél jezera pod hrad.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Bled je jedno z těch míst, které na Instagramu vypadá nádherně, ale ve skutečnosti je tu spoustu lidí, takže
             se nám tu tolik nelíbí. Bohinj je mnohem hezčí, přitom jen kousek odsud. Na parkovišti pod hradem asi 20 min
             koumáme, jak zaplatit. Mají tu chytrý návod na poslání SMSek, nám to ale nefunguje. Nakonec se Šárka vydá do
@@ -39,7 +39,7 @@ export default withLightbox(({openLightbox}) => {
             ještě stihli sluníčko, mraky nás opět dohání. Do centra jdeme kolem rodinných vilek a později uzounkými
             uličkami se starými baráčky. Všude je klid! Když dojdeme k řece, naskytne se nám pohled na hrad na kopci
             před námi.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox}/>
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
         <p>Pokračujeme podél řeky, kde je spoustu zahrádek, restaurací a kaváren. Jsme překvapení, jak je to tu hezké.
             Protože je i docela teplo, u jednoho stánku neodoláme a dáme si úplně luxusní čokoládovou zmrzlinu.
             Mňam!</p>
@@ -48,6 +48,6 @@ export default withLightbox(({openLightbox}) => {
             vypadá celkem moderně. Uděláme pár fotek a vracíme se zpět dolů. Počasí se naštěstí zas umoudřilo. Sháníme
             magnetku na lednici a později s pomocí Foursquare najdeme moc hezkou vinárnu, kde si dáme vínečko s olivami
             a později i večeři. Venku už zas pěkně leje.</p>
-        <Image lightboxImage={img4} openLightbox={openLightbox}/>
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3}/>
     </div>)
 }, [img1, img2, img3, img4])

@@ -37,24 +37,24 @@ export default withLightbox(({openLightbox}) => {
             vaječné omelety se sýrem a pečivem a k tomu čaj. Číšník je moc ochotný a umí dobře anglicky, tak ho hned
             vyzpovídáme. Poradí nám, abychom nejezdili na parkoviště k vodopádům, kde bývá drahé parkovné, ale necháme
             Fabínka u penzionu a jdeme pěšky.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Posilněni tedy nasazujeme pohorky a krosny, vyfotíme si naše zbrusu nové a ještě čisté botky a vyrážíme. Hned
             kousek od penzionu narážíme na most přes krásně průzračnou řeku. Pokračujeme pozvolnou cestičku kolem
             krásných chatiček, nad kterými se majestátně tyčí zasněžené hory. Vypadá to tu úplně pohádkově! Zároveň taky
             zjišťujeme, že jsme se dost nabalili, takže se u lavičky vyrobené ze starých lyžáků převlékáme do kraťasů a
             trička. </p>
-        <Image lightboxImage={img3} openLightbox={openLightbox}/>
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
         <p>Naší první zastávkou jsou vodopády Savica, kde je vstup zpoplatněn 3 eury. Od pokladny je to ještě pěkný kus
             do kopce po schodech, takže se i poprvé zadýcháme. Stojí to ale za to, vodopád je super a výhled na jezero
             taky. Pofotíme, otočíme, kousek se vrátíme a za řekou odbočíme do kopce směrem na Černé jezero.</p>
-        <Image lightboxImage={img4} openLightbox={openLightbox}/>
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3}/>
         <p>Podle ukazatele to tam má trvat 1:15. Hned od začátku je to slušný krpál, dokonce si musíme dát pauzu na
             oblepení pat, které se nám při tom šplhání v nových pohorkách trochu odírají. Compeed náplasti nás ale před
             puchýři ochrání. Brzy se cesta lesem proměňuje ve stoupání po skalnaté stěně, odkud máme nádherné výhledy.
             Navíc tu nikdo není, to je pecka! Když se konečně celí mokří vydrápeme nahoru, cesta se změní v rovnou lesní
             pěšinku. Jsme skoro u vytržení, když v lese podél cesty vidíme zbytky sněhu. Míša si ho dokonce nadšeně
             osahává. To ještě netušíme, že si ho později užijeme ažaž.</p>
-        <Image lightboxImage={img5} openLightbox={openLightbox}/>
+        <Image lightboxImage={img5} openLightbox={openLightbox} index={4}/>
         <p>Po chvíli se stromy kolem nás rozestoupí a my konečně spatříme jezírko, které se pod námi na sluníčku krásně
             třpytí. Trvalo to sice o dost déle, než se dole cedule tvářila (od té doby se naučíme brát slovinské
             ukazatele s rezervou), ale stojí to za to! Je nám pohádkově. Konečně můžeme doplnit síly, odpočinout si a
@@ -63,7 +63,7 @@ export default withLightbox(({openLightbox}) => {
             uslyšíme tiché cinkání, jako by někdo hrál na skleničky, nebo cinkaly zvonečky. A ony to jsou kousky ledu,
             jak do sebe naráží ve vlnkách vody. Je to nádhera! Jedna z těch magických chvil, ve které byste rádi
             zastavili čas a užili si ji (a taky zapamatovali) co nejdéle.</p>
-        <Image lightboxImage={img6} openLightbox={openLightbox}/>
+        <Image lightboxImage={img6} openLightbox={openLightbox} index={5}/>
         <p>Dáváme si chleba se sýrem a ovoce a pozorujeme nádhernou krajinu, co nás obklopuje. V tom ale zaslechneme
             hlasy. Co čert nechtěl, blíží se k nám dvě holky, navíc Češky. Naštěstí jsou moc fajn, tak chvíli pokecáme,
             navzájem se pofotíme a my potom pokračujeme dál. Ještě nás čeká pěkný kus a cestu nám začíná komplikovat
@@ -82,7 +82,7 @@ export default withLightbox(({openLightbox}) => {
             jsme si na internetu našli, že by tam měla být ještě nouzová zimní noclehárna až pro 18 lidí, která je
             otevřená celoročně a nic se za přespání v ní neplatí. Jsme trochu napjatí, aby to tak opravdu bylo. Sice s
             sebou máme i stan, ale tady v tom sněhu by se nám stavěl těžko.</p>
-        <Image lightboxImage={img7} openLightbox={openLightbox}/>
+        <Image lightboxImage={img7} openLightbox={openLightbox} index={6}/>
         <p>Naštěstí to dopadne dobře a je to skutečně tak, jak jsme doufali. Vlastně ještě lepší! Chajda je patrová,
             vybavená palandami s dekami a polštáři. Navíc tu nikdo není. Luxus! Rychle obsadíme skoro všechny palandy,
             abychom si tu vybalili krosny. Na dvojpalandě budeme spát, kolem si vyskládáme oblečení a jídlo. Před

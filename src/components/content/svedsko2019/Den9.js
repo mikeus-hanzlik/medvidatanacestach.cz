@@ -34,14 +34,14 @@ export default withLightbox(({openLightbox}) => {
         <Image lightboxImage={img1} openLightbox={openLightbox} />
         <p>Poté nasedáme na bus a jedeme až ke knihovně a SSE, Stockholm School of Economics. Mrkneme do knihovny, kde je nejhezčí vestibul s kulatými
             stěnami, odkud je vidět několik pater s poličkami plnými barevných knížek.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox} />
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1} />
         <p>Potom projdeme kolem Mekáče, kde jsem si za celé studium snad ani nic nekoupila, parčíku před školou a už jsme tu, před Handelshögskolan,
             tou úctyhodnou budovou s obrovskými dveřmi. Přepadne mě další vlna vzpomínek. Jak jsem tu byla poprvé, všude mraky sněhu, sotva jsem dokázala
             ty dveře otevřít a pak jsem zmateně hledala kancelář pro Erasmus studenty. Jak jsme tu měli prezentace domácích škol a poprvé se setkali s
             ostatními Erasmáky. Jak se tu konala ve sklepě black and white party a já si vzala koženou sukni celou na zip. Jak jsme tu strávili
             spoustu času nad týmovými pracemi. Jak jsem sem pyšně brala všechny návštěvy a byla ráda, že jsem si vybrala právě tuhle školu.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox} />
-        <Image lightboxImage={img4} openLightbox={openLightbox} />
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2} />
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3} />
         <p>Dále se přesouváme na Södermalm, jižní ostrov, odkud jsou krásné vyhlídky na Gamla Stan. Jdeme tu i na sváču do jedné kavárny, kterou
             vybíráme přes Foursquare. Poté se autobusem přibližujeme k místu, kde kdysi bydlela Míšova sestra Jicinka. Je pěkná kosa, ale aspoň nikde
             nejsou lidi. Zpátky jedeme přívozem až na Nybroplan, kde začíná krásná promenáda kolem vody až k ostrovu Djurgården, který projedeme

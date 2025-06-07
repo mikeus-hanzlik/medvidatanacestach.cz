@@ -33,11 +33,11 @@ export default withLightbox(({openLightbox}) => {
         </figure>
         <p>Necháváme chatu daleko za sebou a vysoko nad sebou, místo toho se ocitáme na bažinaté louce s koníky, kde
             mlsáme borůvky.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Netrvá dlouho a scházíme pod hranici lesa, na lavičce ve stínu odpočíváme a za další zhruba hodinku se
             ocitáme na kraji národního parku, za kterým už je štěrková cesta vedoucí až do vesnice Putschall, cíle naší
             cesty.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox}/>
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2}/>
         <p>Naposledy čepujeme čerstvou vodu a scházíme až k cestě. Kolem jsou i nějaké chaty a u jedné z nich si
             všimneme pána s velkým teréňákem, který vypadá, že nakládá věci. Během chvilky se rozhodneme, že si ho
             zkusíme stopnout. Máme neskutečné štěstí, pán nám opravdu zastaví, naloží nás i krosny a přestože tam nemá

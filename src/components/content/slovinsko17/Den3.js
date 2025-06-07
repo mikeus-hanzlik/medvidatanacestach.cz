@@ -34,7 +34,7 @@ export default withLightbox(({openLightbox}) => {
             ale cesta dolů už utíká rychleji. Brzy zmizí i sníh. Dole na parkovišti u vodopádů dokonce potkáme kluky,
             kteří s námi nocovali. Cestou uděláme ještě pár fotek zamračeného a zamlženého okolí, abychom měli porovnání
             s azurovým včerejškem.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox}/>
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1}/>
         <p>Když konečně dorazíme k penzionu, kde jsme den předtím snídali, zjistíme, že je obsazený. Přemýšlíme, kde
             tedy spát. Všechno máme mokré, tak se nám do stanu nechce a nakonec nacházíme přes booking ubytko v penzionu
             na druhé straně Bohinjského jezera. Dojedeme tam za chvilku a paní na nás už čeká. Dokonce nám na uvítanou

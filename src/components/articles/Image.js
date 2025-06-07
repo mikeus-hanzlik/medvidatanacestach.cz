@@ -1,12 +1,14 @@
 import React from "react";
 
-const Image = ({ lightboxImage, openLightbox, children }) => {
+const Image = ({ lightboxImage, openLightbox, children, index = 0 }) => {
     if (!lightboxImage || !lightboxImage.src) {
         console.warn('Image component: Missing required lightboxImage.src');
         return null;
-    }    const handleImageClick = () => {
+    }
+
+    const handleImageClick = () => {
         if (typeof openLightbox === 'function') {
-            openLightbox(0);
+            openLightbox(index);
         }
     };
 

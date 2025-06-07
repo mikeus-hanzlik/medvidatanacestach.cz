@@ -16,7 +16,7 @@ export default withLightbox(({openLightbox}) => {
         <p>Scházíme až do 1450 mnm a máme znovu výhledy na Bohinsjké jezero. Je tu už celkem teplo, tak nasazujeme kraťasy. Míjíme asi nejkrásnější část trasy, palouček Krošnja a po 5 hodinách chůze konečně přicházíme celí vyhladovělí do Domu na Komni. Stejně jako před rokem si tu dáváme zelňačku a po hodině odpočívání se znovu vydáváme na cestu. Ještě nás čekají 3 hodiny krásnou přírodou až k údolí Triglavských jezer. Tam se moc těšíme, protože jsme tam loni strávili noc v nouzové noclehárně. Cestu už známe, i když oproti loňskému dešti, mlze a brodění v půl metru sněhu se to nedá srovnávat.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox} />
         <p>Kolem půl sedmé konečně dorážíme do koči. K našemu překvapení je tu spoustu lidí! Rovnou dostáváme i večeři, a protože sprcha opět není, plánujeme na tajňačku skočit do jednoho z jezer kus od chaty, i když koupat se tu nesmí. Vyčkáváme správného momentu, a když jsme konečně sami, Šárinka se začne bleskově svlékat. Plavky s sebou samozřejmě nemáme. Míša má ale trochu jiné starosti…</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox} />
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1} />
         <p>Vykoupeme se ale stejně. A později slavíme s Borovničevcem, Jagodou a Malincou a usínáme jako dřeva.</p>
     </div>)
 }, [img1, img2])

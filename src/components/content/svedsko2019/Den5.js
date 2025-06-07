@@ -41,7 +41,7 @@ export default withLightbox(({openLightbox}) => {
             opírat vítr. Celý kopec je úplně holý, nikde žádný porost. Čím výš jsme, tím více sněhu je, naskytuje se nám lepší výhled a taky je
             větší zima. Za chvíli na obzoru zpozorujeme veliké zasněžené hory. Po chvíli přemýšlení a studování mapy zjistíme, že to musí být hory u
             hranic s Norskem. Někde tam je i Åre, kde se koná MS v alpském lyžování.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox} />
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1} />
         <figure>
             <video controls>
                 <source src={video1Src} type="video/mp4" />
@@ -52,18 +52,17 @@ export default withLightbox(({openLightbox}) => {
         <p>Postupně vrstvíme více oblečení, až na sobě máme snad všechno, co jsme s sebou měli. Cesta je celkem nekonečná a i když je to bílomodrá
             nádhera, taky trochu vopruz, protože děsně fučí, my neslyšíme slova, hůlky nám vítr odfukuje do stran, že o ně skoro zakopáváme a
             musíme jít předklonění, abychom nespadli (nebo aspoň já).</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox} />
-        <Image lightboxImage={img4} openLightbox={openLightbox} />
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2} />
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3} />
         <p>Ke konci už jsem dost zpruzelá, sníh je navíc tak zmrzlý a nerovný, že po něm skoro nejde jít. Nakonec sundaváme sněžnice a konec vyjdeme
             jen po svých, jde to snad o něco líp. Myslím, že na horu snad nedojdu, táhnu se daleko za Míšou, jsem vzteklá a hlasitě nadávám (přes ten
             vichr mě stejně nejde vůbec slyšet), ale nakonec to přežiju. Výhled je odtamtud parádní a samozřejmě nikde nikdo.</p>
-        <Image lightboxImage={img5} openLightbox={openLightbox} />
+        <Image lightboxImage={img5} openLightbox={openLightbox} index={4} />
         <p>Nahoře uděláme pár vrcholových fotek a bez zbytečného lelkování se vydáváme na cestu zpět. Ta už jde jako po másle, postupně se otepluje,
-            my shazujeme vrstvy oblečení a dole ve vesničce v měkkém hlubokém sněhu na sněžnicích úplně skáčeme.</p>
-        <Image lightboxImage={img6} openLightbox={openLightbox} />
-        <Image lightboxImage={img7} openLightbox={openLightbox} />
+            my shazujeme vrstvy oblečení a dole ve vesničce v měkkém hlubokém sněhu na sněžnicích úplně skáčeme.</p>        <Image lightboxImage={img6} openLightbox={openLightbox} index={5} />
+        <Image lightboxImage={img7} openLightbox={openLightbox} index={6} />
         <p>Odpoledne se jdeme ještě naposledy projet na běžkách, jsme přitom trochu smutní. Večer už jen zevlíme s vínečkem u krbu, dáváme si saunu a
             balíme. Asi v pravý čas, protože přichází obleva a do mokrého sněhu se po sauně už tak dobře neskáče. <Smile /></p>
-        <Image lightboxImage={img8} openLightbox={openLightbox} />
+        <Image lightboxImage={img8} openLightbox={openLightbox} index={7} />
     </div>)
 }, [img1, img2, img3, img4, img5, img6, img7, img8])

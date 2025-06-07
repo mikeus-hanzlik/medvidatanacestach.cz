@@ -40,14 +40,14 @@ export default withLightbox(({openLightbox}) => {
             lelkujeme, protože prohlídka začíná až o něco později, fotíme se s parožím, dáváme si kafe a okukujeme suvenýry, až si nakonec kupujeme
             losí chňapku na nádobí.</p>
         <Image lightboxImage={img1} openLightbox={openLightbox} />
-        <Image lightboxImage={img2} openLightbox={openLightbox} />
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1} />
         <p>Kavárna se postupně zaplňuje, překvapivě tu je i v zimě docela dost návštěvníků. Jsou tu i nějaké otravné děti, co dělají bordel, držíme se
             od nich raději dál. Mají to tu na starosti 2 slečny a týpek, který je příbuzný s původním zakladatelem. Ten kdysi našel v přírodě 2
             opuštěná losí mláďata, kterým zemřela matka. Začal se o ně starat, dlouho to dělal jen sám pro sebe i s dalšími losátkami s podobným
             osudem. Až později zjistil, že by to mohlo mít turistický potenciál a tak vznikla moose garden. Ač se to tak možná nezdá, losi jsou dost
             nebezpečná zvířata. Proto v moose garden musí dbát na pečlivé sblížení s každým novým mládětem. Když se nějaké narodí, ošetřovatelé mu
             jsou po několik dní až týdnů nepřetržitě nablízku, aby si mládě myslelo, že je to jeho matka. Jen tak si na ně zvykne a neublíží jim.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox} />
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2} />
         <p>Po úvodním povídání následuje venkovní prohlídka. Největší challenge je sejít ledem pokrytou cestu z kopce k losímu výběhu. Losi k nám brzy
             přijdou, jsou tu 4, největší a nejstarší matka a 3 samci, z toho 2 mláďata. Bohužel ani jeden los nemá paroží, museli jim je upilovat, aby
             se vzájemně nenapadali. Můžeme si je pohladit i je nakrmit bramborama. Jsou nádherní a obrovští! Jsme rádi, že jsme je na běžkách
@@ -59,14 +59,14 @@ export default withLightbox(({openLightbox}) => {
             </video>
             <figcaption>Losi v Moose Garden</figcaption>
         </figure>
-        <Image lightboxImage={img4} openLightbox={openLightbox} />
-        <Image lightboxImage={img5} openLightbox={openLightbox} />
-        <Image lightboxImage={img6} openLightbox={openLightbox} />
-        <Image lightboxImage={img7} openLightbox={openLightbox} />
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3} />
+        <Image lightboxImage={img5} openLightbox={openLightbox} index={4} />
+        <Image lightboxImage={img6} openLightbox={openLightbox} index={5} />
+        <Image lightboxImage={img7} openLightbox={openLightbox} index={6} />
         <p>Po prohlídce jedeme ještě na skok do Östersundu. Zaparkujeme u jezera poblíž parku Badhusparken. Zaplatíme jen asi na hodinku a jdeme se
             projít. Obhlídneme baráčky u jezera i parčík, kde se zrovna koná nějaká akce pro děti. Je pěkná kosa, tak zalezeme do prosklené kavárny a
             dáme si horkou čokoládu. To nám z poznávání Östersundu stačí a vyrazíme dál na asi pětihodinovou cestu, jejímž cílem je Falun.</p>
-        <Image lightboxImage={img8} openLightbox={openLightbox} />
+        <Image lightboxImage={img8} openLightbox={openLightbox} index={7} />
         <p>Cestou se stavíme na nákup zásob na další dny a do Falunu dorazíme až celkem pozdě večer. Musíme projet městem, pokračujeme nahoru podél
             parku a před jezerem odbočíme do kopce v lese. Míjíme krásné rodinné domky a ubytko podle pečlivého popisu majitelů celkem bez problémů najdeme.
             Náš byteček je nástavba nad garáží hned vedle vily hostitelů. Jsme nadšení, vypadá to ještě líp, než na fotkách! Krásná koupelna i s

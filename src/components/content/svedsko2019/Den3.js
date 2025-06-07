@@ -41,28 +41,28 @@ export default withLightbox(({openLightbox}) => {
             tom vichru to vážně nejde. Jede se dobře jen v lesních pasážích, jakmile najedeme na pláň, bortíme se a sníh se nám hrozně lepí na
             skluznici. Nevzdáváme to ale, je nádherně, tak to za to stojí i tak. Několikrát si objedeme kratší okruhy, dáme si cestou sváču a užíváme
             si sluníčka i samoty. Opět nikoho nepotkáváme!</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox} />
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1} />
         <p>Na oběd se vracíme do chatičky, trochu se ohřejeme, dáme si vínečko a odpoledne se nabalíme jako pumpy a jdeme si od paní domácí půjčit sněžný
             skútr. To je pro nás oba novinka, ani jeden jsme na něm ještě nejeli. Paní nám v krátkosti vysvětlí, jak se skútr ovládá a můžeme vyrazit.
             Hned od našeho areálu vedou cesty označené červeným křížem, které jsou určeny právě pro skútry. V zimě je to tu hlavní dopravní
             prostředek.</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox} />
-        <Image lightboxImage={img4} openLightbox={openLightbox} />
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2} />
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3} />
         <p>Vydáváme se do vesnice Arådalen, skútrem je to asi 12 km. Trasa vede přes pláně, lesy, zamrzlá jezera i pár opuštěných chatových osad.
             Jedeme převážně po rovince, ale sem tam narazíme na záludnou zatáčku nebo prudký hup, takže to chce i trochu řidičského skillu. Taky se
             nakláníme sem tam podle toho, kam potřebujeme jet. Je krásně, sluníčko svítí, mrzne, kocháme se pohledem na zasněžené hory a lesy kolem
             nás. Ještě nějakého toho soba potkat a byla by to učiněná švédská pohádka. Kromě několika skútrů ale nepotkáváme nikoho. Na rovinkách na
             to občas pěkně šlápneme, nejvíc jedeme asi 50 km/h. Střídáme se v řízení, sem tam zastavíme na fotku.</p>
-        <Image lightboxImage={img5} openLightbox={openLightbox} />
-        <Image lightboxImage={img6} openLightbox={openLightbox} />
+        <Image lightboxImage={img5} openLightbox={openLightbox} index={4} />
+        <Image lightboxImage={img6} openLightbox={openLightbox} index={5} />
         <p>Když už jsme skoro v Arådalen, narazíme na úzkou zatáčku v kopci, chceme si trochu najet a ouha, sjedeme moc na stranu, kde je sníh příliš
             hluboký a převracíme se. Padáme do měkkého, takže je to docela sranda, ale když pak zjistíme, jak je skútr těžký a že jen tak zvednout
             nejde, smát se přestaneme. Naštěstí se nám to nakonec s pomocí lopaty, kterou vyhrabáváme sníh pod lyžinama, povede.</p>
-        <Image lightboxImage={img7} openLightbox={openLightbox} />
+        <Image lightboxImage={img7} openLightbox={openLightbox} index={6} />
         <p>V Arådalen nic moc není, pár starých baráčků a kostelík na kopci. Podle map.cz by tu měly být běžkařské trasy, ale všechno je děsně
             zafoukané sněhem, takže nic moc. Točíme video a pak to radši otáčíme a jedeme domů, je pěkná kosa a fučí ledový vichr. I tak je to ale
             obrovský zážitek, hlavně, když nás cestou zpět doprovází západ slunce (zapadá tu asi v půl 5).</p>
-        <Image lightboxImage={img8} openLightbox={openLightbox} />
+        <Image lightboxImage={img8} openLightbox={openLightbox} index={7} />
         <figure>
             <video controls>
                 <source src={video1Src} type="video/mp4" />
@@ -77,7 +77,7 @@ export default withLightbox(({openLightbox}) => {
             </video>
             <figcaption>Cesta domů na skútru</figcaption>
         </figure>
-        <Image lightboxImage={img9} openLightbox={openLightbox} />
+        <Image lightboxImage={img9} openLightbox={openLightbox} index={8} />
         <p>Od paní domácí si taky kupujeme sobí a losí maso - sobí steaky a losí mleté. To bude žranice!</p>
         <p>V noci opět vstáváme na polární záři, a opět máme smůlu. Tak zítra, určitě! <Smile/> </p>
 

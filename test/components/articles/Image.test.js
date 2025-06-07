@@ -186,4 +186,34 @@ describe('Image', () => {
 
     expect(screen.queryByRole('caption')).not.toBeInTheDocument();
   });
+
+  it('calls openLightbox with custom index when provided', () => {
+    render(
+      <Image 
+        lightboxImage={mockLightboxImage} 
+        openLightbox={mockOpenLightbox}
+        index={2}
+      />
+    );
+
+    const image = screen.getByRole('button');
+    fireEvent.click(image);
+
+    expect(mockOpenLightbox).toHaveBeenCalledWith(2);
+  });
+  
+  it('calls openLightbox with custom index when Enter key is pressed', () => {
+    render(
+      <Image 
+        lightboxImage={mockLightboxImage} 
+        openLightbox={mockOpenLightbox}
+        index={3}
+      />
+    );
+
+    const image = screen.getByRole('button');
+    fireEvent.keyDown(image, { key: 'Enter' });
+
+    expect(mockOpenLightbox).toHaveBeenCalledWith(3);
+  });
 });

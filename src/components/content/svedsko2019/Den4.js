@@ -28,12 +28,12 @@ export default withLightbox(({openLightbox}) => {
         <p>Ke konci se rozdělíme - Míša se vrací k chatičce trénovat techniku a já si dám ještě jednu zajížďku na opačnou stranu od silnice. Nepotkám
             ani živáčka a za chvíli se začínám trochu bát, přece jen jsem sama uprostřed lesa a navíc strašidla přes křupání sněhu od lyží a hůlek
             nemůžu slyšet. Párkrát se trochu paranoidně otočím za sebe a radši nasadím vrcholové tempo a vracím se brzy domů.</p>
-        <Image lightboxImage={img2} openLightbox={openLightbox} />
+        <Image lightboxImage={img2} openLightbox={openLightbox} index={1} />
         <p>Odpoledne Míša zůstává doma. Mně to ale nedá a vyrážím si objet ještě klasickou desítku, kterou paní domácí tentokrát najela. Beru to hopem
             a pěkně se zpotím - ani ne proto, že bych si chtěla tolik máknout, ale spíš mi opět malinko hrabe z toho, že kolem nikde nikdo a nic není.
             Nebo je?</p>
-        <Image lightboxImage={img3} openLightbox={openLightbox} />
-        <Image lightboxImage={img4} openLightbox={openLightbox} />
+        <Image lightboxImage={img3} openLightbox={openLightbox} index={2} />
+        <Image lightboxImage={img4} openLightbox={openLightbox} index={3} />
         <p>Po mém návratu jedeme znovu dokoupit zásoby do vesničky. Večer je stále jasno a krásně svítí měsíc, takže aby toho nebylo málo, rozhodneme
             se ještě dotřetice vytáhnout běžky na noční projížďku. A je to nádhera! Ani nepotřebujeme rozsvěcovat čelovky, protože měsíc svítí o sto
             šest. Když mám Míšu (medvěda) za zadkem, ani se nebojím. <Smile/> Objedeme si pětku a šup domů ke krbu.</p>
