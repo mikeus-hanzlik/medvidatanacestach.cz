@@ -1,4 +1,5 @@
 import { useState, useCallback } from "react";
+import { flushSync } from "react-dom";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
@@ -8,7 +9,11 @@ const withLightbox = (Component, images = []) => {
         const [currentImageIndex, setCurrentImageIndex] = useState(0);        
         const openLightbox = useCallback((index = 0) => {
             if (index >= 0 && index < images.length) {
-                setCurrentImageIndex(index);
+                // Use flushSync to ensure index is set before opening the lightbox
+                // This prevents the batching issue where lightbox opens before index updates
+                flushSync(() => {
+                    setCurrentImageIndex(index);
+                });
                 setLightboxIsOpen(true);
             } else {
                 console.warn(`Invalid image index: ${index}. Available images: ${images.length}`);
