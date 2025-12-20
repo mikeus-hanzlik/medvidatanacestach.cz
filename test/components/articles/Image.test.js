@@ -50,7 +50,7 @@ describe('Image', () => {
 
     expect(screen.getByText(childText, { exact: false })).toBeInTheDocument();
   });
-  it('calls openLightbox when image is clicked', () => {
+  it('calls openLightbox with lightboxImage when image is clicked', () => {
     render(
       <Image 
         lightboxImage={mockLightboxImage} 
@@ -61,9 +61,9 @@ describe('Image', () => {
     const image = screen.getByRole('button');
     fireEvent.click(image);
 
-    expect(mockOpenLightbox).toHaveBeenCalledWith(0);
+    expect(mockOpenLightbox).toHaveBeenCalledWith(mockLightboxImage);
   });
-  it('calls openLightbox when Enter key is pressed', () => {
+  it('calls openLightbox with lightboxImage when Enter key is pressed', () => {
     render(
       <Image 
         lightboxImage={mockLightboxImage} 
@@ -74,9 +74,9 @@ describe('Image', () => {
     const image = screen.getByRole('button');
     fireEvent.keyDown(image, { key: 'Enter' });
 
-    expect(mockOpenLightbox).toHaveBeenCalledWith(0);
+    expect(mockOpenLightbox).toHaveBeenCalledWith(mockLightboxImage);
   });
-  it('calls openLightbox when Space key is pressed', () => {
+  it('calls openLightbox with lightboxImage when Space key is pressed', () => {
     render(
       <Image 
         lightboxImage={mockLightboxImage} 
@@ -87,7 +87,7 @@ describe('Image', () => {
     const image = screen.getByRole('button');
     fireEvent.keyDown(image, { key: ' ' });
 
-    expect(mockOpenLightbox).toHaveBeenCalledWith(0);
+    expect(mockOpenLightbox).toHaveBeenCalledWith(mockLightboxImage);
   });
   it('does not call openLightbox for other keys', () => {
     render(
@@ -187,33 +187,33 @@ describe('Image', () => {
     expect(screen.queryByRole('caption')).not.toBeInTheDocument();
   });
 
-  it('calls openLightbox with custom index when provided', () => {
+  it('passes the lightboxImage to openLightbox regardless of prop order', () => {
+    const anotherImage = { src: '/another-image.jpg', caption: 'Another caption' };
     render(
       <Image 
-        lightboxImage={mockLightboxImage} 
+        lightboxImage={anotherImage} 
         openLightbox={mockOpenLightbox}
-        index={2}
       />
     );
 
     const image = screen.getByRole('button');
     fireEvent.click(image);
 
-    expect(mockOpenLightbox).toHaveBeenCalledWith(2);
+    expect(mockOpenLightbox).toHaveBeenCalledWith(anotherImage);
   });
   
-  it('calls openLightbox with custom index when Enter key is pressed', () => {
+  it('passes the lightboxImage to openLightbox when Enter key is pressed', () => {
+    const anotherImage = { src: '/another-image.jpg', caption: 'Another caption' };
     render(
       <Image 
-        lightboxImage={mockLightboxImage} 
+        lightboxImage={anotherImage} 
         openLightbox={mockOpenLightbox}
-        index={3}
       />
     );
 
     const image = screen.getByRole('button');
     fireEvent.keyDown(image, { key: 'Enter' });
 
-    expect(mockOpenLightbox).toHaveBeenCalledWith(3);
+    expect(mockOpenLightbox).toHaveBeenCalledWith(anotherImage);
   });
 });

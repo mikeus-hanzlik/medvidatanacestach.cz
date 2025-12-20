@@ -72,7 +72,7 @@ describe('withLightbox HOC', () => {
     expect(screen.queryByTestId('lightbox-mock')).not.toBeInTheDocument();
   });
 
-  it('opens lightbox at correct index', () => {
+  it('opens lightbox at correct index when passed numeric index', () => {
     const TestComponentWithIndex = ({ openLightbox }) => (
       <div>
         <button onClick={() => openLightbox(1)} data-testid="open-lightbox-1">
@@ -89,6 +89,51 @@ describe('withLightbox HOC', () => {
     fireEvent.click(openButton);
     
     expect(screen.getByTestId('lightbox-mock')).toBeInTheDocument();
+  });
+
+  it('opens lightbox at correct index when passed image object', () => {
+    const TestComponentWithImageObject = ({ openLightbox }) => (
+      <div>
+        <button onClick={() => openLightbox(mockImages[1])} data-testid="open-by-image">
+          Open Lightbox by Image Object
+        </button>
+      </div>
+    );
+    
+    const WrappedComponent = withLightbox(TestComponentWithImageObject, mockImages);
+    
+    render(<WrappedComponent />);
+    
+    const openButton = screen.getByTestId('open-by-image');
+    fireEvent.click(openButton);
+    
+    expect(screen.getByTestId('lightbox-mock')).toBeInTheDocument();
+  });
+
+  it('handles image object not found in images array', () => {
+    const consoleWarnSpy = vi.spyOn(console, 'warn').mockImplementation();
+    
+    const unknownImage = { src: '/unknown.jpg', caption: 'Unknown' };
+    const TestComponentWithUnknownImage = ({ openLightbox }) => (
+      <button onClick={() => openLightbox(unknownImage)} data-testid="open-unknown">
+        Open Unknown Image
+      </button>
+    );
+    
+    const WrappedComponent = withLightbox(TestComponentWithUnknownImage, mockImages);
+    
+    render(<WrappedComponent />);
+    
+    const openButton = screen.getByTestId('open-unknown');
+    fireEvent.click(openButton);
+    
+    expect(screen.queryByTestId('lightbox-mock')).not.toBeInTheDocument();
+    expect(consoleWarnSpy).toHaveBeenCalledWith(
+      'withLightbox: Image not found in registered images',
+      '/unknown.jpg'
+    );
+    
+    consoleWarnSpy.mockRestore();
   });
 
   it('handles invalid image index gracefully', () => {

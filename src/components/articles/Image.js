@@ -1,4 +1,4 @@
-const Image = ({ lightboxImage, openLightbox, children, index = 0 }) => {
+const Image = ({ lightboxImage, openLightbox, children }) => {
     if (!lightboxImage || !lightboxImage.src) {
         console.warn('Image component: Missing required lightboxImage.src');
         return null;
@@ -6,7 +6,8 @@ const Image = ({ lightboxImage, openLightbox, children, index = 0 }) => {
 
     const handleImageClick = () => {
         if (typeof openLightbox === 'function') {
-            openLightbox(index);
+            // Pass the image object directly - withLightbox will find the index automatically
+            openLightbox(lightboxImage);
         }
     };
 
