@@ -1,9 +1,8 @@
-import React from "react";
 import withLightbox from "../../infrastructure/withLightbox";
 import video1Src from "../../../images/nepal/udoliZaManangem.mp4";
 import ArticleTitle from "../../articles/ArticleTitle";
 
-export default withLightbox(({openLightbox}) => {
+export default withLightbox(({_openLightbox}) => {
     return (
         <div>
             <ArticleTitle title="Manang – Srí Kharka" date="Středa 9. 5."/>

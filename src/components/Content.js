@@ -1,7 +1,6 @@
 import AboutUs from "./about/AboutUs";
 import Article from "./articles/Article";
 import { Route, Routes } from "react-router-dom";
-import React from "react";
 import { getArticleList } from "../api/ArticleApi";
 import "./Content.css"
 

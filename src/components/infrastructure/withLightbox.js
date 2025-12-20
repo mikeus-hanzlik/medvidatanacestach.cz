@@ -1,18 +1,19 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
 const withLightbox = (Component, images = []) => {
     const WithLightboxComponent = (props) => {
         const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
-        const [currentImageIndex, setCurrentImageIndex] = useState(0);        const openLightbox = useCallback((index = 0) => {
+        const [currentImageIndex, setCurrentImageIndex] = useState(0);        
+        const openLightbox = useCallback((index = 0) => {
             if (index >= 0 && index < images.length) {
                 setCurrentImageIndex(index);
                 setLightboxIsOpen(true);
             } else {
                 console.warn(`Invalid image index: ${index}. Available images: ${images.length}`);
             }
-        }, [images.length]);
+        }, []);
 
         const closeLightbox = useCallback(() => {
             setLightboxIsOpen(false);

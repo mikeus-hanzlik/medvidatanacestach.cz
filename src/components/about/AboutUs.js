@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import withLightbox from "../infrastructure/withLightbox";
 import { buildLightboxImage } from "../helpers/imageHelper";
 import imgSrc from "../../images/My3.jpg";

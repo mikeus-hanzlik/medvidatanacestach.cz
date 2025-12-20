@@ -1,6 +1,4 @@
-import React from "react";
-
-const Smile = ({ 
+const Smile = ({
   width = 16, 
   height = 16, 
   className,

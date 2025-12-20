@@ -1,4 +1,3 @@
-import React from "react";
 import withLightbox from "../../infrastructure/withLightbox";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import vogelSrc from "../../../images/slovinsko/VogelLanovka.jpg";

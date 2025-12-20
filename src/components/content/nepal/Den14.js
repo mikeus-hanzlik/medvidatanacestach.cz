@@ -1,8 +1,7 @@
-import React from "react";
 import withLightbox from "../../infrastructure/withLightbox";
 import ArticleTitle from "../../articles/ArticleTitle";
 
-export default withLightbox(({openLightbox}) => {
+export default withLightbox(({_openLightbox}) => {
     return (
         <div>
             <ArticleTitle title="Kalopani – Tatopani" date="Neděle 13. 5."/>

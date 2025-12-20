@@ -1,4 +1,3 @@
-import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
 import video1Src from "../../../images/slovinsko/KozyNaPrsivci.mp4";

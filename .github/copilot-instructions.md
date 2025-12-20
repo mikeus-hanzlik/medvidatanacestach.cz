@@ -1,23 +1,53 @@
 # Repository Custom Instructions for Copilot
 
-Develompent happens on Windows using Powershell.
+## Environment
 
-Always generate React code that uses functional components and React Hooks.
+- Development happens on **Windows** using **PowerShell**
+- Node.js 20+ required (ES modules enabled via `"type": "module"`)
+- Build tool: **Vite 6** with `@vitejs/plugin-react`
+- Dev server runs on port 3000 (`npm run dev` or `npm start`)
 
-Ensure all components are written in JavaScript (ES6+) and use named exports.
+## React Guidelines
 
-Organize components under a `src/components` folder, grouping by feature.
+- Use **React 19** with functional components and React Hooks
+- Write components in JavaScript (ES6+) using JSX syntax in `.js` files
+- Use **default exports** for components (matching existing codebase pattern)
+- Routing via **React Router DOM v7** (`Routes`, `Route`, `NavLink`)
 
-Use semantic HTML elements (`<header>`, `<main>`, `<section>`, `<footer>`) in JSX.
+## Project Structure
 
-Apply BEM-style CSS class names and import styles via CSS Modules (`.module.css`).
+- Organize components under `src/components/`, grouping by feature (e.g., `menu/`, `articles/`, `about/`)
+- Place API utilities in `src/api/`
+- Store images in `src/images/` organized by topic
 
-Preserve accessibility best practices: include `aria-*` attributes and `alt` text.
+## Styling
 
-Write unit tests with Jest and React Testing Library; place tests alongside components in `__tests__` files.
+- Use plain CSS files imported directly (e.g., `import "./Component.css"`)
+- Apply BEM-style class naming conventions
+- Use semantic HTML elements (`<header>`, `<main>`, `<section>`, `<footer>`, `<nav>`) with appropriate ARIA roles
 
-Always include a top-level `<div id="root">` in `public/index.html` and reference the bundled JS in a `<script>` tag before `</body>`.
+## Accessibility
 
-Keep function and variable names descriptive and in camelCase.
+- Include `role` attributes on landmark elements (`role="banner"`, `role="main"`, `role="contentinfo"`)
+- Add `aria-label` for interactive elements and navigation links
+- Always provide `alt` text for images
 
-When asked for examples or boilerplate, include minimal working code that can be dropped into the existing build (Webpack or Create React App) without modification.
+## Testing
+
+- Test framework: **Vitest** with **React Testing Library**
+- Place tests in the `test/` directory, mirroring `src/` structure
+- Test files use `.test.js` extension
+- Run tests with `npm test` (watch mode) or `npm run test:run` (single run)
+- Use `vi` from Vitest for mocking (available globally via setup)
+
+## Code Style
+
+- Keep function and variable names descriptive and in camelCase
+- Use arrow function syntax for components: `const Component = () => { ... }`
+- Prefer named imports for React Router and other libraries
+
+## Build & Deployment
+
+- Build output goes to `build/` directory
+- Production build: `npm run build`
+- Preview production build: `npm run preview`

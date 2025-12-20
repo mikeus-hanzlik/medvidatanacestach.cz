@@ -1,4 +1,3 @@
-import React from "react";
 import ArticleTitle from "../../articles/ArticleTitle";
 import Smile from "../../icons/Smile";
 

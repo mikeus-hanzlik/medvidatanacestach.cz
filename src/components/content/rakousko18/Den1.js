@@ -1,4 +1,3 @@
-import React from "react";
 import withLightbox from "../../infrastructure/withLightbox";
 import ArticleTitle from "../../articles/ArticleTitle";
 import Image from "../../articles/Image";

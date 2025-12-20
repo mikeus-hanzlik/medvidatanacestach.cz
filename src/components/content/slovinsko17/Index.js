@@ -1,4 +1,3 @@
-import React from "react";
 import {buildLightboxImage} from "../../helpers/imageHelper";
 import withLightbox from "../../infrastructure/withLightbox";
 import trasaSrt from "../../../images/slovinsko17/Trasa.jpg";

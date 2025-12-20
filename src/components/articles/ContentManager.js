@@ -1,4 +1,4 @@
-import React, { Suspense, useMemo } from "react";
+import { Suspense, useMemo } from "react";
 import asyncComponent from "../infrastructure/asyncComponent";
 
 const ContentManager = ({ articleId, params }) => {

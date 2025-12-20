@@ -1,5 +1,3 @@
-import React from "react";
-
 const ArticleTitle = ({title, date}) => {
     // Safely convert props to string representations
     const safeTitle = typeof title === 'object' && title !== null 

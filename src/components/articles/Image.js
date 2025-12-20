@@ -1,5 +1,3 @@
-import React from "react";
-
 const Image = ({ lightboxImage, openLightbox, children, index = 0 }) => {
     if (!lightboxImage || !lightboxImage.src) {
         console.warn('Image component: Missing required lightboxImage.src');

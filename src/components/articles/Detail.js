@@ -1,10 +1,9 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import Chapters from "../menu/Chapters";
 import ContentManager from "./ContentManager";
 import NextArticle from "./NextArticle";
 
-const Detail = ({ articleId, title }) => {
+const Detail = ({ articleId }) => {
     const params = useParams();
     
     return (
