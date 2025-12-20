@@ -51,3 +51,26 @@
 - Build output goes to `build/` directory
 - Production build: `npm run build`
 - Preview production build: `npm run preview`
+- Deploy to production: `npm run deploy`
+
+## CI/CD Pipeline
+
+- **GitHub Actions** runs on push/PR to `master` branch
+- Pipeline: lint → test → build
+- Workflow file: `.github/workflows/ci.yml`
+
+## Production Server
+
+- **Raspberry Pi** running nginx
+- Site URL: https://medvidatanacestach.cz
+- Server: `192.168.0.181:43659` (local network only)
+- nginx root: `/var/www/html/`
+- SSL via Let's Encrypt (auto-managed by Certbot)
+
+## Deployment Process
+
+- Run `npm run deploy` (or `./deploy.ps1` directly)
+- Uses PuTTY tools (pscp/plink) with SSH key at `~/.ssh/raspberry.ppk`
+- SSH user: `mikeus`
+- Script: builds, tests, then copies `build/` to Pi via PSCP
+- Requires passphrase input for SSH key

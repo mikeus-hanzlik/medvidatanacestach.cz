@@ -22,7 +22,8 @@
     "test": "vitest",
     "test:run": "vitest run",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "deploy": "powershell -ExecutionPolicy Bypass -File deploy.ps1"
   },
   "browserslist": [
     "> 1%",

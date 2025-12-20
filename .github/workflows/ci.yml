@@ -31,3 +31,8 @@ jobs:
 
       - name: Build
         run: npm run build
+
+# Deployment Notes:
+# The production server (Raspberry Pi) is not accessible from the internet.
+# Deployment is done locally using: npm run deploy
+# This runs deploy.ps1 which builds, tests, and copies files to the Pi via PSCP.
